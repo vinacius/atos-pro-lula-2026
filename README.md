@@ -5,7 +5,7 @@ Mapa e calendário dos atos de rua a favor de Luiz Inácio Lula da Silva na elei
 **Site:** `https://vinacius.github.io/atos-pro-lula-2026/`
 
 Projeto independente, sem vínculo com partidos, campanhas ou candidaturas.
-Responsável pelo conteúdo: Vinícius Franco.
+Responsável pelo conteúdo: Vinícius Franco, vibecodado utilizando Claude.
 
 ## O que tem no mapa
 
@@ -51,6 +51,7 @@ Para rodar localmente: `python3 -m http.server` na pasta do projeto e abrir `htt
 
 ## Créditos
 
+- Essa página foi vibecodada com apoio do Claude.
 - Paleta e tipografia inspiradas na identidade visual de 2026 do site do PT (vermelho #e4142c, Sofia Sans Extra Condensed e Asap, via Google Fonts).
 - Contorno dos estados: [click_that_hood / brazil-states](https://github.com/codeforgermany/click_that_hood), simplificado com mapshaper.
 - Mapa com [d3](https://d3js.org/).
