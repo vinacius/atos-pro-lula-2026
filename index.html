@@ -317,9 +317,7 @@ dd{margin:0}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 let GEO = null;
-const REPO_URL = /\.github\.io$/.test(location.hostname) ? `https://github.com/${location.hostname.split(".")[0]}${location.pathname.split("/").slice(0,2).join("/")}` : "https://github.com/";
 // rodapé fixo: a altura real vira a folga no fim da página
-document.getElementById("repoLink").href = REPO_URL;
 {
   const rod=document.getElementById("rodape"), mais=document.getElementById("rodMais"), txt=document.getElementById("rodTxt");
   const ajusta=()=>document.documentElement.style.setProperty("--rodape",rod.offsetHeight+"px");
