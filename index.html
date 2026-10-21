@@ -85,6 +85,19 @@ main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 380px;min-height:0}
 .tabv .sub2{color:var(--muted);font-size:11.5px;margin-top:2px}
 .tabv .fts{display:flex;flex-direction:column;gap:3px;min-width:170px}
 .tabv .fts a{color:var(--fg);text-decoration-color:var(--red);text-underline-offset:2px}
+.tabv tr.grp{cursor:default;background:var(--panel)}
+.tabv tr.grp:hover{background:var(--panel)}
+.tabv tr.grp td{padding:0;border-bottom:1px solid var(--line)}
+.tabv tbody+tbody tr.grp td{border-top:1px solid var(--line)}
+.tabv tr.grp button{all:unset;box-sizing:border-box;width:100%;display:flex;align-items:baseline;gap:10px;padding:11px 10px;cursor:pointer;font:800 15px/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--fg)}
+.tabv tr.grp button:focus-visible{outline:2px solid var(--red);outline-offset:-2px}
+.tabv tr.grp button:hover .rg{color:var(--red)}
+.tabv tr.grp .car{display:inline-block;width:10px;color:var(--muted);transition:transform .15s}
+.tabv tr.grp button[aria-expanded="true"] .car{transform:rotate(90deg)}
+.tabv tr.grp .n{font:700 12px/1 var(--font-body);letter-spacing:0;text-transform:none;color:var(--bg);background:var(--fg);border-radius:999px;padding:3px 8px;font-variant-numeric:tabular-nums}
+.tabv tr.grp .det{font:400 12px/1 var(--font-body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.tabv .cal-head .tg{font:600 12px/1 var(--font-body);color:var(--fg);background:none;border:1px solid var(--line);border-radius:999px;padding:6px 10px;cursor:pointer;margin-left:8px}
+.tabv .cal-head .tg:hover{border-color:var(--red);color:var(--red)}
 .tabv .w-local{min-width:180px}.tabv .w-conv{min-width:170px}.tabv .w-hora{min-width:120px}.tabv .w-pub{min-width:130px}
 .cal{flex:1;min-height:0;overflow:auto;padding:60px 12px 12px}
 .cal-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 2px 8px}
@@ -248,6 +261,10 @@ dd{margin:0}
   .tabv tbody tr.sel td:first-child{box-shadow:none}
   .tabv tbody tr.sel{border-color:var(--fg)}
   .tabv .cid,.tabv .tp{white-space:normal}
+  .tabv tr.grp{display:block;padding:0;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .tabv tr.grp td{display:block;border:0!important}
+  .tabv tr.grp td::before{content:none}
+  .tabv tr.grp button{padding:12px}
 }
 @media (prefers-reduced-motion: reduce){*{transition:none!important}}
 </style>
@@ -480,12 +497,16 @@ function renderCal(){
 let ordem={k:"d",dir:-1};
 const COLS=[["d","Data"],["hora","Horário"],["cidade","Cidade"],["local","Local"],["t","Tipo"],["s","Situação"],["pub","Público"],["conv","Convocadores"],[null,"Fontes"]];
 const chave={d:a=>a.d+(a.hora||""),cidade:a=>a.cidade+a.uf,t:a=>(TIPO[a.t]||TIPO.M).nome,s:a=>STATUS[a.s]||"",hora:a=>a.hora||"",local:a=>a.local||"",pub:a=>a.pub||"",conv:a=>a.conv||""};
+const REGIAO_UF={Norte:"AC AM AP PA RO RR TO",Nordeste:"AL BA CE MA PB PE PI RN SE","Centro-Oeste":"DF GO MS MT",Sudeste:"ES MG RJ SP",Sul:"PR RS SC"};
+const REGIOES_BR=Object.keys(REGIAO_UF);
+const regiaoDe=a=>REGIOES_BR.find(r=>REGIAO_UF[r].split(" ").includes(a.uf))||"Sem região";
+const regAbertas=new Set(); // regiões expandidas na tabela (começam recolhidas)
 function renderTab(){
   if(modo!=="tab") return;
   const vis=ATOS.filter(passa).sort((x,y)=>ordem.dir*chave[ordem.k](x).localeCompare(chave[ordem.k](y),"pt")||y.d.localeCompare(x.d)||x.cidade.localeCompare(y.cidade));
   const th=COLS.map(([k,n])=>k?`<th aria-sort="${ordem.k===k?(ordem.dir>0?"ascending":"descending"):"none"}"><button data-k="${k}">${n}${ordem.k===k?(ordem.dir>0?" ↑":" ↓"):""}</button></th>`:`<th>${n}</th>`).join("");
   const td=(l,html,cls="")=>`<td data-l="${l}"${cls?` class="${cls}"`:""}><div>${html}</div></td>`;
-  const rows=vis.map(a=>`<tr class="${a.id===selId?"sel":""}" data-id="${esc(a.id)}" tabindex="0">`
+  const linha=a=>`<tr class="${a.id===selId?"sel":""}" data-id="${esc(a.id)}" tabindex="0">`
     +td("Data",`<b>${ddmm(a.d)}</b><span class="sub2">${esc(fmtLong(a.d).split(",")[0])}</span>`,"dt")
     +td("Horário",esc(a.hora)||'<span class="empty">—</span>',"w-hora")
     +td("Cidade",`${esc(a.cidade)} · ${esc(a.uf)}${(a.midia||[]).length?`<span class="mi">${ICON_MI}</span>`:""}${isNovo(a)?'<span class="badge">novo</span>':""}`,"cid")
@@ -495,12 +516,21 @@ function renderTab(){
     +td("Público",`${esc(a.pub)||'<span class="empty">—</span>'}${a.pubFonte?`<div class="sub2">${esc(a.pubFonte)}</div>`:""}`,"w-pub")
     +td("Convocadores",esc(a.conv),"w-conv")
     +td("Fontes",`<div class="fts">${(a.fontes||[]).map(f=>f.u?`<a href="${esc(safeUrl(f.u))}" target="_blank" rel="noopener">${esc(f.t)}</a>`:`<span class="empty">${esc(f.t)}</span>`).join("")}</div>`)
-    +`</tr>`).join("");
+    +`</tr>`;
+  const grupos=d3.group(vis,regiaoDe);
+  const ordemReg=[...REGIOES_BR,"Sem região"].filter(r=>grupos.has(r));
+  const todasAbertas=ordemReg.length>0&&ordemReg.every(r=>regAbertas.has(r));
+  const corpos=ordemReg.map(r=>{
+    const arr=grupos.get(r), aberta=regAbertas.has(r), nRr=arr.filter(a=>a.s==="R").length, ufs=new Set(arr.map(a=>a.uf)).size;
+    return `<tbody><tr class="grp"><td colspan="${COLS.length}"><button data-reg="${esc(r)}" aria-expanded="${aberta}"><span class="car" aria-hidden="true">▸</span><span class="rg">${esc(r)}</span><span class="n">${arr.length} ato${arr.length>1?"s":""}</span><span class="det">${nRr} realizados · ${arr.length-nRr} convocados · ${ufs} UF${ufs>1?"s":""}</span></button></td></tr>${aberta?arr.map(linha).join(""):""}</tbody>`;
+  }).join("");
   const nR=vis.filter(a=>a.s==="R").length, nC=vis.length-nR;
-  tabEl.innerHTML=`<div class="cal-head"><h3>Todos os atos</h3><span>${vis.length} atos · ${nR} realizados · ${nC} convocados${filtro?" · filtro: "+esc(FILTRO_NOME[filtro]):""}</span></div>
-    <div class="scroll"><table><thead><tr>${th}</tr></thead><tbody>${rows}</tbody></table></div>`;
+  tabEl.innerHTML=`<div class="cal-head"><h3>Atos por região</h3><span>${vis.length} atos · ${nR} realizados · ${nC} convocados${filtro?" · filtro: "+esc(FILTRO_NOME[filtro]):""}<button class="tg" id="tgReg">${todasAbertas?"Recolher todas":"Expandir todas"}</button></span></div>
+    <div class="scroll"><table><thead><tr>${th}</tr></thead>${corpos||`<tbody><tr><td colspan="${COLS.length}" class="empty">Nenhum ato com este filtro.</td></tr></tbody>`}</table></div>`;
+  tabEl.querySelectorAll("tr.grp button").forEach(b=>b.onclick=()=>{const r=b.dataset.reg; regAbertas.has(r)?regAbertas.delete(r):regAbertas.add(r); renderTab(); tabEl.querySelector(`tr.grp button[data-reg="${CSS.escape(r)}"]`)?.focus();});
+  document.getElementById("tgReg").onclick=()=>{ if(todasAbertas) regAbertas.clear(); else ordemReg.forEach(r=>regAbertas.add(r)); renderTab(); };
   tabEl.querySelectorAll("th button").forEach(b=>b.onclick=()=>{const k=b.dataset.k; ordem= ordem.k===k?{k,dir:-ordem.dir}:{k,dir:k==="d"?-1:1}; renderTab();});
-  tabEl.querySelectorAll("tbody tr").forEach(r=>{
+  tabEl.querySelectorAll("tbody tr[data-id]").forEach(r=>{
     r.onclick=e=>{ if(e.target.closest("a")) return; select(r.dataset.id,false); };
     r.onkeydown=e=>{ if(e.target!==r) return; if(e.key==="Enter"||e.key===" "){e.preventDefault();select(r.dataset.id,false);} };
   });
@@ -609,6 +639,7 @@ function select(id,fly){
   if(fly&&a&&modo==="map"){const d=0.06;zoomTo([[a.lon-d,a.lat-d],[a.lon+d,a.lat+d]]);tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));}
   if(fly&&a&&modo==="cal"){ if(!calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]:not([hidden])`)) {abertos.add(a.d); renderCal();}
     const c=calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]`); if(c) c.scrollIntoView({block:"nearest",behavior:"smooth"}); }
+  if(a&&modo==="tab"&&!regAbertas.has(regiaoDe(a))){ regAbertas.add(regiaoDe(a)); renderTab(); }
   if(fly&&a&&modo==="tab"){ const r=tabEl.querySelector(`tr[data-id="${CSS.escape(id)}"]`); if(r) r.scrollIntoView({block:"nearest",behavior:"smooth"}); }
   if(!fly&&window.matchMedia("(max-width:860px)").matches) detail.scrollIntoView({behavior:"smooth",block:"start"});
 }
