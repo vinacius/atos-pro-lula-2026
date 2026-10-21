@@ -1,0 +1,5488 @@
+{
+ "atualizadoEm": "2026-10-20T22:08-03:00",
+ "total": 210,
+ "atos": [
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Belém",
+   "conv": "PT-PA e partidos aliados (campanha “Brasil Pronto pra Mais”)",
+   "d": "2026-09-28",
+   "fontes": [
+    {
+     "t": "Diário do Pará — Belém, 100 mil",
+     "u": "https://diariodopara.com.br/eleicoes-2026/lula-discursa-para-multidao-de-100-mil-pessoas-na-praca-da-republica-em-belem/"
+    },
+    {
+     "t": "Diário do Pará — Belém, 13/10",
+     "u": "https://diariodopara.com.br/eleicoes-2026/apoiadores-de-lula-voltam-as-ruas-de-belem-nesta-terca-por-reeleicao/"
+    }
+   ],
+   "hora": "Concentração às 16h; Lula discursa por volta das 21h",
+   "lat": -1.4523,
+   "local": "Praça da República (Theatro da Paz)",
+   "lon": -48.493,
+   "pub": "~100 mil",
+   "pubFonte": "Declarado por Lula e Helder Barbalho; sem contagem independente",
+   "s": "R",
+   "t": "L",
+   "uf": "PA",
+   "id": "20260928-belem-praca-da-republica-theatro-da-paz"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Campanha de Lula, com o governador Elmano de Freitas",
+   "d": "2026-09-29",
+   "fontes": [
+    {
+     "t": "NC News — Fortaleza",
+     "u": "https://ncnews.com.br/?p=54514"
+    },
+    {
+     "t": "Brasil em Folhas — Fortaleza e Salvador",
+     "u": "https://www.brasilemfolhas.com.br/2026/09/lula-participa-de-ato-politico-em-fortaleza-e-caminhada-em-salvador/"
+    },
+    {
+     "t": "GC+ — ato com Lula lota a Praça do Ferreira",
+     "u": "https://gcmais.com.br/noticias/2026/09/29/ato-com-lula-e-aliados-lota-praca-do-ferreira-no-centro-de-fortaleza"
+    }
+   ],
+   "hora": "Início às 8h13",
+   "lat": -3.729,
+   "local": "Praça da Bandeira → Praça do Ferreira, Centro",
+   "lon": -38.529,
+   "pub": "Praça do Ferreira lotada (imagens nas redes)",
+   "pubFonte": "Imprensa (GC+), sem número",
+   "s": "R",
+   "t": "L",
+   "uf": "CE",
+   "id": "20260929-fortaleza-praca-da-bandeira-centro"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Salvador",
+   "conv": "Coordenação nacional da campanha e PT-BA (Jerônimo Rodrigues, Jaques Wagner, Rui Costa)",
+   "d": "2026-09-29",
+   "fontes": [
+    {
+     "t": "A Tarde — Salvador",
+     "u": "https://atarde.com.br/eleicoes/caminhada-em-salvador-se-torna-maior-ato-de-campanha-de-lula-em-2026-1403930"
+    },
+    {
+     "t": "Brasil em Folhas — Fortaleza e Salvador",
+     "u": "https://www.brasilemfolhas.com.br/2026/09/lula-participa-de-ato-politico-em-fortaleza-e-caminhada-em-salvador/"
+    }
+   ],
+   "hora": "Tarde (agenda às 15h13)",
+   "lat": -13.008,
+   "local": "Caminhada no circuito Ondina–Barra",
+   "lon": -38.511,
+   "pub": "Mais de 200 mil",
+   "pubFonte": "Número do PT; sem contagem independente",
+   "s": "R",
+   "t": "L",
+   "uf": "BA",
+   "id": "20260929-salvador-caminhada-no-circuito-ondina-barra"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Belo Horizonte",
+   "conv": "Coligação “Pra Minas Gerais Voltar a Sonhar” (Patrus Ananias, Marília Campos, Áurea Carolina)",
+   "d": "2026-10-02",
+   "fontes": [
+    {
+     "t": "Estado de Minas — BH, 02/10",
+     "u": "https://www.em.com.br/politica/2026/10/7513446-com-quase-uma-hora-de-atraso-lula-chega-a-ato-em-bh.html"
+    },
+    {
+     "t": "Brasil de Fato — BH, 02/10",
+     "u": "https://www.brasildefato.com.br/2026/10/01/lula-participa-de-caminhada-com-patrus-marilia-e-aurea-em-bh-na-reta-final-do-1o-turno/"
+    }
+   ],
+   "hora": "16h58–18h12 (~1h15), sob chuva",
+   "lat": -19.932,
+   "local": "Praça da Liberdade, região Centro-Sul",
+   "lon": -43.938,
+   "pub": "“Multidão”",
+   "pubFonte": "Sem número na imprensa",
+   "s": "R",
+   "t": "L",
+   "uf": "MG",
+   "id": "20261002-belo-horizonte-praca-da-liberdade-regiao-centro-sul"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Campanha, PT-RJ, MST e movimentos populares",
+   "d": "2026-10-02",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — Rio, 02/10",
+     "u": "https://www.brasildefato.com.br/2026/10/02/caminhada-com-lula-reune-milhares-no-rio-por-derrota-do-bolsonarismo-nas-urnas/"
+    },
+    {
+     "t": "Jornal do Brasil — Rio, 02/10",
+     "u": "https://www.jb.com.br/rio/2026/10/1061099-ato-com-lula-no-rio-reune-milhares-antes-do-primeiro-turno.html"
+    },
+    {
+     "t": "Diário do Rio — Rio, 02/10",
+     "u": "https://diariodorio.com/politica/2026/10/02/lula-reune-multidao-no-centro-do-rio-a-dois-dias-das-eleicoes.html"
+    }
+   ],
+   "hora": "Manhã até por volta do meio-dia",
+   "lat": -22.9012,
+   "local": "Caminhada da Candelária à Cinelândia",
+   "lon": -43.1772,
+   "pub": "“Milhares”",
+   "pubFonte": "Sem número na imprensa",
+   "s": "R",
+   "t": "L",
+   "uf": "RJ",
+   "id": "20261002-rio-de-janeiro-caminhada-da-candelaria-a-cinelandia"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Campanha de Lula (Haddad, Alckmin, Marina, Tebet)",
+   "d": "2026-10-03",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — Rua Augusta",
+     "u": "https://www.brasildefato.com.br/2026/10/03/multidao-ocupa-rua-augusta-no-encerramento-da-campanha-de-lula-em-sao-paulo/"
+    },
+    {
+     "t": "Metrópoles — SP, 03/10",
+     "u": "https://metropoles.com/sao-paulo/lula-e-flavio-atos-sp-1-turno"
+    }
+   ],
+   "hora": "Início às 10h",
+   "lat": -23.5545,
+   "local": "Paulista → Rua Augusta → Praça Roosevelt",
+   "lon": -46.658,
+   "pub": "“Milhares”, vários quarteirões da Augusta",
+   "pubFonte": "Sem número na imprensa",
+   "s": "R",
+   "t": "L",
+   "uf": "SP",
+   "id": "20261003-sao-paulo-paulista-rua-augusta-praca-roosevelt"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Niterói",
+   "conv": "Centro Acadêmico Evaristo da Veiga (CAEV, UFF)",
+   "d": "2026-10-05",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.899,
+   "local": "UFF Gragoatá → Icaraí",
+   "lon": -43.133,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "RJ",
+   "id": "20261005-niteroi-uff-gragoata-icarai"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Niterói",
+   "conv": "Estudantes da UFF",
+   "d": "2026-10-06",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.8932,
+   "local": "Até a Praça Arariboia (Barcas)",
+   "lon": -43.1242,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "RJ",
+   "id": "20261006-niteroi-ate-a-praca-arariboia-barcas"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Recife",
+   "conv": "UNE, UEE-PE e DCE",
+   "d": "2026-10-06",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -8.052,
+   "local": "UFPE, Centro de Artes e Comunicação",
+   "lon": -34.951,
+   "pub": "“Milhares de jovens”",
+   "pubFonte": "Sem número na imprensa",
+   "s": "R",
+   "t": "E",
+   "uf": "PE",
+   "id": "20261006-recife-ufpe-centro-de-artes-e-comunicacao"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Campos dos Goytacazes",
+   "conv": "Estudantes, movimentos e partidos de esquerda",
+   "d": "2026-10-07",
+   "fontes": [
+    {
+     "t": "Serra News — Campos e Friburgo",
+     "u": "https://www.serranewsrj.com.br/2026/10/estudantes-e-movimentos-realizam-atos-pro-lula-em-campos-e-friburgo.html"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -21.76,
+   "local": "UENF → escadaria da Câmara Municipal",
+   "lon": -41.326,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "RJ",
+   "id": "20261007-campos-dos-goytacazes-uenf-escadaria-da-camara-municipal"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Nova Friburgo",
+   "conv": "Militantes e movimentos sociais (foto do PT-Friburgo)",
+   "d": "2026-10-07",
+   "fontes": [
+    {
+     "t": "Serra News — Campos e Friburgo",
+     "u": "https://www.serranewsrj.com.br/2026/10/estudantes-e-movimentos-realizam-atos-pro-lula-em-campos-e-friburgo.html"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.284,
+   "local": "Sindicato dos Bancários → Centro de Turismo",
+   "lon": -42.532,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261007-nova-friburgo-sindicato-dos-bancarios-centro-de-turism"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Porto Alegre",
+   "conv": "Entidades estudantis",
+   "d": "2026-10-07",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -30.0335,
+   "local": "Campus Central da UFRGS",
+   "lon": -51.2185,
+   "pub": "“Gigante”",
+   "pubFonte": "Sem número na imprensa",
+   "s": "R",
+   "t": "E",
+   "uf": "RS",
+   "id": "20261007-porto-alegre-campus-central-da-ufrgs"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Recife",
+   "conv": "Estudantes da UPE",
+   "d": "2026-10-07",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -8.048,
+   "local": "UPE, ato “UPE Antifascista”",
+   "lon": -34.893,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "PE",
+   "id": "20261007-recife-upe-ato-upe-antifascista"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "UNE; estudantes da UFRJ, Unirio, UFF, UERJ, UFRRJ e colégios públicos",
+   "d": "2026-10-07",
+   "fontes": [
+    {
+     "t": "Diario de Pernambuco — atos estudantis",
+     "u": "https://www.diariodepernambuco.com.br/politica/2026/10/11726324-estudantes-fazem-atos-pelo-pais-em-apoio-a-lula.html"
+    },
+    {
+     "t": "Jornal Grande Bahia — estudantes em SP e Rio",
+     "u": "https://jornalgrandebahia.com.br/2026/10/estudantes-vao-as-ruas-em-sao-paulo-em-apoio-a-lula-e-defendem-virada-no-segundo-turno-contra-flavio-bolsonaro/"
+    },
+    {
+     "t": "SBT News — atos estudantis",
+     "u": "https://sbtnews.sbt.com.br/noticia/brasil/estudantes-fazem-atos-pro-lula-em-universidades"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.9065,
+   "local": "“Juventude na Rua pela Democracia”, Candelária → Cinelândia",
+   "lon": -43.1755,
+   "pub": "“Milhares”",
+   "pubFonte": "Sem número na imprensa",
+   "s": "R",
+   "t": "E",
+   "uf": "RJ",
+   "id": "20261007-rio-de-janeiro-juventude-na-rua-pela-democracia-candela"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Salvador",
+   "conv": "Estudantes da UFBA",
+   "d": "2026-10-07",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -12.996,
+   "local": "UFBA (Canela) → Largo da Vitória",
+   "lon": -38.522,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "BA",
+   "id": "20261007-salvador-ufba-canela-largo-da-vitoria"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Brasília",
+   "conv": "UNE",
+   "d": "2026-10-08",
+   "fontes": [
+    {
+     "t": "Diario de Pernambuco — atos estudantis",
+     "u": "https://www.diariodepernambuco.com.br/politica/2026/10/11726324-estudantes-fazem-atos-pelo-pais-em-apoio-a-lula.html"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -15.763,
+   "local": "Universidade de Brasília",
+   "lon": -47.87,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "DF",
+   "id": "20261008-brasilia-universidade-de-brasilia"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Curitiba",
+   "conv": "Universitários e secundaristas",
+   "d": "2026-10-08",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -25.4275,
+   "local": "Praça Santos Andrade",
+   "lon": -49.262,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "PR",
+   "id": "20261008-curitiba-praca-santos-andrade"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Grupos de juventude, escolas e universidades; DCE da UFC",
+   "d": "2026-10-08",
+   "fontes": [
+    {
+     "t": "O Povo — ato lota ruas de Fortaleza com estudantes",
+     "u": "https://mais.opovo.com.br/jornal/politica/2026/10/09/ato-em-favor-de-lula-lota-ruas-de-fortaleza-com-estudantes-e-membros-do-pt.html"
+    }
+   ],
+   "hora": "Por volta das 17h",
+   "lat": -3.7425,
+   "local": "“Movimento da Juventude com Lula”: Concha Acústica da Reitoria da UFC → Av. 13 de Maio → Igreja de Fátima",
+   "lon": -38.538,
+   "pub": "“Milhares de pessoas”",
+   "pubFonte": "Imprensa (O Povo), sem número",
+   "s": "R",
+   "t": "E",
+   "uf": "CE",
+   "id": "20261008-fortaleza-ufc-av-13-de-maio"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Juiz de Fora",
+   "conv": "Estudantes e trabalhadores da educação",
+   "d": "2026-10-08",
+   "fontes": [
+    {
+     "t": "Acessa — manifestação percorre ruas de Juiz de Fora",
+     "u": "https://www.acessa.com/cidade/2026/10/amp/341935-manifestacao-em-defesa-de-lula-percorre-ruas-de-juiz-de-fora.html"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -21.76,
+   "local": "UFJF → Parque Halfeld → Câmara Municipal",
+   "lon": -43.35,
+   "pub": "“Várias pessoas”; imagens aéreas nas redes mostram grande público",
+   "pubFonte": "Imprensa (Acessa), sem número",
+   "s": "R",
+   "t": "E",
+   "uf": "MG",
+   "id": "20261008-juiz-de-fora-ufjf-parque-halfeld"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Palmas",
+   "conv": "UNE",
+   "d": "2026-10-08",
+   "fontes": [
+    {
+     "t": "Diario de Pernambuco — atos estudantis",
+     "u": "https://www.diariodepernambuco.com.br/politica/2026/10/11726324-estudantes-fazem-atos-pelo-pais-em-apoio-a-lula.html"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -10.178,
+   "local": "Universidade Federal do Tocantins",
+   "lon": -48.36,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "TO",
+   "id": "20261008-palmas-universidade-federal-do-tocantins"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "UNE e frentes populares (com Boulos e Erika Hilton)",
+   "d": "2026-10-08",
+   "fontes": [
+    {
+     "t": "Jornal Grande Bahia — estudantes em SP e Rio",
+     "u": "https://jornalgrandebahia.com.br/2026/10/estudantes-vao-as-ruas-em-sao-paulo-em-apoio-a-lula-e-defendem-virada-no-segundo-turno-contra-flavio-bolsonaro/"
+    },
+    {
+     "t": "Diario de Pernambuco — atos estudantis",
+     "u": "https://www.diariodepernambuco.com.br/politica/2026/10/11726324-estudantes-fazem-atos-pelo-pais-em-apoio-a-lula.html"
+    },
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.548,
+   "local": "Praça Roosevelt; Mackenzie e Cásper Líbero",
+   "lon": -46.645,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "SP",
+   "id": "20261008-sao-paulo-praca-roosevelt-mackenzie-e-casper-liber"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Belo Horizonte",
+   "conv": "UNE e DCE-UFMG",
+   "d": "2026-10-09",
+   "fontes": [
+    {
+     "t": "IHU Unisinos — onda estudantil",
+     "u": "https://www.ihu.unisinos.br/672010-estudantes-vao-as-ruas-puxam-onda-de-protestos-contra-flavio-bolsonaro-e-ampliam-atos-pro-lula"
+    },
+    {
+     "t": "SBT News — atos estudantis",
+     "u": "https://sbtnews.sbt.com.br/noticia/brasil/estudantes-fazem-atos-pro-lula-em-universidades"
+    }
+   ],
+   "hora": "17h",
+   "lat": -19.9235,
+   "local": "Praça Afonso Arinos (Direito UFMG)",
+   "lon": -43.9365,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "MG",
+   "id": "20261009-belo-horizonte-praca-afonso-arinos-direito-ufmg"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Belém",
+   "conv": "Estudantes e movimentos políticos",
+   "d": "2026-10-09",
+   "fontes": [
+    {
+     "t": "Diário do Pará — Belém, 13/10",
+     "u": "https://diariodopara.com.br/eleicoes-2026/apoiadores-de-lula-voltam-as-ruas-de-belem-nesta-terca-por-reeleicao/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -1.458,
+   "local": "Local não informado",
+   "lon": -48.488,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "PA",
+   "id": "20261009-belem-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Ceilândia",
+   "conv": "PT-DF, com Leandro Grass",
+   "d": "2026-10-09",
+   "fontes": [
+    {
+     "t": "Poder360 — Ceilândia",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/lula-retoma-atos-de-campanha-com-caminhada-em-ceilandia/"
+    },
+    {
+     "t": "Metrópoles — agenda de 09/10",
+     "u": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-nesta-sexta-9-10"
+    }
+   ],
+   "hora": "11h",
+   "lat": -15.819,
+   "local": "Feira da Ceilândia",
+   "lon": -48.108,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "L",
+   "uf": "DF",
+   "id": "20261009-ceilandia-feira-da-ceilandia"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Natal",
+   "conv": "Campanha de Lula e de Cadu de Lula (PT-RN)",
+   "d": "2026-10-10",
+   "fontes": [
+    {
+     "t": "URB News — Natal, 10/10",
+     "u": "https://urbnews.com.br/2026/10/11/a-duas-semanas-da-eleicao-lula-participa-de-caminhada-em-natal-no-rio-grande-do-norte/"
+    }
+   ],
+   "hora": "8h–12h30 (~4h30)",
+   "lat": -5.799,
+   "local": "Caminhada no Alecrim (R. Baraúna com Av. Cel. Estevam)",
+   "lon": -35.214,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "L",
+   "uf": "RN",
+   "id": "20261010-natal-caminhada-no-alecrim-r-barauna-com-av-ce"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Aracaju",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Fim da tarde (fotos por volta das 18h30)",
+   "lat": -10.985,
+   "local": "Orla de Atalaia — “Bora Lula – Ato Cultural”",
+   "lon": -37.047,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (fotos no X)",
+   "s": "R",
+   "t": "M",
+   "uf": "SE",
+   "id": "20261011-aracaju-orla-de-atalaia"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Belo Horizonte",
+   "conv": "Comitês locais",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -19.919,
+   "local": "Caminhada pelos direitos das mulheres e por Lula",
+   "lon": -43.942,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261011-belo-horizonte-caminhada-pelos-direitos-das-mulheres-e"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Brasília",
+   "conv": "Comitês populares",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -15.77,
+   "local": "Eixão Norte",
+   "lon": -47.888,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "DF",
+   "id": "20261011-brasilia-eixao-norte"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Campinas",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    },
+    {
+     "t": "Post no X — Mídia NINJA",
+     "u": "https://x.com/MidiaNINJA/status/2109334016780538222"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Post no X — “maior ato da história de Campinas”",
+     "u": "https://x.com/AntonioCoelhoPT/status/2109470866262126722"
+    }
+   ],
+   "hora": "Tarde; terminou por volta das 17h30",
+   "lat": -22.906,
+   "local": "Ruas do Centro",
+   "lon": -47.061,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/MidiaNINJA/status/2109334016780538222",
+     "credito": "Mídia NINJA"
+    },
+    {
+     "tipo": "post",
+     "u": "https://x.com/AntonioCoelhoPT/status/2109470866262126722",
+     "credito": "Antônio Coelho (PT)"
+    }
+   ],
+   "pub": "“Milhares” (Mídia NINJA) · participantes falam em 50 mil",
+   "pubFonte": "Mídia NINJA e relatos no X; sem contagem oficial",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261011-campinas-ruas-do-centro"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Florianópolis",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "ND Mais — Florianópolis",
+     "u": "https://ndmais.com.br/politica/ato-em-apoio-a-lula-reune-politicos-estudantes-e-apoiadores-no-centro-de-florianopolis/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -27.595,
+   "local": "Centro (região da Catedral)",
+   "lon": -48.547,
+   "pub": "~10 mil",
+   "pubFonte": "ND Mais",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261011-florianopolis-centro-regiao-da-catedral"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -3.735,
+   "local": "Local não informado",
+   "lon": -38.52,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261011-fortaleza-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Goiânia",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -16.68,
+   "local": "Praça Universitária",
+   "lon": -49.243,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (vários relatos com foto no X)",
+   "s": "R",
+   "t": "M",
+   "uf": "GO",
+   "id": "20261011-goiania-praca-universitaria"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "João Pessoa",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -7.115,
+   "local": "Busto de Tamandaré",
+   "lon": -34.823,
+   "pub": "“Lotado” (relato)",
+   "pubFonte": "Fonte: redes sociais; o Blog Hélder Moura registrou a ausência dos principais aliados de Lula",
+   "s": "R",
+   "t": "M",
+   "uf": "PB",
+   "id": "20261011-joao-pessoa-busto-de-tamandare"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Juiz de Fora",
+   "conv": "Diretório municipal do PT",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "Acessa — ato reúne militantes no Centro",
+     "u": "https://www.acessa.com/cidade/2026/10/amp/342054-ato-pro-lula-reune-militantes-no-centro-de-juiz-de-fora.html"
+    }
+   ],
+   "hora": "Manhã",
+   "lat": -21.7607,
+   "local": "Parque Halfeld, em frente à Câmara Municipal",
+   "lon": -43.3495,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261011-juiz-de-fora-parque-halfeld"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Londrina",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Fim da manhã, sob chuva",
+   "lat": -23.3135,
+   "local": "Av. Higienópolis",
+   "lon": -51.1595,
+   "pub": "Muita gente, segundo relatos",
+   "pubFonte": "Fonte: redes sociais (relatos com foto no X)",
+   "s": "R",
+   "t": "M",
+   "uf": "PR",
+   "id": "20261011-londrina-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Maceió",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -9.665,
+   "local": "Orla",
+   "lon": -35.71,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "AL",
+   "id": "20261011-maceio-orla"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Manaus",
+   "conv": "Movimentos sociais, UEE-AM, UJS, coletivos e partidos",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    },
+    {
+     "t": "Amazônia Real — ato por Lula em Manaus",
+     "u": "https://amazoniareal.com.br/ato-por-lula-em-manaus/"
+    }
+   ],
+   "hora": "A partir das 16h, até a noite",
+   "lat": -3.13,
+   "local": "“Vira Vira Lula”: Largo São Sebastião (Teatro Amazonas) → R. 10 de Julho, Av. Getúlio Vargas e Av. 7 de Setembro",
+   "lon": -60.023,
+   "pub": "“Milhares de pessoas” · moradores falam em ~150 mil",
+   "pubFonte": "Amazônia Real; os ~150 mil são estimativa de moradores; organizadores não estimaram",
+   "s": "R",
+   "t": "M",
+   "uf": "AM",
+   "id": "20261011-manaus-largo-sao-sebastiao-teatro-amazonas"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Niterói",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.905,
+   "local": "Caminhada até a Praia de Icaraí",
+   "lon": -43.11,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261011-niteroi-caminhada-ate-a-praia-de-icarai"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Recife",
+   "conv": "UNE, UEE-PE e DCEs",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "Brasil 247 — agenda estudantil",
+     "u": "https://www.brasil247.com/geral/estudantes-ampliam-atos-em-defesa-de-lula-e-contra-a-extrema-direita-em-todo-o-brasil/"
+    },
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    }
+   ],
+   "hora": "A partir das 14h",
+   "lat": -8.06,
+   "local": "Parque 13 de Maio → Marco Zero (Ponte Duarte Coelho)",
+   "lon": -34.884,
+   "pub": "Ponte “lotada”",
+   "pubFonte": "Sem número na imprensa",
+   "s": "R",
+   "t": "E",
+   "uf": "PE",
+   "id": "20261011-recife-parque-13-de-maio-marco-zero-ponte-duart"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Não informado",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.9711,
+   "local": "Orla de Copacabana",
+   "lon": -43.1822,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261011-rio-de-janeiro-orla-de-copacabana"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Salvador",
+   "conv": "DCEs e comitês",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -12.985,
+   "local": "Saída do Campo Grande, descendo a Ladeira da Barra",
+   "lon": -38.523,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "BA",
+   "id": "20261011-salvador-campo-grande-barra-e-pelourinho"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Salvador",
+   "conv": "DCEs e comitês",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Poder360 — imagens de atos pelo país",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/veja-imagens-de-atos-a-favor-de-lula-pelo-pais/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -12.942,
+   "local": "Piatã e Itapuã",
+   "lon": -38.37,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "BA",
+   "id": "20261011-salvador-piata-e-itapua"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "UNE, Ubes, ANPG, movimentos sociais, sindicatos, torcidas organizadas, fandoms pop e organizadores da Parada LGBT+",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "Poder360 — Paulista, 7 quarteirões",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-lula-em-sao-paulo-ocupou-7-quarteiroes-da-av-paulista/"
+    },
+    {
+     "t": "Agência Brasil — Paulista",
+     "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-pela-reeleicao-de-lula-leva-milhares-a-avenida-paulista"
+    },
+    {
+     "t": "TMC — Paulista sem contagem",
+     "u": "https://tmc.com.br/politica/lula-paulista-contagem-publico-usp-drones-recusa/"
+    },
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    }
+   ],
+   "hora": "Concentração às 11h; caminhada às 13h",
+   "lat": -23.5614,
+   "local": "“Marcha pela Democracia”, Av. Paulista (Lula discursa no MASP)",
+   "lon": -46.6559,
+   "pub": "1 milhão segundo o PT · área comporta ~261 mil (Poder360)",
+   "pubFonte": "Sem contagem independente: a campanha não autorizou o drone da USP/Cebrap",
+   "s": "R",
+   "t": "L",
+   "uf": "SP",
+   "id": "20261011-sao-paulo-marcha-pela-democracia-av-paulista-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Vitória",
+   "conv": "PT e aliados",
+   "d": "2026-10-11",
+   "fontes": [
+    {
+     "t": "111 Next — 76 cidades",
+     "u": "https://br.111next.com/2026/10/12/manifestacoes-em-apoio-a-lula-mobilizam-76-cidades-brasileiras"
+    },
+    {
+     "t": "Post no X — A Gazeta (ES)",
+     "u": "https://x.com/AGazetaES/status/2109414993951371481"
+    }
+   ],
+   "hora": "Tarde",
+   "lat": -20.311,
+   "local": "Assembleia Legislativa → Praça do Papa",
+   "lon": -40.295,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/AGazetaES/status/2109414993951371481",
+     "credito": "A Gazeta (ES)"
+    }
+   ],
+   "pub": "Não informado",
+   "pubFonte": "A Gazeta, sem número; um perfil crítico fala em “algumas centenas”",
+   "s": "R",
+   "t": "M",
+   "uf": "ES",
+   "id": "20261011-vitoria-assembleia-legislativa-praca-do-papa"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Não informado",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -3.759,
+   "local": "Caminhada no Conjunto Ceará",
+   "lon": -38.605,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (relatos com foto no X)",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261012-fortaleza-caminhada-conjunto-ceara"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Nilópolis",
+   "conv": "Não informado",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Agência Brasil — Copacabana",
+     "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/milhares-de-pessoas-lotam-orla-de-copacabana-em-apoio-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.807,
+   "local": "Praça dos Estudantes",
+   "lon": -43.414,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261012-nilopolis-praca-dos-estudantes"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Niterói",
+   "conv": "Não informado",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Agência Brasil — Copacabana",
+     "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/milhares-de-pessoas-lotam-orla-de-copacabana-em-apoio-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.896,
+   "local": "Praça da Cantareira",
+   "lon": -43.127,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261012-niteroi-praca-da-cantareira"
+  },
+  {
+   "atualizadoEm": "2026-10-14T00:10:00-03:00",
+   "cidade": "Parnaíba",
+   "conv": "Não informado",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -2.9055,
+   "local": "Local não informado",
+   "lon": -41.7769,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (post com foto no X)",
+   "s": "R",
+   "t": "M",
+   "uf": "PI",
+   "id": "20261012-parnaiba-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Não informado",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Agência Brasil — Copacabana",
+     "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/milhares-de-pessoas-lotam-orla-de-copacabana-em-apoio-lula"
+    },
+    {
+     "t": "Poder360 — Copacabana",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ato-pro-lula-ocupa-av-atlantica-em-copacabana-no-rio/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.913,
+   "local": "Arcos da Lapa (com sambistas)",
+   "lon": -43.18,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261012-rio-de-janeiro-arcos-da-lapa-com-sambistas"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Apoiadores, militância do PT, sindicatos e estudantes",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Agência Brasil — Copacabana",
+     "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/milhares-de-pessoas-lotam-orla-de-copacabana-em-apoio-lula"
+    },
+    {
+     "t": "Poder360 — Copacabana",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ato-pro-lula-ocupa-av-atlantica-em-copacabana-no-rio/"
+    },
+    {
+     "t": "Jornal do Brasil — Copacabana",
+     "u": "https://www.jb.com.br/brasil/politica/2026/10/1061210-ato-pro-lula-reune-multidao-em-copacabana-no-rio.html"
+    }
+   ],
+   "hora": "Tarde, a partir das 13h",
+   "lat": -22.98,
+   "local": "Av. Atlântica, Copacabana (a partir do Posto 5)",
+   "lon": -43.19,
+   "pub": "“Milhares”, as duas pistas da orla",
+   "pubFonte": "A PM não divulgou estimativa",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261012-rio-de-janeiro-av-atlantica-copacabana-a-partir-do-post"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Não informado",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Agência Brasil — Copacabana",
+     "u": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/milhares-de-pessoas-lotam-orla-de-copacabana-em-apoio-lula"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.906,
+   "local": "Quinta da Boa Vista, São Cristóvão",
+   "lon": -43.224,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261012-rio-de-janeiro-quinta-da-boa-vista-sao-cristovao"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Salvador",
+   "conv": "Não informado",
+   "d": "2026-10-12",
+   "fontes": [
+    {
+     "t": "Pirôpo News — ato reúne multidão na Barra",
+     "u": "https://www.piroponews.com/2026/10/ato-pro-lula-reune-multidao-na-barra-e.html"
+    },
+    {
+     "t": "Portal Alerta — manifestação na Barra",
+     "u": "https://www.portalalerta.com.br/index.php/2026/10/13/manifestacao-pro-lula-reune-multidao-e-movimenta-a-regiao-da-barra-nesta-segunda/"
+    },
+    {
+     "t": "Post no X — BNews",
+     "u": "https://x.com/bnews_oficial/status/2109717874172723391"
+    },
+    {
+     "t": "Post no X — Mídia NINJA",
+     "u": "https://x.com/MidiaNINJA/status/2109662862331527463"
+    }
+   ],
+   "hora": "9h",
+   "lat": -13.0102,
+   "local": "Cristo da Barra / Farol da Barra",
+   "lon": -38.5245,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/bnews_oficial/status/2109717874172723391",
+     "credito": "BNews"
+    },
+    {
+     "tipo": "post",
+     "u": "https://x.com/MidiaNINJA/status/2109662862331527463",
+     "credito": "Mídia NINJA"
+    }
+   ],
+   "pub": "“Centenas de manifestantes” (título: “multidão”)",
+   "pubFonte": "Imprensa (Pirôpo News)",
+   "s": "R",
+   "t": "M",
+   "uf": "BA",
+   "id": "20261012-salvador-cristo-da-barra-farol-da-barra"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Aracaju",
+   "conv": "Apoiadores de Lula, movimentos sociais, CUT-SE e lideranças do PT e aliados (“Grande Marcha da Virada”)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Fan F1 — “Grande Marcha da Virada” em Aracaju",
+     "u": "https://fanf1.com.br/2026/10/13/grande-marcha-da-virada-reune-apoiadores-e-politicos-em-ato-pro-lula-em-aracaju/"
+    }
+   ],
+   "hora": "Tarde (agenda: 15h13)",
+   "lat": -10.911,
+   "local": "Igreja do Espírito Santo (bairro Santo Antônio) → caminhada ao Centro",
+   "lon": -37.051,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SE",
+   "id": "20261013-aracaju-igreja-espirito-santo"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Araranguá",
+   "conv": "Apoiadores de Lula (agenda “Hoje tem 13”)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    }
+   ],
+   "hora": "19h",
+   "lat": -28.935,
+   "local": "Parque das Águas",
+   "lon": -49.486,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261013-ararangua-parque-das-aguas"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Araraquara",
+   "conv": "Apoiadores de Lula (agenda “Hoje tem 13”); PSTU e Rebeldia também participaram",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Post no X — registro com foto",
+     "u": "https://x.com/cordilheiracult/status/2110168894270804034"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "17h",
+   "lat": -21.794,
+   "local": "Praça Santa Cruz",
+   "lon": -48.176,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/cordilheiracult/status/2110168894270804034",
+     "credito": "perfil @cordilheiracult"
+    }
+   ],
+   "pub": "Mais de 10 mil pessoas",
+   "pubFonte": "Perfil @alternativa016, citado por @cordilheiracult no X; sem contagem oficial",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261013-araraquara-praca-santa-cruz"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Barueri",
+   "conv": "PT e PSOL de Barueri (segundo relato)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "18h",
+   "lat": -23.511,
+   "local": "Praça dos Estudantes (Fatec)",
+   "lon": -46.876,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (relato no X, sem foto)",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261013-barueri-praca-dos-estudantes-fatec"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Belém",
+   "conv": "Estudantes, militantes, movimentos sociais, sindicalistas e apoiadores do PT",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Diário do Pará — Belém, 13/10",
+     "u": "https://diariodopara.com.br/eleicoes-2026/apoiadores-de-lula-voltam-as-ruas-de-belem-nesta-terca-por-reeleicao/"
+    },
+    {
+     "t": "Diário do Pará — Doca, 13/10",
+     "u": "https://diariodopara.com.br/eleicoes-2026/ato-pro-lula-reune-multidao-na-doca-em-belem-veja-as-fotos/"
+    }
+   ],
+   "hora": "16h",
+   "lat": -1.44,
+   "local": "“Povo na Rua – Bora Lula”, Doca (Av. Visconde de Souza Franco)",
+   "lon": -48.488,
+   "pub": "“Centenas”",
+   "pubFonte": "Diário do Pará; sem contagem oficial",
+   "s": "R",
+   "t": "M",
+   "uf": "PA",
+   "id": "20261013-belem-povo-na-rua-bora-lula-doca-av-visconde-d"
+  },
+  {
+   "atualizadoEm": "2026-10-14T00:10:00-03:00",
+   "cidade": "Blumenau",
+   "conv": "Não informado",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -26.9194,
+   "local": "Local não informado",
+   "lon": -49.0661,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (post com foto no X); o prefeito Egidio Ferrari (PL) comentou o ato em vídeo",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261013-blumenau-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Brasília",
+   "conv": "DCE-UnB, UNE, trabalhadores da saúde e movimentos sociais",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Brasil 247 — agenda estudantil",
+     "u": "https://www.brasil247.com/geral/estudantes-ampliam-atos-em-defesa-de-lula-e-contra-a-extrema-direita-em-todo-o-brasil/"
+    },
+    {
+     "t": "O Antagonista — Brasília, 13/10",
+     "u": "https://oantagonista.com.br/brasil/apoiadores-de-lula-fazem-ato-em-brasilia/"
+    },
+    {
+     "t": "Metrópoles — estudantes no Museu da República",
+     "u": "https://www.metropoles.com/distrito-federal/soberania-e-reeleicao-de-lula-estudantes-fazem-ato-no-museu-da-republica"
+    },
+    {
+     "t": "Correio Braziliense — manifestação na Esplanada",
+     "u": "https://www.correiobraziliense.com.br/cidades-df/2026/10/7520086-manifestacao-mobiliza-apoiadores-de-lula-em-brasilia.html"
+    },
+    {
+     "t": "Acorda DF — ato ocupa a Esplanada",
+     "u": "https://acordadf.com.br/noticias/brasilia/ato-pro-lula-ocupa-a-esplanada-e-trava-o-transito/"
+    },
+    {
+     "t": "Vermelho — onda pró-Lula toma ruas",
+     "u": "https://vermelho.org.br/2026/10/14/onda-pro-lula-cresce-e-toma-ruas-de-todo-o-brasil-pela-reeleicao/"
+    }
+   ],
+   "hora": "Concentração às 16h; ato às 18h",
+   "lat": -15.796,
+   "local": "Museu Nacional → Esplanada dos Ministérios",
+   "lon": -47.879,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/correio/status/2110176089406394500",
+     "credito": "Correio Braziliense"
+    }
+   ],
+   "pub": "“Milhares”; ocupou as seis faixas até a Esplanada · mais de 30 mil (ANDES-SN) · 100 mil segundo organizadores",
+   "pubFonte": "“Milhares”: Acorda DF e Agência Brasil; faixas: PMDF; 30 mil: ANDES-SN; 100 mil: organizadores (Vermelho)",
+   "s": "R",
+   "t": "E",
+   "uf": "DF",
+   "id": "20261013-brasilia-museu-nacional-da-republica"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Cachoeira",
+   "conv": "Apoiadores de Lula e do PT",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Diário da Notícia — caminhada em Cachoeira",
+     "u": "https://www.diariodanoticia.com/2026/10/ato-em-apoio-reeleicao-de-lula-reune.html"
+    },
+    {
+     "t": "Poder360 — atos em 37 cidades",
+     "u": "https://poder360.com.br/poder-eleicoes-2026/atos-pela-virada-de-lula-enchem-ruas-em-dezenas-cidades"
+    }
+   ],
+   "hora": "Concentração por volta das 15h13",
+   "lat": -12.6181,
+   "local": "Praça da Aclamação (Casa de Câmara e Cadeia) → ruas do Centro Histórico",
+   "lon": -38.9557,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "BA",
+   "id": "20261013-cachoeira-praca-da-aclamacao"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Cachoeiro de Itapemirim",
+   "conv": "Movimento Bora Lula",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Sim Notícias — agenda no ES",
+     "u": "https://simnoticias.com.br/eleicoes/apoiadores-de-lula-realizam-atos-em-quatro-cidades-do-es-veja-agenda/"
+    }
+   ],
+   "hora": "19h",
+   "lat": -20.849,
+   "local": "Praça Jerônimo Monteiro",
+   "lon": -41.1129,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "ES",
+   "id": "20261013-cachoeiro-de-itapemirim-praca-jeronimo-monteiro"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Florianópolis",
+   "conv": "UNE, UCE e PT-SC",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "ND Mais — Florianópolis",
+     "u": "https://ndmais.com.br/politica/ato-em-apoio-a-lula-reune-politicos-estudantes-e-apoiadores-no-centro-de-florianopolis/"
+    },
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "SCC10 — apoiadores fazem ato no Centro",
+     "u": "https://scc10.com.br/diretoaovoto/apoiadores-de-lula-fazem-ato-no-centro-de-florianopolis/"
+    }
+   ],
+   "hora": "Início às 17h",
+   "lat": -27.5965,
+   "local": "Em frente à Catedral Metropolitana → ruas do Centro Histórico",
+   "lon": -48.549,
+   "pub": "Cerca de 20 mil pessoas",
+   "pubFonte": "Organizadores (SCC10)",
+   "s": "R",
+   "t": "E",
+   "uf": "SC",
+   "id": "20261013-florianopolis-em-frente-a-catedral-metropolitana"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Movimentos de apoio a Lula (articulador Sandro Camilo)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Ceará é Notícia — bandeiraços em Fortaleza",
+     "u": "https://www.cearaenoticia.com.br/2026/10/fortaleza-se-avermelha-com-bandeiracos.html"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -3.746,
+   "local": "Bandeiraços em mais de 40 pontos (ex.: Av. Barão de Studart × Júlio Ventura)",
+   "lon": -38.51,
+   "pub": "“Milhares de militantes” (mais de 300 bandeiras em um ponto)",
+   "pubFonte": "Imprensa (Ceará é Notícia); bandeiras: organizador Sandro Camilo",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261013-fortaleza-bandeiracos-av-barao-de-studart"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Estudantes, docentes e movimentos sociais",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "ANDES-SN — protestos pró-Lula em diversas cidades",
+     "u": "https://www.andes.org.br/conteudos/noticia/manifestantes-realizam-protestos-pro-lula-em-diversas-cidades-do-pais1"
+    }
+   ],
+   "hora": "A partir das 14h",
+   "lat": -3.729,
+   "local": "Caminhada pelo Centro",
+   "lon": -38.525,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "CE",
+   "id": "20261013-fortaleza-caminhada-centro-docentes"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Joinville",
+   "conv": "PT, PCB, UJC e Unidade Popular",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Mix Vale — caminhada no Centro de Joinville",
+     "u": "https://www.mixvale.com.br/2026/10/13/apoiadores-de-lula-fazem-caminhada-no-centro-de-joinville-no-2o-turno/"
+    },
+    {
+     "t": "ND Mais — ato no Centro de Joinville",
+     "u": "https://ndmais.com.br/politica/ato-em-apoio-a-lula-joinville/"
+    }
+   ],
+   "hora": "Noite (concentração por volta das 18h)",
+   "lat": -26.3041,
+   "local": "Praça da Bailarina → Praça da Bandeira (Centro)",
+   "lon": -48.846,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261013-joinville-praca-da-bailarina-praca-da-bandeira"
+  },
+  {
+   "atualizadoEm": "2026-10-14T00:10:00-03:00",
+   "cidade": "Macaé",
+   "conv": "Não informado",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Não informado (houve oficina de cartazes antes)",
+   "lat": -22.3768,
+   "local": "Região da Prefeitura (local exato não informado)",
+   "lon": -41.7848,
+   "pub": "“Gigantesco” (relato)",
+   "pubFonte": "Fonte: redes sociais (dois relatos no X, um com foto); sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261013-macae-regiao-da-prefeitura"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Mogi das Cruzes",
+   "conv": "Apoiadores de Lula (agenda “Hoje tem 13”)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    }
+   ],
+   "hora": "18h",
+   "lat": -23.523,
+   "local": "Praça da Matriz",
+   "lon": -46.188,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261013-mogi-das-cruzes-praca-da-matriz"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Natal",
+   "conv": "UNE, Ubes, UEE-RN e Umes; estudantes à frente, com Cadu de Lula (PT)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Brasil 247 — agenda estudantil",
+     "u": "https://www.brasil247.com/geral/estudantes-ampliam-atos-em-defesa-de-lula-e-contra-a-extrema-direita-em-todo-o-brasil/"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "A partir das 16h",
+   "lat": -5.812,
+   "local": "Em frente ao Midway Mall, Av. Bernardo Vieira",
+   "lon": -35.206,
+   "pub": "“Gigante” (relatos)",
+   "pubFonte": "Fonte: redes sociais (relatos com foto no X)",
+   "s": "R",
+   "t": "E",
+   "uf": "RN",
+   "id": "20261013-natal-em-frente-ao-midway-mall-av-bernardo-vie"
+  },
+  {
+   "atualizadoEm": "2026-10-14T00:10:00-03:00",
+   "cidade": "Nova Friburgo",
+   "conv": "Sociedade civil; convocação de Glauber Braga (PSOL) nas redes",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "EcoSerrano — Nova Friburgo",
+     "u": "https://ecoserrano.com.br/apos-copacabana-nova-friburgo-tera-em-apoio-a-democracia/"
+    },
+    {
+     "t": "TV Zoom — Nova Friburgo",
+     "u": "https://tvzoom.com.br/manifestacoes-em-nova-friburgo-e-bom-jardim-tem-atos-pro-lula-e-pro-flavio-bolsonaro/"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Concentração às 17h",
+   "lat": -22.287,
+   "local": "Estação Livre (rodoviária urbana), Centro",
+   "lon": -42.534,
+   "pub": "“A maior manifestação da história da cidade” (relato, sem número)",
+   "pubFonte": "Fonte: redes sociais (post com foto no X); sem reportagem pós-ato",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261013-nova-friburgo-estacao-livre-rodoviaria-urbana-centro"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Pelotas",
+   "conv": "Secundaristas e universitários; lideranças estudantis e sindicais",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "RádioCom — do câmpus ao calçadão",
+     "u": "https://www.radiocom.org.br/2026/10/14/do-campus-ao-calcadao-secundaristas-e-universitarios-fazem-ato-pela-reeleicao-de-lula/"
+    },
+    {
+     "t": "Poder360 — atos em 37 cidades",
+     "u": "https://poder360.com.br/poder-eleicoes-2026/atos-pela-virada-de-lula-enchem-ruas-em-dezenas-cidades"
+    }
+   ],
+   "hora": "Concentração às 12h; dispersão por volta das 14h",
+   "lat": -31.7656,
+   "local": "IFSul (câmpus Pelotas) → Mercado Central → calçadão (Galeria Malcon)",
+   "lon": -52.3445,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "RS",
+   "id": "20261013-pelotas-ifsul-mercado-central-calcadao"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Porto Alegre",
+   "conv": "PT-RS e os oito partidos da coligação de Lula; divulgação nas redes",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Jornal do Comércio — Porto Alegre",
+     "u": "https://www.jornaldocomercio.com/politica/2026/10/1266779-ato-reune-apoiadores-de-lula-em-campanha-vira-voto-na-capital-gaucha.html"
+    },
+    {
+     "t": "Encontra Porto Alegre — Caminhada da Virada",
+     "u": "https://www.encontraportoalegre.com.br/sobre/caminhada-da-virada-reune-apoiadores-de-lula-em-porto-alegre/"
+    }
+   ],
+   "hora": "Concentração às 18h",
+   "lat": -30.03,
+   "local": "“Caminhada da Virada”, Esquina Democrática → Av. Borges de Medeiros",
+   "lon": -51.229,
+   "pub": "“Milhares”",
+   "pubFonte": "Jornal do Comércio; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RS",
+   "id": "20261013-porto-alegre-caminhada-da-virada-esquina-democratica"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Brasil em Folhas — Campo Grande (RJ)",
+     "u": "https://www.brasilemfolhas.com.br/2026/10/ato-pro-lula-lota-ruas-de-campo-grande-na-zona-oeste-do-rio/"
+    }
+   ],
+   "hora": "Concentração às 18h",
+   "lat": -22.899,
+   "local": "Campo Grande: West Shopping → Av. Cesário de Melo → calçadão",
+   "lon": -43.559,
+   "pub": "“Milhares”",
+   "pubFonte": "Brasil em Folhas; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261013-rio-de-janeiro-campo-grande-west-shopping-av-cesario-de"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Santa Maria",
+   "conv": "Estudantes, coletivos estudantis e trabalhadores",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Brasil de Fato — ato em Santa Maria",
+     "u": "https://www.brasildefato.com.br/2026/10/14/estudantes-e-trabalhadores-realizam-ato-em-defesa-da-democracia-em-santa-maria/"
+    },
+    {
+     "t": "Poder360 — atos em 37 cidades",
+     "u": "https://poder360.com.br/poder-eleicoes-2026/atos-pela-virada-de-lula-enchem-ruas-em-dezenas-cidades"
+    }
+   ],
+   "hora": "17h30, até cerca de 21h",
+   "lat": -29.685,
+   "local": "Praça Saldanha Marinho → Rua Floriano Peixoto → Largo da Locomotiva",
+   "lon": -53.807,
+   "pub": "Mais de 20 mil pessoas",
+   "pubFonte": "Organizadores (Brasil de Fato)",
+   "s": "R",
+   "t": "M",
+   "uf": "RS",
+   "id": "20261013-santa-maria-praca-saldanha-marinho"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Santos",
+   "conv": "Juventude, estudantes e sindicatos, com destaque para os petroleiros (segundo relato)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Bancários de Santos — Caminhada Vira Voto",
+     "u": "https://santosbancarios.com.br/artigo/caminhada-vira-voto-reune-milhares-de-pessoas-em-santos-as-vesperas-do-segundo-turno-das-eleicoes-de-2026/"
+    },
+    {
+     "t": "Poder360 — atos em 37 cidades",
+     "u": "https://poder360.com.br/poder-eleicoes-2026/atos-pela-virada-de-lula-enchem-ruas-em-dezenas-cidades"
+    }
+   ],
+   "hora": "Noite (posts a partir das 22h40)",
+   "lat": -23.942,
+   "local": "“Caminhada Vira Voto”: concentração no Sindicato dos Petroleiros do Litoral Paulista → Av. Conselheiro Nébias",
+   "lon": -46.3245,
+   "pub": "“Milhares de pessoas”",
+   "pubFonte": "Sindicato dos Bancários de Santos (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261013-santos-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Sobral",
+   "conv": "Frente Pró-Lula Região Norte/Ibiapaba (dep. Moisés Braz, Luiza Cela, PT-CE), sindicatos rurais e de servidores",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Flavio Pinto News — caminhada em Sobral",
+     "u": "https://www.flaviopintonews.com.br/2026/10/caminhada-pro-lula-reune-liderancas-e.html"
+    },
+    {
+     "t": "Poder360 — atos em 37 cidades",
+     "u": "https://poder360.com.br/poder-eleicoes-2026/atos-pela-virada-de-lula-enchem-ruas-em-dezenas-cidades"
+    }
+   ],
+   "hora": "Manhã",
+   "lat": -3.688,
+   "local": "Praça da Coluna da Hora → ruas do Centro → Praça de Cuba",
+   "lon": -40.3497,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261013-sobral-praca-da-coluna-da-hora-praca-de-cuba"
+  },
+  {
+   "atualizadoEm": "2026-10-14T01:30:00-03:00",
+   "cidade": "Sorocaba",
+   "conv": "Frentes populares, com Guilherme Boulos (presença citada em relato)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Brasil 247 — agenda estudantil",
+     "u": "https://www.brasil247.com/geral/estudantes-ampliam-atos-em-defesa-de-lula-e-contra-a-extrema-direita-em-todo-o-brasil/"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Tarde",
+   "lat": -23.501,
+   "local": "Região central",
+   "lon": -47.458,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (relato no X)",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261013-sorocaba-regiao-central"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "São Mateus",
+   "conv": "Movimento Bora Lula",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Sim Notícias — agenda no ES",
+     "u": "https://simnoticias.com.br/eleicoes/apoiadores-de-lula-realizam-atos-em-quatro-cidades-do-es-veja-agenda/"
+    }
+   ],
+   "hora": "16h30",
+   "lat": -18.716,
+   "local": "Centro, em frente ao Banco do Brasil",
+   "lon": -39.859,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "ES",
+   "id": "20261013-sao-mateus-centro-banco-do-brasil"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Federação Brasil da Esperança (PT, PCdoB, PV) e federação PSOL-Rede",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Notícia Preta — Largo da Batata",
+     "u": "https://noticiapreta.com.br/grande-ato-da-virada-tera-presenca-do-presidente-lula-esta-noite-em-sao-paulo/"
+    },
+    {
+     "t": "Hora do Povo — Largo da Batata",
+     "u": "https://horadopovo.com.br/manifestantes-tomam-largo-da-batata-em-ato-pela-reeleicao-de-lula/"
+    },
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Poder360 — ato sob chuva em SP",
+     "u": "https://poder360.com.br/poder-eleicoes-2026/apoiadores-de-lula-fazem-ato-sob-chuva-em-sao-paulo"
+    }
+   ],
+   "hora": "A partir das 18h, sob chuva",
+   "lat": -23.567,
+   "local": "“Grande Ato da Virada”, Largo da Batata",
+   "lon": -46.693,
+   "pub": "“Milhares” (centenas no início)",
+   "pubFonte": "Hora do Povo; sem número. Lula não compareceu",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261013-sao-paulo-grande-ato-da-virada-largo-da-batata"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Teresina",
+   "conv": "Estudantes, sindicatos, artistas, movimentos sociais e partidos (ato unificado)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Meio News — ato em Teresina",
+     "u": "https://www.meionews.com/politica/eleicoes-2026/apoiadores-de-lula-vao-as-ruas-de-teresina-em-mobilizacao-pelo-segundo-turno-578170"
+    },
+    {
+     "t": "Piauí Hoje — ato reúne 10 mil",
+     "u": "https://piauihoje.com/noticias/politica/ato-pela-reeleicao-de-lula-reune-10-mil-pessoas-e-pede-virada-historica-no-2-turno-468209.html"
+    }
+   ],
+   "hora": "17h",
+   "lat": -5.0889,
+   "local": "Parque da Cidadania → Av. Miguel Rosa e Frei Serafim → Praça da Liberdade",
+   "lon": -42.8113,
+   "pub": "Mais de 10 mil pessoas",
+   "pubFonte": "Organizadores (expectativa, Meio News); Piauí Hoje sem atribuição",
+   "s": "R",
+   "t": "M",
+   "uf": "PI",
+   "id": "20261013-teresina-parque-da-cidadania-praca-da-liberdade"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Vitória",
+   "conv": "Movimento Bora Lula / PT; falas do Sindicato dos Petroleiros",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Sim Notícias — agenda no ES",
+     "u": "https://simnoticias.com.br/eleicoes/apoiadores-de-lula-realizam-atos-em-quatro-cidades-do-es-veja-agenda/"
+    },
+    {
+     "t": "Folha Vitória — ato pró-Lula em Vitória",
+     "u": "https://www.folhavitoria.com.br/transito/ato-pro-lula-reune-manifestantes-em-vitoria-veja-como-esta-o-transito/"
+    }
+   ],
+   "hora": "16h30 (concentração); dispersão ~20h10",
+   "lat": -20.2776,
+   "local": "Teatro Universitário da Ufes → Reta da Penha → Ponte da Passagem → prédio da Petrobras",
+   "lon": -40.3036,
+   "pub": "~1 mil (Sesp) · ~2 mil (organizadores)",
+   "pubFonte": "Sesp e organizadores",
+   "s": "R",
+   "t": "M",
+   "uf": "ES",
+   "id": "20261013-vitoria-ufes"
+  },
+  {
+   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "cidade": "Águas Belas",
+   "conv": "Apoiadores de Lula (agenda “Hoje tem 13”)",
+   "d": "2026-10-13",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    }
+   ],
+   "hora": "18h",
+   "lat": -9.111,
+   "local": "Entrada da cidade",
+   "lon": -37.123,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261013-aguas-belas-entrada-da-cidade"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Cajazeiras",
+   "conv": "Movimento estudantil (UFCG, IFPB) e movimentos sociais",
+   "d": "2026-10-14",
+   "fontes": [
+    {
+     "t": "Polêmica Paraíba — passeata em Cajazeiras",
+     "u": "https://www.polemicaparaiba.com.br/politica/estudantes-e-professores-fazem-passeata-em-cajazeiras-em-apoio-a-lula-e-a-educacao-publica/"
+    },
+    {
+     "t": "Diário do Sertão — ato estudantil em Cajazeiras",
+     "u": "https://www.diariodosertao.com.br/noticias/eleicoes/eleicoes-2026/778900/video-movimento-estudantil-lidera-ato-pro-lula-e-em-defesa-da-educacao-e-da-democracia-nas-ruas-de-cajazeiras.html"
+    }
+   ],
+   "hora": "Manhã",
+   "lat": -6.8897,
+   "local": "Passeata pelas ruas do Centro até a Rua 13 de Maio",
+   "lon": -38.5577,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "E",
+   "uf": "PB",
+   "id": "20261014-cajazeiras-ruas-do-centro-rua-13-de-maio"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Goiânia",
+   "conv": "PT-GO (anúncio de Adriana Accorsi); presença anunciada de Guilherme Boulos",
+   "d": "2026-10-14",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Conexão Record — ato em Goiânia na quarta (14)",
+     "u": "https://www.conexaorecord.com.br/ato-pro-lula-em-goiania-sera-nesta-quarta-feira-14-veja-horario-e-local/"
+    },
+    {
+     "t": "Jornal Opção — novo ato com Boulos na quarta",
+     "u": "https://www.jornalopcao.com.br/eleicoes-2026/goiania-tera-novo-ato-pro-lula-com-guilherme-boulos-878282/"
+    },
+    {
+     "t": "O Hoje — Boulos participou de ato na Praça Universitária",
+     "u": "https://ohoje.com/2026/10/14/boulos-aposta-na-recuperacao-de-votos-de-lula-em-goias-no-segundo-turno/"
+    },
+    {
+     "t": "Mais Goiás — Boulos em Goiânia",
+     "u": "https://www.maisgoias.com.br/blogs/poder-em-jogo/em-goiania-boulos-enaltece-fim-da-6x1-diz-que-lula-brigou-contra-quem-quer-escravidao-e-critica-flavio/"
+    }
+   ],
+   "hora": "16h (Boulos anunciado)",
+   "lat": -16.6815,
+   "local": "Praça Universitária → Av. Universitária → Praça Cívica",
+   "lon": -49.2415,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "GO",
+   "id": "20261013-goiania-praca-universitaria"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Recife",
+   "conv": "UNE/“Estudantes com Lula” e entidades estudantis",
+   "d": "2026-10-14",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "18h",
+   "lat": -8.0605,
+   "local": "“Estudantes Uni-Vos!”, Calçadão da Boa Vista",
+   "lon": -34.883,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "E",
+   "uf": "PE",
+   "id": "20261014-recife-calcadao-da-boa-vista"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Recife",
+   "conv": "Convocação aberta (organizador não informado)",
+   "d": "2026-10-14",
+   "fontes": [
+    {
+     "t": "Grupo Portal de Notícias/Brasil de Fato — agenda em PE",
+     "u": "https://grupoportaldenoticias.com.br/manifestacoes-em-defesa-da-democracia-e-da-campanha-de-lula-mobilizam-cidades-de-pernambuco/"
+    }
+   ],
+   "hora": "16h",
+   "lat": -8.061,
+   "local": "Ato inter-religioso, Rua Sete de Setembro × Av. Conde da Boa Vista",
+   "lon": -34.8845,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261014-recife-rua-sete-de-setembro-conde-da-boa-vista"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "São Luís",
+   "conv": "UNE/“Estudantes com Lula” e entidades estudantis",
+   "d": "2026-10-14",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "18h",
+   "lat": -2.5794,
+   "local": "Universidade Estadual do Maranhão (UEMA/CCSA)",
+   "lon": -44.2087,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "E",
+   "uf": "MA",
+   "id": "20261014-sao-luis-uema-ccsa"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Colatina",
+   "conv": "Movimento Bora Lula",
+   "d": "2026-10-15",
+   "fontes": [
+    {
+     "t": "Sim Notícias — agenda no ES",
+     "u": "https://simnoticias.com.br/eleicoes/apoiadores-de-lula-realizam-atos-em-quatro-cidades-do-es-veja-agenda/"
+    }
+   ],
+   "hora": "17h30",
+   "lat": -19.539,
+   "local": "Praça da Câmara Municipal",
+   "lon": -40.63,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "ES",
+   "id": "20261015-colatina-praca-da-camara-municipal"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Niterói",
+   "conv": "Estudantes (UNE/“Estudantes com Lula”)",
+   "d": "2026-10-15",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "19h",
+   "lat": -22.8975,
+   "local": "Mobilização estudantil na Cantareira",
+   "lon": -43.1268,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "E",
+   "uf": "RJ",
+   "id": "20261015-niteroi-cantareira"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "São Gonçalo",
+   "conv": "Não informado",
+   "d": "2026-10-15",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "15h",
+   "lat": -22.8225,
+   "local": "“Caminhada da Educação com Lula”, Praça do Relógio (Alcântara)",
+   "lon": -43.0045,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261015-sao-goncalo-praca-do-relogio-alcantara"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Editoras Boitempo, Autonomia Literária e Elefante; com parlamentares do PSOL e do PT, Vladimir Safatle e Preta Ferreira",
+   "d": "2026-10-15",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    },
+    {
+     "t": "Brasil de Fato — Galeria Metrópole impede ato",
+     "u": "https://www.brasildefato.com.br/2026/10/15/galeria-metropole-impede-ato-de-apoiadores-de-lula-em-sao-paulo/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -23.545,
+   "local": "“Virada na Metrópole”: Praça Dom José Gaspar (a Galeria Metrópole barrou a entrada)",
+   "lon": -46.642,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261015-sao-paulo-galeria-metropole"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Ipatinga",
+   "conv": "Coletivo de movimentos sociais e partidos (com o MAB) e PT",
+   "d": "2026-10-16",
+   "fontes": [
+    {
+     "t": "O Tempo — apoiadores aguardam Lula em Ipatinga",
+     "u": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/16/apoiadores-aguardam-chegada-de-lula-em-ipatinga"
+    },
+    {
+     "t": "Jornal Bairros Net — concentração no Canaã",
+     "u": "https://www.jornalbairrosnet.com.br/2026/destaques/lula-participa-de-caminhada-em-ipatinga-nesta-sexta-feira-16-concentracao-comeca-as-15h30-no-bairro-canaa/"
+    }
+   ],
+   "hora": "15h30 (concentração); caminhada às 17h, após chuva",
+   "lat": -19.47,
+   "local": "Caminhada com Lula na Av. José Selim de Sales (bairro Canaã)",
+   "lon": -42.558,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "L",
+   "uf": "MG",
+   "id": "20261016-ipatinga-lula-av-jose-selim-de-sales"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Juiz de Fora",
+   "conv": "PT; com a prefeita Margarida Salomão, Marília Campos, Rafael Fonteles e Rui Costa",
+   "d": "2026-10-16",
+   "fontes": [
+    {
+     "t": "Itatiaia — Lula em Juiz de Fora (horário e trajeto)",
+     "u": "https://www.itatiaia.com.br/juizdefora/lula-visita-juiz-de-fora-para-ato-politico-eleitoral-nesta-sexta-16/"
+    },
+    {
+     "t": "Acessa — Lula realiza ato em Juiz de Fora",
+     "u": "https://www.acessa.com/cidade/2026/10/342431-lula-realiza-ato-em-juiz-de-fora-e-destaca-a-conquista-do-fim-da-escala-6x1.html"
+    }
+   ],
+   "hora": "Concentração às 10h; Lula chegou por volta das 14h",
+   "lat": -21.7618,
+   "local": "Lula em carro aberto: Praça Clodesmidt Riani → Av. Getúlio Vargas → Praça Tarcísio Delgado",
+   "lon": -43.3462,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "L",
+   "uf": "MG",
+   "id": "20261016-juiz-de-fora-lula-av-getulio-vargas"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Mogi das Cruzes",
+   "conv": "Não informado",
+   "d": "2026-10-16",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "18h",
+   "lat": -23.5225,
+   "local": "“Mogi com Lula — Marcha pela Utopia”, Praça Monsenhor Roque Pinto de Barros",
+   "lon": -46.188,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261016-mogi-das-cruzes-praca-monsenhor-roque-pinto-de-barros"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Belo Horizonte",
+   "conv": "Secretaria de Mulheres do PT-BH",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "ND+ — atos pró-Lula em oito cidades (17/10)",
+     "u": "https://ndmais.com.br/politica/atos-pro-lula-reunem-manifestantes-em-oito-cidades-de-seis-estados/"
+    },
+    {
+     "t": "O Tempo — motorista avança sobre ato Mulheres com Lula",
+     "u": "https://www.otempo.com.br/cidades/2026/10/17/motorista-avanca-sobre-manifestantes-durante-ato-mulheres-com-lula-veja-video"
+    }
+   ],
+   "hora": "tarde",
+   "lat": -19.9191,
+   "local": "“Mulheres com Lula”: marcha pelo Centro (Praça Sete) rumo à Praça da Estação",
+   "lon": -43.9386,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261017-belo-horizonte-praca-sete-mulheres-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Campinas",
+   "conv": "Não informado",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    },
+    {
+     "t": "ACidade ON — caminhada pelo Centro e Cambuí",
+     "u": "https://www.acidadeon.com/campinas/politica/eleicoes/apoiadores-de-lula-fazem-caminhada-pelo-centro-e-cambui/"
+    },
+    {
+     "t": "ND+ — atos pró-Lula em oito cidades (17/10)",
+     "u": "https://ndmais.com.br/politica/atos-pro-lula-reunem-manifestantes-em-oito-cidades-de-seis-estados/"
+    }
+   ],
+   "hora": "9h30 às 12h",
+   "lat": -22.9055,
+   "local": "Marcha da Estação Cultura pelo Centro e Cambuí até o Centro de Convivência Cultural",
+   "lon": -47.0703,
+   "pub": "centenas",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261017-campinas-estacao-cultura"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Criciúma",
+   "conv": "Não informado",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "TN Sul — ato reúne dezenas na praça da Santa Luzia",
+     "u": "https://tnsul.com/2026/10/17/ato-pro-lula-reune-dezenas-de-apoiadores-em-praca-da-santa-luzia/"
+    }
+   ],
+   "hora": "manhã",
+   "lat": -28.6775,
+   "local": "Praça do bairro Santa Luzia (coordenada aproximada)",
+   "lon": -49.3697,
+   "pub": "dezenas",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261017-criciuma-praca-santa-luzia"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Curitibanos",
+   "conv": "Não informado",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "16h",
+   "lat": -27.283,
+   "local": "Caminhada popular, Igreja Matriz (Centro)",
+   "lon": -50.584,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261017-curitibanos-igreja-matriz-centro"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Florianópolis",
+   "conv": "“Mulheres com Lula”",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "ND+ — atos pró-Lula em oito cidades (17/10)",
+     "u": "https://ndmais.com.br/politica/atos-pro-lula-reunem-manifestantes-em-oito-cidades-de-seis-estados/"
+    },
+    {
+     "t": "ND+ — ato percorre o Centro de Florianópolis",
+     "u": "https://ndmais.com.br/politica/ato-em-apoio-a-lula-percorre-ruas-do-centro-de-florianopolis"
+    }
+   ],
+   "hora": "9h30 (agenda)",
+   "lat": -27.5972,
+   "local": "“Mulheres com Lula”: saída do Largo da Alfândega pelo Centro",
+   "lon": -48.5527,
+   "pub": "pelo menos 5 mil",
+   "pubFonte": "assessoria do evento",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261017-florianopolis-largo-da-alfandega-mulheres-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Militância feminina do PT",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Blog do Amaury Alencar — caminhada das Mulheres com Lula",
+     "u": "https://blogdoamauryalencar.com.br/2026/10/caminhada-das-mulheres-com-lula-lota.html"
+    }
+   ],
+   "hora": "fim da tarde",
+   "lat": -3.7205,
+   "local": "Caminhada “Mulheres com Lula” na orla da Praia de Iracema",
+   "lon": -38.5175,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261017-fortaleza-praia-de-iracema-mulheres-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Garanhuns",
+   "conv": "Não informado",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "ND+ — atos pró-Lula em oito cidades (17/10)",
+     "u": "https://ndmais.com.br/politica/atos-pro-lula-reunem-manifestantes-em-oito-cidades-de-seis-estados/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -8.89,
+   "local": "Local não informado",
+   "lon": -36.493,
+   "pub": "mais de 25 mil",
+   "pubFonte": "prefeito Sivaldo Albino (Instagram), citado pelo ND+",
+   "s": "R",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261017-garanhuns-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Itapecerica da Serra",
+   "conv": "Sindicatos e movimentos locais",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Periferia em Movimento — agenda de atos nas periferias de SP",
+     "u": "https://periferiaemmovimento.com.br/atosperiferias16102026/"
+    }
+   ],
+   "hora": "10h",
+   "lat": -23.7172,
+   "local": "“Itapecerica pela Democracia”, saída da Praça do Cruzeiro (Av. 15 de Novembro)",
+   "lon": -46.8494,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261017-itapecerica-da-serra-praca-do-cruzeiro"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Porto Alegre",
+   "conv": "“Mulheres com Lula”",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Sul21 — Mulheres com Lula reúne milhares",
+     "u": "https://sul21.com.br/noticias/politica/2026/10/mulheres-com-lula-reune-milhares-na-orla-e-no-centro-de-porto-alegre-veja-fotos"
+    },
+    {
+     "t": "ND+ — atos pró-Lula em oito cidades (17/10)",
+     "u": "https://ndmais.com.br/politica/atos-pro-lula-reunem-manifestantes-em-oito-cidades-de-seis-estados/"
+    }
+   ],
+   "hora": "15h (agenda, Esquina Democrática)",
+   "lat": -30.0306,
+   "local": "“Mulheres com Lula” na Orla e no Centro",
+   "lon": -51.2296,
+   "pub": "milhares",
+   "pubFonte": "imprensa (Sul21, sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "RS",
+   "id": "20261017-porto-alegre-orla-e-centro-mulheres-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Recife",
+   "conv": "Não informado",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Grupo Portal de Notícias/Brasil de Fato — agenda em PE",
+     "u": "https://grupoportaldenoticias.com.br/manifestacoes-em-defesa-da-democracia-e-da-campanha-de-lula-mobilizam-cidades-de-pernambuco/"
+    }
+   ],
+   "hora": "8h",
+   "lat": -8.0645,
+   "local": "“Mulheres com Lula”, concentração na Praça do Diário",
+   "lon": -34.8775,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261017-recife-praca-do-diario"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Rio do Sul",
+   "conv": "Apoiadores de Lula (agenda “Hoje tem 13”)",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    }
+   ],
+   "hora": "9h",
+   "lat": -27.214,
+   "local": "Praça Ermembergo Pellizzetti",
+   "lon": -49.643,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261017-rio-do-sul-praca-ermembergo-pellizzetti"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "São Bernardo do Campo",
+   "conv": "Não informado",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "11h",
+   "lat": -23.7097,
+   "local": "Caminhada pela democracia, saída da Praça da Matriz",
+   "lon": -46.5493,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261017-sao-bernardo-do-campo-praca-da-matriz"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Coalizão Negra por Direitos, Central de Movimentos Populares e outras iniciativas; com Alckmin, Haddad e Tebet",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — caminhada em Heliópolis reúne Alckmin, Haddad e Tebet",
+     "u": "https://www.brasildefato.com.br/2026/10/17/caminhada-pro-lula-na-comunidade-de-heliopolis-em-sao-paulo-reune-alckmin-haddad-e-tebet/"
+    },
+    {
+     "t": "Periferia em Movimento — agenda de atos nas periferias de SP",
+     "u": "https://periferiaemmovimento.com.br/atosperiferias16102026/"
+    }
+   ],
+   "hora": "manhã (concentração às 10h)",
+   "lat": -23.608,
+   "local": "“Heliópolis com Lula”: caminhada pelas ruas de Heliópolis (concentração na Estrada das Lágrimas, 1595)",
+   "lon": -46.596,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261017-sao-paulo-heliopolis-estrada-das-lagrimas"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Movimentos sociais e de educação da região",
+   "d": "2026-10-17",
+   "fontes": [
+    {
+     "t": "Periferia em Movimento — agenda de atos nas periferias de SP",
+     "u": "https://periferiaemmovimento.com.br/atosperiferias16102026/"
+    }
+   ],
+   "hora": "14h (concentração)",
+   "lat": -23.704,
+   "local": "Marcha “Em defesa do IF Jardim Ângela e pela democracia”: Sociedade Santos Mártires → terreno do câmpus (coordenada aproximada)",
+   "lon": -46.77,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261017-sao-paulo-jardim-angela-santos-martires"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Araguapaz",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -15.091,
+   "local": "Praça Central (coordenada aproximada)",
+   "lon": -50.632,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "GO",
+   "id": "20261018-araguapaz-praca-central"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Araguari",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -18.647,
+   "local": "Praça do Céu Moriá (coordenada aproximada)",
+   "lon": -48.187,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-araguari-praca-do-ceu-moria"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Araçatuba",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "9h (agenda)",
+   "lat": -21.208,
+   "local": "Praça 500 Anos (coordenada aproximada)",
+   "lon": -50.433,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-aracatuba-praca-500-anos"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Atalaia",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h30 (agenda)",
+   "lat": -9.505,
+   "local": "Em frente à Pousada Atalaia (coordenada aproximada)",
+   "lon": -36.023,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "AL",
+   "id": "20261018-atalaia-em-frente-a-pousada-atalaia"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Balneário Camboriú",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    },
+    {
+     "t": "Brasil de Fato — agenda de atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -26.9935,
+   "local": "Praça Almirante Tamandaré, Centro",
+   "lon": -48.6345,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261018-balneario-camboriu-praca-almirante-tamandare"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Bauru",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.327,
+   "local": "Avenida Nações Unidas",
+   "lon": -49.07,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-bauru-avenida-nacoes-unidas"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Belo Horizonte",
+   "conv": "Estudantes e movimentos sociais (convocação nas redes)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Estado de Minas — manifestação leva multidão ao Centro de BH",
+     "u": "https://www.em.com.br/politica/2026/10/7522926-manifestacao-em-apoio-a-lula-leva-multidao-as-ruas-do-centro-de-bh.html"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "a partir das 11h",
+   "lat": -19.917,
+   "local": "“Ato da Virada”: Praça da Estação → Praça Raul Soares",
+   "lon": -43.9345,
+   "pub": "milhares",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-belo-horizonte-praca-da-estacao-raul-soares"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Belém",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    },
+    {
+     "t": "Brasil de Fato — agenda de atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -1.4655,
+   "local": "Portal da Amazônia, às margens da Baía do Guajará (com Arrastão do Pavulagem)",
+   "lon": -48.4985,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PA",
+   "id": "20261018-belem-portal-da-amazonia"
+  },
+  {
+   "atualizadoEm": "2026-10-13T22:50:00-03:00",
+   "cidade": "Bertioga",
+   "conv": "Apoiadores de Lula (agenda “Hoje tem 13”)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    }
+   ],
+   "hora": "14h",
+   "lat": -23.8545,
+   "local": "Praça dos Emancipadores",
+   "lon": -46.139,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-bertioga-praca-dos-emancipadores"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Blumenau",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Mesorregional — manifestação pró-Lula volta a reunir apoiadores em Blumenau",
+     "u": "https://mesorregional.com.br/manifestacao-pro-lula-volta-a-reunir-apoiadores-no-centro-de-blumenau"
+    },
+    {
+     "t": "Jornal Razão — drone mostra ato pró-Lula em Blumenau",
+     "u": "https://jornalrazao.com/politica/drone-ato-pro-lula-blumenau-semana-segundo-turno"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -26.915,
+   "local": "Praça dos Estudantes, junto ao Parque Vila Germânica (Centro)",
+   "lon": -49.0845,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261018-blumenau-praca-dos-estudantes"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Brasília",
+   "conv": "PT (iniciativa “Bora Virar”) e grupos de esquerda",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Piauí Hoje — Ato da Virada reúne 200 mil em Brasília",
+     "u": "https://piauihoje.com/noticias/politica/ato-da-virada-reune-200-mil-apoiadores-de-lula-no-centro-em-brasilia-468630.html"
+    },
+    {
+     "t": "GC+ — ato pró-Lula em Brasília",
+     "u": "https://gcmais.com.br/noticias/2026/10/18/ato-pro-lula-reune-apoiadores-em-brasilia-a-uma-semana-do-2-turno"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "9h (concentração); chegada ao Congresso por volta de 12h",
+   "lat": -15.7967,
+   "local": "“Ato da Virada”: concentração no Museu Nacional da República, caminhada pela Esplanada até o Congresso Nacional",
+   "lon": -47.878,
+   "pub": "cerca de 200 mil",
+   "pubFonte": "organizadores (a SSP-DF não faz estimativa)",
+   "s": "R",
+   "t": "M",
+   "uf": "DF",
+   "id": "20261018-brasilia-museu-nacional-da-republica-esplanada-congresso"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Cabo Frio",
+   "conv": "Não informado (participaram o Bloco Alternativo Resistência e movimentos sociais)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "RC24H — caminhada cultural em apoio a Lula na Praia do Forte",
+     "u": "https://rc24h.com.br/caminhada-cultural-em-apoio-a-lula-reune-participantes-na-praia-do-forte-em-cabo-frio/"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "15h (concentração); saída às 16h",
+   "lat": -22.8803,
+   "local": "Caminhada cultural: Praça da Cidadania (Teatro Municipal) → orla da Praia do Forte",
+   "lon": -42.0186,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261018-cabo-frio-praca-da-cidadania-praia-do-forte"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Cacoal",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -11.4386,
+   "local": "Praça Municipal (coordenada aproximada)",
+   "lon": -61.4472,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RO",
+   "id": "20261018-cacoal-praca-municipal"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Campo Grande",
+   "conv": "PT, com apoio da CUT (organização: ver. Jean Ferreira)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Campo Grande News — apoiadores ocupam a Afonso Pena",
+     "u": "https://www.campograndenews.com.br/politica/apoiadores-de-lula-fazem-passeata-pela-avenida-afonso-pena"
+    }
+   ],
+   "hora": "por volta das 10h",
+   "lat": -20.4593,
+   "local": "“Ato da Virada”: Praça do Rádio Clube → Av. Afonso Pena, Rua 14 de Julho e Rua Barão do Rio Branco",
+   "lon": -54.6093,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "MS",
+   "id": "20261018-campo-grande-praca-do-radio-clube-afonso-pena"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Catanduva",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -21.138,
+   "local": "Em frente à Prefeitura (coordenada aproximada)",
+   "lon": -48.973,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-catanduva-em-frente-a-prefeitura"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Caçapava",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "9h (agenda)",
+   "lat": -23.101,
+   "local": "Mercado Municipal (coordenada aproximada)",
+   "lon": -45.707,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-cacapava-mercado-municipal"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Chapecó",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -27.1,
+   "local": "Praça Central (Praça Coronel Bertaso)",
+   "lon": -52.615,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261018-chapeco-praca-central-praca-coronel-bertaso"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Cuiabá",
+   "conv": "Estudantes, movimentos sociais e partidos de esquerda",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "RDNews — políticos e apoiadores de Lula fazem ato",
+     "u": "https://rdnews.com.br/eleicoes-2026/politicos-e-apoiadores-de-lula-fazem-ato-e-disparam-virada-aconteceu-video/250881"
+    },
+    {
+     "t": "Isso É Notícia — ato com 5 mil pessoas em Cuiabá",
+     "u": "https://www.issoenoticia.com.br/politica-e-poder/ludio-projeta-virada-de-lula-contra-bolsonaro-em-ato-com-5-mil-pessoas-em-cuiaba/932254"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "fim da tarde (17h na agenda)",
+   "lat": -15.6033,
+   "local": "“Convoque Mato Grosso”, na entrada da Arena Pantanal",
+   "lon": -56.1212,
+   "pub": "milhares (manchete do Isso É Notícia fala em 5 mil)",
+   "pubFonte": "imprensa (sem atribuição)",
+   "s": "R",
+   "t": "M",
+   "uf": "MT",
+   "id": "20261018-cuiaba-arena-pantanal"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Curitiba",
+   "conv": "Estudantes, torcidas, sindicatos, movimentos populares e partidos (“Bora Virar”)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Bem Paraná — Curitiba reúne multidão em ato pró-Lula",
+     "u": "https://www.bemparana.com.br/eleicoes-2026/ato-lula-curitiba/"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "13h (concentração)",
+   "lat": -25.4245,
+   "local": "“Caminhada por um Brasil soberano”: Praça 19 de Dezembro → Av. Cândido de Abreu → Centro Cívico/Palácio Iguaçu",
+   "lon": -49.269,
+   "pub": "multidão (sem número)",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "PR",
+   "id": "20261018-curitiba-praca-19-de-dezembro-centro-civico"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Florianópolis",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "por volta das 11h",
+   "lat": -27.5966,
+   "local": "“Bora Virar”: Centro (Escadaria Valda Costa) → Catedral Metropolitana",
+   "lon": -48.549,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261018-florianopolis-centro-catedral-metropolitana"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Artistas do Ceará",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "GC+ — Fafá de Belém declara voto em ato em Fortaleza",
+     "u": "https://gcmais.com.br/noticias/2026/10/18/fafa-de-belem-declara-voto-em-lula-durante-ato-em-fortaleza"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -3.7445,
+   "local": "Ato com artistas no Parque do Cocó (com Fafá de Belém)",
+   "lon": -38.4862,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261018-fortaleza-parque-do-coco"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Franca",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "11h",
+   "lat": -20.539,
+   "local": "Caminhada, Praça Barão",
+   "lon": -47.401,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-franca-praca-barao"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Goiânia",
+   "conv": "PT",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "GYN Notícias — público estimado em 80 mil, diz organização",
+     "u": "https://www.gynnoticias.com.br/politica/ato-pro-lula-em-goiania-tem-publico-estimado-em-80-mil-diz-organizacao/5131"
+    },
+    {
+     "t": "O Popular — apoiadores na Praça Tamandaré",
+     "u": "https://opopular.com.br/politica/apoiadores-se-reunem-na-praca-tamandare-em-ato-pro-lula-e-dizem-acreditar-na-virada-nas-urnas-1.3469837"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -16.6795,
+   "local": "“Ato da Virada”: Praça Tamandaré (Setor Oeste) → Praça do Sol",
+   "lon": -49.27,
+   "pub": "80 mil",
+   "pubFonte": "organização",
+   "s": "R",
+   "t": "M",
+   "uf": "GO",
+   "id": "20261018-goiania-praca-tamandare"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Guajará-Mirim",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -10.783,
+   "local": "Praça Celeste (coordenada aproximada)",
+   "lon": -65.338,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RO",
+   "id": "20261018-guajara-mirim-praca-celeste"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Indaiatuba",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "13h (agenda)",
+   "lat": -23.09,
+   "local": "Figueira do Parque Ecológico (coordenada aproximada)",
+   "lon": -47.218,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-indaiatuba-figueira-do-parque-ecologico"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Itabirito",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "10h (agenda)",
+   "lat": -20.253,
+   "local": "Praça 1º de Maio (coordenada aproximada)",
+   "lon": -43.801,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-itabirito-praca-1o-de-maio"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Itanhaém",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -24.183,
+   "local": "Ladeira do Centro (coordenada aproximada)",
+   "lon": -46.789,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-itanhaem-ladeira-do-centro"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Jacareí",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "14h (agenda)",
+   "lat": -23.305,
+   "local": "Parque da Cidade (coordenada aproximada)",
+   "lon": -45.965,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-jacarei-parque-da-cidade"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Jardim",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "17h (agenda)",
+   "lat": -7.58,
+   "local": "Praça do Estádio Municipal (coordenada aproximada)",
+   "lon": -39.285,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261018-jardim-praca-do-estadio-municipal"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Ji-Paraná",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -10.878,
+   "local": "Praça dos Migrantes (coordenada aproximada)",
+   "lon": -61.942,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RO",
+   "id": "20261018-ji-parana-praca-dos-migrantes"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "João Pessoa",
+   "conv": "Não informado (presença da dep. Cida Ramos, PT)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "por volta das 15h",
+   "lat": -7.1755,
+   "local": "Concentração no Mercado Público de Mangabeira",
+   "lon": -34.8385,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PB",
+   "id": "20261018-joao-pessoa-mercado-publico-de-mangabeira"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Juiz de Fora",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "10h (agenda)",
+   "lat": -21.777,
+   "local": "UFJF",
+   "lon": -43.37,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-juiz-de-fora-ufjf"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Leopoldina",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "18h (agenda)",
+   "lat": -21.532,
+   "local": "Praça do Ginásio (coordenada aproximada)",
+   "lon": -42.643,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-leopoldina-praca-do-ginasio"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Macapá",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "17h (agenda)",
+   "lat": -0.0005,
+   "local": "Praça do Meio do Mundo (Marco Zero do Equador)",
+   "lon": -51.082,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "AP",
+   "id": "20261018-macapa-praca-do-meio-do-mundo-marco-zero-do-equador"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Macaé",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "13h (agenda)",
+   "lat": -22.393,
+   "local": "Praia dos Cavaleiros (Placa de Hollywood)",
+   "lon": -41.779,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261018-macae-praia-dos-cavaleiros-placa-de-hollywood"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Maceió",
+   "conv": "PT (segundo a convocação)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    },
+    {
+     "t": "BNC Amazonas — balanço da virada (18/10)",
+     "u": "https://bncamazonas.com.br/poder/de-copacabana-ao-gigantes-da-floresta-virada-de-lula-arrasta-multidao/"
+    }
+   ],
+   "hora": "manhã (9h na agenda)",
+   "lat": -9.6475,
+   "local": "Corredor Vera Arruda",
+   "lon": -35.711,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "AL",
+   "id": "20261018-maceio-corredor-vera-arruda"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Manaus",
+   "conv": "Omar Aziz (PSD), Eduardo Braga (MDB) e Marcelo Ramos (PT)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "BNC Amazonas — balanço da virada (18/10)",
+     "u": "https://bncamazonas.com.br/poder/de-copacabana-ao-gigantes-da-floresta-virada-de-lula-arrasta-multidao/"
+    },
+    {
+     "t": "Brasil de Fato — agenda de atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "A partir das 16h",
+   "lat": -3.044,
+   "local": "Parque Gigantes da Floresta (Zona Leste), junto ao “Vira Vira Lula”",
+   "lon": -59.933,
+   "pub": "Não informado (sem estimativa oficial)",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "AM",
+   "id": "20261018-manaus-parque-gigantes-da-floresta"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Maringá",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    },
+    {
+     "t": "GMC Online — caminhada por Lula em Maringá",
+     "u": "https://gmconline.com.br/noticias/politica/carreata-pro-flavio-bolsonaro-e-caminhada-por-lula-movimentam-maringa-no-final-de-semana/"
+    }
+   ],
+   "hora": "14h",
+   "lat": -23.417,
+   "local": "“Grande Ato da Virada”: concentração no Estádio Willie Davids e caminhada com trio elétrico",
+   "lon": -51.933,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PR",
+   "id": "20261018-maringa-estadio-willie-davids"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Marília",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "14h (agenda)",
+   "lat": -22.214,
+   "local": "Em frente à Prefeitura, junto à Parada da Diversidade (coordenada aproximada)",
+   "lon": -49.946,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-marilia-em-frente-a-prefeitura-junto-a-parada-da-diversidade"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Matão",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "18h (agenda)",
+   "lat": -21.603,
+   "local": "“Rap na Alta pela Democracia”, pista de skate do Parque Ecológico (coordenada aproximada)",
+   "lon": -48.365,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-matao-rap-na-alta-pela-democracia-pista-de-skate-do-parque-ecologico"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Miguel Pereira",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "11h (agenda)",
+   "lat": -22.454,
+   "local": "Praça do Chafariz, Grawatá (coordenada aproximada)",
+   "lon": -43.469,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261018-miguel-pereira-praca-do-chafariz-grawata"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Mossoró",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -5.188,
+   "local": "Avenida Rio Branco",
+   "lon": -37.344,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RN",
+   "id": "20261018-mossoro-avenida-rio-branco"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Natal",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "manhã",
+   "lat": -5.7887,
+   "local": "Passeata da Praça das Flores (Petrópolis) até a estátua de Iemanjá, Praia do Meio, pela Av. Café Filho",
+   "lon": -35.199,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RN",
+   "id": "20261018-natal-praca-das-flores-praia-do-meio"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Olinda",
+   "conv": "Bloco da Vitória (mais de 100 agremiações anunciadas)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Grupo Portal de Notícias/Brasil de Fato — agenda em PE",
+     "u": "https://grupoportaldenoticias.com.br/manifestacoes-em-defesa-da-democracia-e-da-campanha-de-lula-mobilizam-cidades-de-pernambuco/"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "14h13",
+   "lat": -8.014,
+   "local": "“Bloco da Vitória”, concentração na Praça do Carmo",
+   "lon": -34.8505,
+   "pub": "Não informado",
+   "pubFonte": "Organização diz que mais de 90 agremiações aderiram",
+   "s": "R",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261018-olinda-praca-do-carmo"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Parauapebas",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -6.067,
+   "local": "Concha acústica (coordenada aproximada)",
+   "lon": -49.903,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PA",
+   "id": "20261018-parauapebas-concha-acustica"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Parnaíba",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -2.905,
+   "local": "Quadrilódromo (coordenada aproximada)",
+   "lon": -41.776,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PI",
+   "id": "20261018-parnaiba-quadrilodromo"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Patos de Minas",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "17h (agenda)",
+   "lat": -18.579,
+   "local": "Praça do Coreto (coordenada aproximada)",
+   "lon": -46.518,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-patos-de-minas-praca-do-coreto"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Paudalho",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h13 (agenda)",
+   "lat": -7.896,
+   "local": "Entrada da cidade (coordenada aproximada)",
+   "lon": -35.18,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261018-paudalho-entrada-da-cidade"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Porto Alegre",
+   "conv": "Movimentos sociais e sindicais, parlamentares; participação do Cultura com Lula",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — multidão em ato em Porto Alegre",
+     "u": "https://www.brasildefato.com.br/2026/10/19/multidao-participa-de-ato-pela-democracia-e-pela-reeleicao-de-lula-em-porto-alegre/"
+    },
+    {
+     "t": "O Sul — caminhada em apoio a Lula",
+     "u": "https://www.osul.com.br/porto-alegre-tem-caminhada-e-manifestacao-em-apoio-a-candidatura-de-lula/"
+    }
+   ],
+   "hora": "manhã; ato musical à tarde",
+   "lat": -30.0418,
+   "local": "Largo Zumbi dos Palmares → Parque da Redenção (Ato Musical pela Democracia)",
+   "lon": -51.2208,
+   "pub": "milhares",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "RS",
+   "id": "20261018-porto-alegre-largo-zumbi-dos-palmares-redencao"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Porto Seguro",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "11h (agenda)",
+   "lat": -16.808,
+   "local": "Caraíva, Praça da Igreja (coordenada aproximada)",
+   "lon": -39.144,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "BA",
+   "id": "20261018-porto-seguro-caraiva-praca-da-igreja"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Porto Velho",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "16h (agenda)",
+   "lat": -8.7612,
+   "local": "Praça das Caixas d’Água",
+   "lon": -63.9047,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RO",
+   "id": "20261018-porto-velho-praca-das-caixas-dagua"
+  },
+  {
+   "atualizadoEm": "2026-10-14T21:55:00-03:00",
+   "cidade": "Presidente Prudente",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    }
+   ],
+   "hora": "9h",
+   "lat": -22.121,
+   "local": "Ato antifascista, Parque do Povo (pista de skate)",
+   "lon": -51.395,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-presidente-prudente-parque-do-povo-pista-de-skate"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Raposos",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "9h (agenda)",
+   "lat": -19.967,
+   "local": "“Carna Lula”, Praça São Pedro (coordenada aproximada)",
+   "lon": -43.804,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-raposos-carna-lula-praca-sao-pedro"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Recife",
+   "conv": "Movimentos sociais; lideranças do PT, PSB e PSOL",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Blog Brito — ato no Marco Zero",
+     "u": "https://www.blogbrito.com/post/ato-no-marco-zero-re%C3%BAne-apoiadores-de-lula-em-defesa-da-democracia-e-da-soberania-nacional"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "11h (agenda)",
+   "lat": -8.0631,
+   "local": "Praça do Marco Zero (Bairro do Recife), com trio elétrico",
+   "lon": -34.8711,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261018-recife-marco-zero"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Ribeirão Preto",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "18h30 (agenda)",
+   "lat": -21.183,
+   "local": "Praça 7 de Setembro (coordenada aproximada)",
+   "lon": -47.8,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-ribeirao-preto-praca-7-de-setembro"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Rio Branco",
+   "conv": "Mobilização nacional “Brasil nas Ruas” (divulgação Brasil Fora da Caverna; Mídia Ninja e 342 Artes)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "ac24horas — ato em Rio Branco reúne manifestantes",
+     "u": "https://ac24horas.com/2026/10/18/ato-em-rio-branco-reune-manifestantes-em-mobilizacao-nacional-ligada-a-virada-de-lula"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "16h (agenda); seguiu à noite",
+   "lat": -9.9747,
+   "local": "Praça da Revolução, Centro",
+   "lon": -67.81,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "AC",
+   "id": "20261018-rio-branco-praca-da-revolucao"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Rio Verde",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h30 (agenda)",
+   "lat": -17.796,
+   "local": "Praça dos Coqueiros (coordenada aproximada)",
+   "lon": -50.923,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "GO",
+   "id": "20261018-rio-verde-praca-dos-coqueiros"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "UNE (“Estudantes com Lula”), estudantes e movimentos sociais",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    },
+    {
+     "t": "Mídia NINJA — Estudantes com Lula, Candelária à Cinelândia",
+     "u": "https://midianinja.org/ato-estudantes-com-lula-reune-1-milhao-de-pessoas-segundo-organizadores-da-candelaria-a-cinelandia/"
+    },
+    {
+     "t": "Metrópoles — milhares na Candelária",
+     "u": "https://www.metropoles.com/brasil/ato-pro-lula-reune-milhares-de-estudantes-e-apoiadores-na-candelaria-no-rj"
+    }
+   ],
+   "hora": "11h",
+   "lat": -22.901,
+   "local": "“Estudantes com Lula”: Candelária → Cinelândia (com Chico Buarque)",
+   "lon": -43.1777,
+   "pub": "cerca de 1 milhão",
+   "pubFonte": "organizadores (UNE)",
+   "s": "R",
+   "t": "E",
+   "uf": "RJ",
+   "id": "20261018-rio-de-janeiro-candelaria"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Convocação de Caetano Veloso; organização 342 Artes, Mídia NINJA e entidades estudantis",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Vermelho — agenda de novos atos (14/10)",
+     "u": "https://vermelho.org.br/2026/10/14/de-norte-a-sul-novos-atos-pro-lula-movimentam-a-reta-final-da-eleicao/"
+    },
+    {
+     "t": "Estado de Minas — Caetano convoca ato no Rio",
+     "u": "https://www.em.com.br/politica/2026/10/7520425-caetano-convoca-ato-no-rio-no-mesmo-dia-de-manifestacao-de-flavio-em-sp.html"
+    },
+    {
+     "t": "SBT News — ato pró-Lula lota Copacabana",
+     "u": "https://sbtnews.sbt.com.br/noticia/politica/com-caetano-e-varios-artistas-ato-pro-lula-lota-copacabana"
+    },
+    {
+     "t": "BNC Amazonas — balanço da virada (18/10)",
+     "u": "https://bncamazonas.com.br/poder/de-copacabana-ao-gigantes-da-floresta-virada-de-lula-arrasta-multidao/"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "por volta das 16h15",
+   "lat": -22.9785,
+   "local": "“Ato Musical pela Democracia”, Posto 5 de Copacabana (ocupou cerca de 1 km da Av. Atlântica)",
+   "lon": -43.189,
+   "pub": "milhares; cerca de 1 km da orla ocupado",
+   "pubFonte": "imprensa (Folha de S.Paulo, extensão ocupada)",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261018-rio-de-janeiro-copacabana-posto-5"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "CNN Brasil — atos pró-Lula neste domingo (18)",
+     "u": "https://www.cnnbrasil.com.br/eleicoes/manifestantes-se-reunem-em-atos-pro-lula-neste-domingo-18/"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.8728,
+   "local": "Mobilização no Viaduto de Madureira",
+   "lon": -43.3375,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261018-rio-de-janeiro-viaduto-de-madureira"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Salvador",
+   "conv": "Idealizado por Daniela Mercury; com Gilberto Gil, Liniker, Zélia Duncan, BaianaSystem e blocos afro",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Tribuna do Sertão — multidão em Salvador com Gil e Daniela",
+     "u": "https://tribunadosertao.com.br/politica/2026/10/18/999986-multidao-toma-salvador-em-ato-pro-lula-com-gil-e-daniela-mercury-veja-video"
+    },
+    {
+     "t": "Brasil 247 — atos reúnem multidões (18/10)",
+     "u": "https://www.brasil247.com/brasil/atos-pro-lula-reunem-multidoes-em-varias-cidades-do-pais-neste-domingo-videos/"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "por volta das 14h",
+   "lat": -13.0086,
+   "local": "“Ato pela Democracia”: concentração na Av. Oceânica (Morro do Cristo/Clube Espanhol), caminhada de Ondina ao Farol da Barra",
+   "lon": -38.5243,
+   "pub": "milhares",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "BA",
+   "id": "20261018-salvador-ondina-farol-da-barra"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Santa Cruz do Sul",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -29.717,
+   "local": "Praça do Skate (coordenada aproximada)",
+   "lon": -52.426,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RS",
+   "id": "20261018-santa-cruz-do-sul-praca-do-skate"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Santarém",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "18h (agenda)",
+   "lat": -2.4198,
+   "local": "Praça da Matriz",
+   "lon": -54.7105,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PA",
+   "id": "20261018-santarem-praca-da-matriz"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Sinop",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "11h (agenda)",
+   "lat": -11.864,
+   "local": "Praça da Bíblia (coordenada aproximada)",
+   "lon": -55.504,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MT",
+   "id": "20261018-sinop-praca-da-biblia"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Sorocaba",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Portal Porque — passeata pró-Lula agita as ruas de Sorocaba",
+     "u": "https://portalporque.com.br/sorocaba-regiao/passeata-pro-lula-agita-as-ruas-de-sorocaba-manga-viaja-ate-a-paulista-para-apoiar-flavio"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "por volta das 15h",
+   "lat": -23.5016,
+   "local": "Passeata da Praça da Bandeira até a Praça Frei Baraúna (Feira do Beco do Inferno)",
+   "lon": -47.4583,
+   "pub": "centenas",
+   "pubFonte": "imprensa (Portal Porque)",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sorocaba-praca-da-bandeira-frei-barauna"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São José do Rio Preto",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h (agenda)",
+   "lat": -20.816,
+   "local": "Em frente à Prefeitura (coordenada aproximada)",
+   "lon": -49.379,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-jose-do-rio-preto-em-frente-a-prefeitura"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São José dos Campos",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "9h (agenda)",
+   "lat": -23.215,
+   "local": "Feira do Colonial (coordenada aproximada)",
+   "lon": -45.87,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-jose-dos-campos-feira-do-colonial"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São João del-Rei",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "13h (agenda)",
+   "lat": -21.136,
+   "local": "Praça da Estalagem (coordenada aproximada)",
+   "lon": -44.261,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-sao-joao-del-rei-praca-da-estalagem"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São João do Cariri",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "18h (agenda)",
+   "lat": -7.382,
+   "local": "Praça do Chapéu (coordenada aproximada)",
+   "lon": -36.532,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PB",
+   "id": "20261018-sao-joao-do-cariri-praca-do-chapeu"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São Luís",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "11h (agenda)",
+   "lat": -2.558,
+   "local": "Em frente à UFMA",
+   "lon": -44.308,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "MA",
+   "id": "20261018-sao-luis-em-frente-a-ufma"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Frentes Brasil Popular e Povo Sem Medo, com a UNE; Emicida, Karol Conká, Rashid",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — atos nas periferias de SP (18/10)",
+     "u": "https://www.brasildefato.com.br/2026/10/16/atos-em-apoio-a-lula-levam-musica-e-mobilizacao-politica-as-periferias-de-sp-no-domingo-18-veja-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "15h",
+   "lat": -23.467,
+   "local": "“O Rap Convoca”: Centro Cultural da Juventude, Av. Dep. Emílio Carlos, 3.641 (Vila Nova Cachoeirinha)",
+   "lon": -46.674,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-paulo-ccj-vila-nova-cachoeirinha-o-rap-convoca"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Frente Povo Sem Medo, Frente Brasil Popular, UNE, MTST e MST",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Metrópoles — PT aposta em atos descentralizados",
+     "u": "https://www.metropoles.com/sao-paulo/flavio-ocupa-paulista-neste-domingo-pt-aposta-em-atos-descentralizados"
+    }
+   ],
+   "hora": "a partir das 15h",
+   "lat": -23.76,
+   "local": "“Bota pra Virar” no Grajaú: Rua Manuel Guilherme dos Reis, 500, com Pagode da 27 (coordenada aproximada)",
+   "lon": -46.695,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-paulo-grajau-rua-manuel-guilherme-dos-reis"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Frentes Brasil Popular e Povo Sem Medo, com a UNE",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — atos nas periferias de SP (18/10)",
+     "u": "https://www.brasildefato.com.br/2026/10/16/atos-em-apoio-a-lula-levam-musica-e-mobilizacao-politica-as-periferias-de-sp-no-domingo-18-veja-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — balanço dos atos de 18/10",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    },
+    {
+     "t": "BNC Amazonas — balanço da virada (18/10)",
+     "u": "https://bncamazonas.com.br/poder/de-copacabana-ao-gigantes-da-floresta-virada-de-lula-arrasta-multidao/"
+    }
+   ],
+   "hora": "a partir das 15h",
+   "lat": -23.553,
+   "local": "Praça Brasil, Av. Nagib Farah Maluf (Cohab 2, Itaquera)",
+   "lon": -46.458,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-paulo-itaquera-praca-brasil-cohab-2"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Torcedores corintianos",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Metrópoles — atos simultâneos em SP (18/10)",
+     "u": "https://www.metropoles.com/sao-paulo/bolsonaristas-agressao-atos-sp"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em 16 cidades (18/10)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-lula-enchem-pelo-menos-16-cidades-neste-domingo/"
+    }
+   ],
+   "hora": "17h",
+   "lat": -23.528,
+   "local": "“Marcha do Samba pela Democracia”, Largo da Banana (Barra Funda)",
+   "lon": -46.6625,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-paulo-largo-da-banana-barra-funda"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Movimento Revoluciona Brasil e apoiadores (sem apoio oficial do PT); presença de Boulos, Haddad e Marina Silva",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Terra — apoiadores de Lula no Largo da Batata",
+     "u": "https://www.terra.com.br/noticias/eleicoes/apoiadores-de-lula-se-reunem-em-ato-no-largo-da-batata-em-sao-paulo,562099d6f01190d333d3441e8141bcebq7jtit8f.html"
+    },
+    {
+     "t": "Metrópoles — atos simultâneos em SP (18/10)",
+     "u": "https://www.metropoles.com/sao-paulo/bolsonaristas-agressao-atos-sp"
+    },
+    {
+     "t": "BNC Amazonas — balanço da virada (18/10)",
+     "u": "https://bncamazonas.com.br/poder/de-copacabana-ao-gigantes-da-floresta-virada-de-lula-arrasta-multidao/"
+    }
+   ],
+   "hora": "manhã",
+   "lat": -23.5667,
+   "local": "Largo da Batata (Pinheiros)",
+   "lon": -46.6936,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-paulo-largo-da-batata"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Apoiadores de Lula (agenda “Hoje tem 13”)",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Vanity Brasil — agenda “Hoje tem 13”",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Metrópoles — ato no Anhangabaú cancelado",
+     "u": "https://www.metropoles.com/colunas/demetrio-vecchioli/ato-pro-lula-em-sp-e-cancelado-apos-veto-da-prefeitura-e-racha-na-esquerda"
+    }
+   ],
+   "hora": "11h",
+   "lat": -23.5455,
+   "local": "Vale do Anhangabaú — CANCELADO (atos transferidos ao Largo da Batata e às periferias)",
+   "lon": -46.6365,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-sao-paulo-vale-do-anhangabau"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Taubaté",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "11h (agenda)",
+   "lat": -23.026,
+   "local": "Praça Dom Epaminondas",
+   "lon": -45.556,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261018-taubate-praca-dom-epaminondas"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Teresina",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "11h (agenda)",
+   "lat": -5.057,
+   "local": "“Corre com Lula”, encontro no Pórtico da UFPI",
+   "lon": -42.797,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PI",
+   "id": "20261018-teresina-portico-da-ufpi-corre-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Uberaba",
+   "conv": "Estudantes e movimentos populares",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Jornal da Manhã — ato pró-Lula reúne multidão em Uberaba",
+     "u": "https://www.jmonline.com.br/politica/ato-pro-lula-reune-multid-o-em-uberaba-e-apoiadores-pro-flavio-fazem-adesivacos-1.676038"
+    },
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    }
+   ],
+   "hora": "14h30 (agenda)",
+   "lat": -19.7487,
+   "local": "Mercado Municipal → Av. Leopoldino de Oliveira e Av. Fidelis Reis → Concha Acústica",
+   "lon": -47.9318,
+   "pub": "mais de 5 mil",
+   "pubFonte": "organizadores",
+   "s": "R",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261018-uberaba-mercado-municipal-concha-acustica"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Vitória",
+   "conv": "Ato unificado; um dos atos organizado pelo DCE da Ufes; lideranças do PT",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "A Gazeta — como foi o ato pró-Lula em Vitória",
+     "u": "https://www.agazeta.com.br/es/politica/verde-amarelo-e-vermelho-veja-como-foi-ato-pro-lula-em-vitoria-1026"
+    },
+    {
+     "t": "Sim Notícias — multidão toma as ruas de Vitória",
+     "u": "https://simnoticias.com.br/eleicoes/multidao-toma-ruas-de-vitoria-em-ato-de-apoio-a-lula/"
+    }
+   ],
+   "hora": "15h; marcha às 16h35",
+   "lat": -20.3152,
+   "local": "“Bora Lula”: concentração em frente à Assembleia Legislativa (Enseada do Suá), marcha pela Av. Américo Buaiz até a Praça do Papa",
+   "lon": -40.2925,
+   "pub": "multidão (sem número)",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "M",
+   "uf": "ES",
+   "id": "20261018-vitoria-assembleia-legislativa-praca-do-papa"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Volta Redonda",
+   "conv": "Não informado",
+   "d": "2026-10-18",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — agenda dos atos de 18/10",
+     "u": "https://www.brasildefato.com.br/2026/10/18/atos-pro-lula-se-espalham-por-todo-o-brasil-neste-domingo-18-confira-agenda/"
+    },
+    {
+     "t": "Mídia NINJA — atos pró-Lula em todo o país (18/10)",
+     "u": "https://midianinja.org/apoiadores-de-lula-ocupam-ruas-de-capitais-e-cidades-de-todo-o-brasil-neste-domingo-18/"
+    }
+   ],
+   "hora": "10h (agenda)",
+   "lat": -22.511,
+   "local": "Praça Juarez Antunes",
+   "lon": -44.095,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261018-volta-redonda-praca-juarez-antunes"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Leo Suricate (PSOL), com Erika Hilton; governador Elmano de Freitas e prefeito Evandro Leitão (PT)",
+   "d": "2026-10-19",
+   "fontes": [
+    {
+     "t": "O Povo — Erika Hilton em ato na Parangaba",
+     "u": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/17/erika-hilton-participara-de-ato-em-fortaleza-na-proxima-segunda-feira-anuncia-leo-suricate.html"
+    },
+    {
+     "t": "Diário do Nordeste — Erika Hilton em Fortaleza",
+     "u": "https://diariodonordeste.verdesmares.com.br/pontopoder/em-fortaleza-erika-hilton-diz-que-o-brasil-nao-quer-mais-quatro-anos-de-governo-bolsonaro-1.3799781"
+    },
+    {
+     "t": "O Povo — agenda da última semana no CE",
+     "u": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/18/ultima-semana-de-campanha-no-ceara-tera-atos-de-flavio-bolsonaro-e-aliados-de-lula-veja-agenda.html"
+    }
+   ],
+   "hora": "18h13 (concentração); caminhada às 19h13",
+   "lat": -3.776,
+   "local": "“Baile do 13”: Praça dos Caboclos → Praça da Lagoa da Parangaba",
+   "lon": -38.564,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/opovo/status/2112353690673717575",
+     "credito": "O Povo"
+    }
+   ],
+   "pub": "“Multidão”",
+   "pubFonte": "Imprensa e relatos com vídeo no X; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261019-fortaleza-parangaba-baile-do-13"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Agenda “Fortaleza Vai de Lula” (iniciativa da vereadora Mari Lacerda)",
+   "d": "2026-10-19",
+   "fontes": [
+    {
+     "t": "Fortaleza Vai de Lula — agenda",
+     "u": "https://fortalezavaidelula.lovable.app/"
+    }
+   ],
+   "hora": "19h",
+   "lat": -3.7125,
+   "local": "CANCELADO nesta data — caminhada pelo Pirambu (Areninha do Pirambu) aparece remarcada para 21/10 na agenda",
+   "lon": -38.5535,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261019-fortaleza-pirambu-areninha"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Nova Iguaçu",
+   "conv": "Sindicato dos Comerciários de Nova Iguaçu e Região (segundo a agenda)",
+   "d": "2026-10-19",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Post no X — agenda Mobilização Antifascista",
+     "u": "https://x.com/iMobilizando/status/2112355047052886212"
+    }
+   ],
+   "hora": "Tarde",
+   "lat": -22.759,
+   "local": "Praça Rui Barbosa, Centro",
+   "lon": -43.4512,
+   "pub": "Não informado",
+   "pubFonte": "Fonte: redes sociais (relato no X); a agenda do perfil Mobilização Antifascista cita caminhada pelo fim da escala 6x1 no mesmo local",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261019-nova-iguacu-praca-rui-barbosa"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Porto Alegre",
+   "conv": "Campanha Lula no RS (coord. Edegar Pretto); PT, PDT, PSOL",
+   "d": "2026-10-19",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — em Porto Alegre, Lula cobra Flávio",
+     "u": "https://www.brasildefato.com.br/2026/10/19/em-porto-alegre-lula-diz-que-abrira-sigilos-dele-e-da-familia-e-cobra-o-mesmo-de-flavio-bolsonaro/"
+    },
+    {
+     "t": "Rádio Com — ato no Largo Glênio Peres",
+     "u": "https://radiocom.org.br/2026/10/19/lula-faz-ato-de-campanha-nesta-segunda-no-largo-glenio-peres-em-porto-alegre"
+    },
+    {
+     "t": "ABC+ — trajeto de Lula em Porto Alegre",
+     "u": "https://www.abcmais.com/politica/confira-o-trajeto-que-sera-percorrido-por-lula-durante-ato-de-campanha-em-porto-alegre/"
+    }
+   ],
+   "hora": "16h (concentração); Lula por volta das 17h",
+   "lat": -30.0367,
+   "local": "Caminhada com Lula: Largo dos Açorianos → Av. Borges de Medeiros → Largo Glênio Peres (Centro Histórico)",
+   "lon": -51.2287,
+   "pub": "multidão (sem número)",
+   "pubFonte": "imprensa (sem número)",
+   "s": "R",
+   "t": "L",
+   "uf": "RS",
+   "id": "20261019-porto-alegre-lula-largo-dos-acorianos-glenio-peres"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "São Bernardo do Campo",
+   "conv": "PT e aliados; Geraldo Alckmin, Haddad e Marina Silva",
+   "d": "2026-10-19",
+   "fontes": [
+    {
+     "t": "ABCD Jornal — Alckmin lidera caminhada em São Bernardo",
+     "u": "https://abcdjornal.com.br/sao-bernardo/noticia/2026/10/19/alckmin-lidera-caminhada-do-pt-e-aliados-pelo-centro-de-sao-bernardo-na-reta-final-do-2o-turno/"
+    },
+    {
+     "t": "DGABC — Lula não participa de caminhada",
+     "u": "https://www.dgabc.com.br/Noticia/4353544/lula-nao-participa-de-caminhada-nesta-segunda-19-em-sao-bernardo"
+    }
+   ],
+   "hora": "16h",
+   "lat": -23.7005,
+   "local": "Caminhada do Sindicato dos Metalúrgicos do ABC pela Rua Marechal Deodoro até a Praça da Matriz (sem Lula; liderada por Alckmin)",
+   "lon": -46.5535,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261019-sao-bernardo-do-campo-sindicato-dos-metalurgicos-rua-marechal-deodoro"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Teresina",
+   "conv": "Apoiadores de Lula; com o ministro Wellington Dias e o vice-governador eleito Washington Bandeira",
+   "d": "2026-10-19",
+   "fontes": [
+    {
+     "t": "Lupa1 — multidão em Teresina no Dia do Piauí",
+     "u": "https://lupa1.com.br/noticias/politica/ato-pro-lula-reune-multidao-em-caminhada-por-teresina-no-dia-do-piaui-78190.html"
+    },
+    {
+     "t": "GP1 — caminhada no Dia do Piauí",
+     "u": "https://www.gp1.com.br/politica/noticia/2026/10/19/apoiadores-de-lula-realizam-caminhada-no-dia-do-piaui-em-teresina-634268.html"
+    },
+    {
+     "t": "O Dia — caminhada em Teresina",
+     "u": "https://portalodia.com/noticias/piaui/manifestantes-realizam-caminhada-em-apoio-a-lula-no-dia-do-piaui-em-teresina-467101.html"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -5.0835,
+   "local": "Caminhada no Dia do Piauí: Assembleia Legislativa (Av. Marechal Castelo Branco) → Ponte JK → Av. Raul Lopes",
+   "lon": -42.7955,
+   "pub": "“Multidão”",
+   "pubFonte": "Imprensa (Lupa1), sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PI",
+   "id": "20261019-teresina-alepi-ponte-jk-raul-lopes"
+  },
+  {
+   "atualizadoEm": "2026-10-19T23:30:00-03:00",
+   "cidade": "Belford Roxo",
+   "conv": "Agenda Mobilização Antifascista (convocação no X)",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Post no X — agenda Mobilização Antifascista",
+     "u": "https://x.com/iMobilizando/status/2112355047052886212"
+    }
+   ],
+   "hora": "16h",
+   "lat": -22.764,
+   "local": "“Belford Roxo com Lula em defesa do IFRJ”, em frente à Prefeitura (Av. Joaquim da Costa Lima)",
+   "lon": -43.399,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261020-belford-roxo-prefeitura"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Agenda “Fortaleza Vai de Lula”",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Fortaleza Vai de Lula — agenda",
+     "u": "https://fortalezavaidelula.lovable.app/"
+    }
+   ],
+   "hora": "17h13",
+   "lat": -3.8,
+   "local": "“Caminhada do 13” pelo Parque Santana, Loteamento São Mateus e C3, concentração na Lagoa da Libânia (coordenada aproximada)",
+   "lon": -38.59,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261020-fortaleza-lagoa-da-libania-caminhada-do-13"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Goiânia",
+   "conv": "PT e organização das mobilizações pró-Lula em Goiás",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Transmissão Política — agenda de atos pró-Lula em Goiás",
+     "u": "https://transmissaopolitica.com.br/cidades/2026/10/19/atos-pro-lula-goias-agenda-horarios-locais/"
+    }
+   ],
+   "hora": "18h",
+   "lat": -16.68,
+   "local": "Ato cultural “Artistas pela Democracia”, Praça Universitária",
+   "lon": -49.242,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "GO",
+   "id": "20261020-goiania-praca-universitaria-artistas-pela-democracia"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "João Pessoa",
+   "conv": "Senador Veneziano Vital do Rêgo e aliados; com Erika Hilton, Ricardo Coutinho e Cida Ramos (PT-PB)",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Post no X — convocação do senador Veneziano",
+     "u": "https://x.com/venezianovital/status/2112328759902712020"
+    },
+    {
+     "t": "Jornal da Paraíba — evento com Erika Hilton reúne multidão",
+     "u": "https://jornaldaparaiba.com.br/politica/conversa-politica/evento-lula-erika-hilton-joao-pessoa-multidao-ponto-de-cem-reis"
+    },
+    {
+     "t": "Polêmica Paraíba — ato reúne apoiadores no Centro",
+     "u": "https://www.polemicaparaiba.com.br/politica/ato-em-apoio-a-reeleicao-de-lula-reune-apoiadores-no-centro-de-joao-pessoa/"
+    }
+   ],
+   "hora": "A partir das 17h13",
+   "lat": -7.1195,
+   "local": "“Refundar o Brasil: ato da virada com a juventude”, Ponto de Cem Réis, Centro",
+   "lon": -34.8822,
+   "pub": "multidão (sem número)",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PB",
+   "id": "20261020-joao-pessoa-ponto-de-cem-reis"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Juazeiro",
+   "conv": "PT de Juazeiro e Petrolina; convocação do PT-PE (Carlos Veras)",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Preto no Branco — programação da caminhada Juazeiro–Petrolina",
+     "u": "https://pretonobranco.org/2026/10/19/lula-pt-participa-de-caminhada-entre-juazeiro-e-petrolina-nesta-terca-feira-20-confira-programacao/"
+    },
+    {
+     "t": "Folha PE — agenda de Lula em Petrolina",
+     "u": "https://www.folhape.com.br/colunistas/blogdafolha/confirmada-agenda-de-lula-em-pernambuco-ato-em-petrolina-sera-na-terca-20/60513/"
+    },
+    {
+     "t": "Tribuna do Sertão — mar vermelho por Lula toma a ponte",
+     "u": "https://www.tribunadosertao.com.br/politica/2026/10/20/1001738-mar-vermelho-por-lula-toma-ponte-entre-petrolina-e-juazeiro-veja-video"
+    },
+    {
+     "t": "Brasil de Fato — Lula promove ato em Petrolina",
+     "u": "https://www.brasildefato.com.br/2026/10/20/lula-promove-ato-em-petrolina-municipio-pernambucano-onde-ele-mais-perdeu-votos-nesta-eleicao/"
+    },
+    {
+     "t": "bahia.ba — caminhada entre Bahia e Pernambuco",
+     "u": "https://bahia.ba/politica/lula-reune-liderancas-politicas-em-caminhada-entre-bahia-e-pernambuco/"
+    }
+   ],
+   "hora": "14h (concentração); saída às 16h",
+   "lat": -9.4085,
+   "local": "Caminhada com Lula: Orla II de Juazeiro → Ponte Presidente Dutra → Petrolina (Av. Guararapes)",
+   "lon": -40.5035,
+   "pub": "multidão (sem número)",
+   "pubFonte": "",
+   "s": "R",
+   "t": "L",
+   "uf": "BA",
+   "id": "20261020-juazeiro-lula-orla-ii-ponte-presidente-dutra-petrolina"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Maceió",
+   "conv": "Estudantes secundaristas, com Sintietfal, UNE e Adufal",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "BR104 — estudantes organizam ato em defesa de Lula",
+     "u": "https://www.br104.com.br/alagoas/cidades/caminhada-estudantil-educacao-maceio"
+    },
+    {
+     "t": "082 Notícias — milhares fazem caminhada em apoio a Lula em Maceió",
+     "u": "https://082noticias.com/politica/milhares-de-estudantes-e-trabalhadores-da-educacao-fazem-caminhada-em-apoio-a-lula-em-maceio/"
+    },
+    {
+     "t": "Tribuna Hoje — movimento estudantil do Ifal faz caminhada",
+     "u": "https://tribunahoje.com/blogs/2026/10/20/11516-movimento-estudantil-do-ifal-realiza-caminhada-a-favor-do-presidente-lula"
+    }
+   ],
+   "hora": "14h (concentração); saída às 15h",
+   "lat": -9.664,
+   "local": "Caminhada estudantil: campus Maceió do Ifal (Poço) → Praça Dom Pedro II (Centro)",
+   "lon": -35.727,
+   "pub": "milhares",
+   "pubFonte": "imprensa (082 Notícias, sem atribuição)",
+   "s": "R",
+   "t": "E",
+   "uf": "AL",
+   "id": "20261020-maceio-ifal-praca-dom-pedro-ii"
+  },
+  {
+   "atualizadoEm": "2026-10-14T00:10:00-03:00",
+   "cidade": "Matão",
+   "conv": "Apoiadores de Lula da região (convocação no X)",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "A partir das 17h",
+   "lat": -21.6033,
+   "local": "Local não informado (convocação regional: Araraquara, Taquaritinga, Jaboticabal e vizinhas)",
+   "lon": -48.3658,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261020-matao-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "São Luís",
+   "conv": "Campanha Lula no MA; com Carlos Brandão, Sônia Guajajara, João Campos e Edinho Silva",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Imirante — horário e percurso da caminhada de Lula",
+     "u": "https://imirante.com/noticias/sao-luis/2026/10/16/ipolitica-lula-luis-veja-horario-percurso-caminhada"
+    },
+    {
+     "t": "CNN Brasil — último giro de campanha",
+     "u": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-fazem-ultimo-giro-de-campanha-e-travam-disputa-de-atos-de-rua/"
+    },
+    {
+     "t": "Hora do Povo — Lula reúne multidão em São Luís",
+     "u": "https://horadopovo.com.br/lula-reune-multidao-em-sao-luis-e-volta-a-desafiar-flavio-tenha-coragem-de-abrir-o-sigilo-bancario/"
+    },
+    {
+     "t": "Imirante — Lula faz caminhada no Centro de São Luís",
+     "u": "https://m.imirante.com/noticias/sao-luis/2026/10/20/ipolitica-lula-faz-caminhada-centro-luis"
+    },
+    {
+     "t": "Poder360 — ao vivo: caminhada em São Luís",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-vivo-lula-participa-de-caminhada-em-sao-luis/"
+    }
+   ],
+   "hora": "8h (concentração); caminhada às 10h",
+   "lat": -2.53,
+   "local": "Caminhada com Lula: Largo do Carmo → Rua Magalhães de Almeida → Praia Grande → Terminal de Integração",
+   "lon": -44.3035,
+   "pub": "multidão (sem número)",
+   "pubFonte": "",
+   "s": "R",
+   "t": "L",
+   "uf": "MA",
+   "id": "20261020-sao-luis-lula-largo-do-carmo"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Belo Horizonte",
+   "conv": "Anunciada por Rogério Correia (PT-MG)",
+   "d": "2026-10-21",
+   "fontes": [
+    {
+     "t": "Metrópoles — Lula marca caminhada em BH",
+     "u": "https://www.metropoles.com/minas-gerais/lula-marca-caminhada-em-bh-nesta-quarta-21-10-veja-trajeto-e-horarios"
+    },
+    {
+     "t": "O Tempo — Lula fará caminhada pelo Centro de BH",
+     "u": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/20/lula-fara-caminhada-pelo-centro-de-belo-horizonte-nesta-quarta-feira-21"
+    },
+    {
+     "t": "Brasil de Fato — Lula volta a BH para ato",
+     "u": "https://www.brasildefato.com.br/2026/10/19/na-reta-final-do-2o-turno-presidente-lula-volta-a-bh-para-ato-nesta-quarta-feira-21/"
+    }
+   ],
+   "hora": "15h (concentração); Lula por volta das 17h",
+   "lat": -19.917,
+   "local": "Caminhada com Lula: Praça da Estação → Praça Raul Soares (Lula em caminhonete)",
+   "lon": -43.9345,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "L",
+   "uf": "MG",
+   "id": "20261021-belo-horizonte-lula-praca-da-estacao-raul-soares"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Agenda “Fortaleza Vai de Lula”",
+   "d": "2026-10-21",
+   "fontes": [
+    {
+     "t": "Fortaleza Vai de Lula — agenda",
+     "u": "https://fortalezavaidelula.lovable.app/"
+    }
+   ],
+   "hora": "17h13",
+   "lat": -3.79,
+   "local": "“Caminhada do Lula”, concentração no Detran (Maraponga)",
+   "lon": -38.566,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261021-fortaleza-maraponga-detran-caminhada"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Agenda “Fortaleza Vai de Lula”; com Léo Suricate, Mari Lacerda e Evandro Leitão",
+   "d": "2026-10-21",
+   "fontes": [
+    {
+     "t": "Fortaleza Vai de Lula — agenda",
+     "u": "https://fortalezavaidelula.lovable.app/"
+    }
+   ],
+   "hora": "18h13 (concentração); saída às 19h",
+   "lat": -3.7125,
+   "local": "“Baile do 13” no Pirambu: concentração na Areninha do Pirambu, saída às 19h, ato na Areninha do Atlântico",
+   "lon": -38.5535,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261021-fortaleza-pirambu-baile-do-13"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Vereador Gabriel Biologia (PSOL)",
+   "d": "2026-10-22",
+   "fontes": [
+    {
+     "t": "O Povo — agenda da última semana no Ceará",
+     "u": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/18/amp/ultima-semana-de-campanha-no-ceara-tera-atos-de-flavio-bolsonaro-e-aliados-de-lula-veja-agenda.html"
+    },
+    {
+     "t": "Fortaleza Vai de Lula — agenda",
+     "u": "https://fortalezavaidelula.lovable.app/"
+    }
+   ],
+   "hora": "18h13",
+   "lat": -3.733,
+   "local": "“Viradão do Lula — Ato pela Democracia”, Av. Dom Luís com Av. Virgílio Távora (em frente ao Posto Guararapes)",
+   "lon": -38.497,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261022-fortaleza-viradao-do-lula-dom-luis-virgilio-tavora"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Oeiras",
+   "conv": "Comissão de Apoio a Lula em Oeiras",
+   "d": "2026-10-22",
+   "fontes": [
+    {
+     "t": "Portal Integração — Oeiras recebe o “Corre com Lula”",
+     "u": "https://portalintegracao.com.br/oeiras-recebe-o-corre-com-lula-nesta-quinta-feira-22/"
+    }
+   ],
+   "hora": "a partir das 18h",
+   "lat": -7.025,
+   "local": "“Corre com Lula”: corrida e caminhada na Av. Rui Barbosa, próximo ao Morro do Leme (coordenada aproximada)",
+   "lon": -42.13,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "PI",
+   "id": "20261022-oeiras-av-rui-barbosa-corre-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Governador Elmano de Freitas e prefeito Evandro Leitão",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "O Povo — agenda da última semana no Ceará",
+     "u": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/18/amp/ultima-semana-de-campanha-no-ceara-tera-atos-de-flavio-bolsonaro-e-aliados-de-lula-veja-agenda.html"
+    },
+    {
+     "t": "Fortaleza Vai de Lula — agenda",
+     "u": "https://fortalezavaidelula.lovable.app/"
+    }
+   ],
+   "hora": "a partir das 16h",
+   "lat": -3.723,
+   "local": "“Ceará pela Democracia”, Praia de Iracema (Av. Historiador Raimundo Girão, próximo ao Ideal Clube); “Bloquinho do 13” às 17h13 na Estátua de Iracema",
+   "lon": -38.502,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261024-fortaleza-praia-de-iracema-ceara-pela-democracia"
+  },
+  {
+   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Artistas, parlamentares, movimentos sociais, estudantes e sindicatos (divulgação do Sindicato dos Bancários do Rio)",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Bancários Rio — grande ato em Copacabana no sábado (24/10)",
+     "u": "https://bancariosrio.org.br/grande-ato-de-apoio-a-lula-em-copacabana-sera-no-sabado-24-10-vespera-da-votacao/"
+    },
+    {
+     "t": "Metrópoles — Lula pode participar de atos no Rio e em SP",
+     "u": "https://www.metropoles.com/colunas/ramiro-brites/lula-rio-sao-paulo"
+    }
+   ],
+   "hora": "10h (concentração)",
+   "lat": -22.98,
+   "local": "Grande ato no Posto 5 de Copacabana (presença de Lula anunciada, não confirmada)",
+   "lon": -43.189,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261024-rio-de-janeiro-copacabana-posto-5"
+  },
+  {
+   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "cidade": "Vitória",
+   "conv": "Anunciado pela vereadora Karla Coser (PT)",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "A Gazeta — como foi o ato pró-Lula em Vitória (anúncio do dia 24)",
+     "u": "https://www.agazeta.com.br/es/politica/verde-amarelo-e-vermelho-veja-como-foi-ato-pro-lula-em-vitoria-1026"
+    }
+   ],
+   "hora": "15h",
+   "lat": -20.314,
+   "local": "Praça do Papa → Terceira Ponte",
+   "lon": -40.2895,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "C",
+   "t": "M",
+   "uf": "ES",
+   "id": "20261024-vitoria-praca-do-papa-terceira-ponte"
+  }
+ ]
+}

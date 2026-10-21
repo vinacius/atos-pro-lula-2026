@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Mapa e calendário dos atos de rua pró-Lula na eleição presidencial de 2026, com data, local, público estimado, convocadores e fontes.">
+<meta property="og:title" content="Atos pró-Lula nas ruas · 2026">
+<meta property="og:description" content="Mapa e calendário dos atos de rua pró-Lula na eleição de 2026, com fontes.">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<title>Atos pró-Lula nas ruas · 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap">
+<style>
+/* Layout: app de tela cheia — faixa de título vermelha, mapa à esquerda, painel de registros à direita (empilha no celular). Paleta do site do PT (2026). */
+:root{
+  --red:#e4142c; --red-deep:#b5121e; --ink:#202020; --sand:#e4ded2; --sand-2:#d8d3ca; --brown:#381d00;
+  --bg:#ffffff; --fg:#202020; --muted:#5f5850; --line:#e4ded2;
+  --land:#ece6db; --land-edge:#ffffff; --sea:#f6f3ee;
+  --c-lula:#e4142c; --c-est:#202020; --c-mov:#a8742a;
+  --panel:#faf8f4; --chip:#f1ece3; --halo:#ffffff;
+  --font-display:"Sofia Sans Extra Condensed","Arial Narrow",system-ui,sans-serif;
+  --font-body:"Asap",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141210; --fg:#f1ebe2; --muted:#a79e93; --line:#2e2a25;
+  --land:#2a2622; --land-edge:#141210; --sea:#181614;
+  --c-lula:#ff3a4f; --c-est:#f1e6d4; --c-mov:#d9a656;
+  --panel:#1b1916; --chip:#26221e; --halo:#141210; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141210; --fg:#f1ebe2; --muted:#a79e93; --line:#2e2a25;
+  --land:#2a2622; --land-edge:#141210; --sea:#181614;
+  --c-lula:#ff3a4f; --c-est:#f1e6d4; --c-mov:#d9a656;
+  --panel:#1b1916; --chip:#26221e; --halo:#141210; color-scheme:dark}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:14px;line-height:1.45}
+*{box-sizing:border-box}
+.app{display:flex;flex-direction:column;min-height:100%}
+header.band{background:var(--red);color:#fff;padding-block:14px;padding-inline:20px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 28px}
+.band h1{font-family:var(--font-display);font-weight:900;text-transform:uppercase;font-size:clamp(30px,5vw,52px);line-height:.88;margin:0;letter-spacing:.005em;text-wrap:balance}
+.band .sub{font-size:13px;opacity:.92;margin-top:6px}
+.stats{display:flex;gap:22px;flex-wrap:wrap}
+.stat b{display:block;font-family:var(--font-display);font-weight:800;font-size:34px;line-height:.9;font-variant-numeric:tabular-nums}
+.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;opacity:.9}
+main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 380px;min-height:0}
+.mapwrap{position:relative;background:var(--sea);min-height:540px;overflow:hidden}
+#map{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none}
+#map:active{cursor:grabbing}
+.state{fill:var(--land);stroke:var(--land-edge);stroke-width:1;vector-effect:non-scaling-stroke}
+.uf{font-family:var(--font-display);font-weight:700;fill:var(--muted);opacity:.55;pointer-events:none;text-anchor:middle;letter-spacing:.06em}
+.pt{cursor:pointer;transition:opacity .2s}
+.pt circle.dot{stroke:var(--halo);vector-effect:non-scaling-stroke}
+.pt.conv circle.dot{fill:var(--bg)!important;stroke-dasharray:3 2}
+.pt circle.ring{fill:none;stroke:none}
+.pt.sel circle.ring{stroke:var(--fg);vector-effect:non-scaling-stroke;stroke-width:2}
+.pt:not(.off):hover{opacity:1!important}
+.tools{position:absolute;left:12px;top:12px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;max-width:calc(100% - 64px);z-index:2}
+.regs{display:flex;flex-wrap:wrap;gap:6px}
+.viewsw{display:inline-flex;gap:2px;padding:2px;border:1px solid var(--line);border-radius:999px;background:var(--bg)}
+.tools .viewsw button{border:0;background:none;padding:6px 9px;display:grid;place-items:center;color:var(--fg)}
+.tools .viewsw button[aria-pressed="true"]{background:var(--red);color:#fff}
+.tools .viewsw button:hover{color:var(--red)}
+.tools .viewsw button[aria-pressed="true"]:hover{color:#fff}
+.mapwrap.cal-on{display:flex;flex-direction:column}
+.mapwrap.cal-on #map,.mapwrap.cal-on .regs,.mapwrap.cal-on .zoom,.mapwrap.cal-on .fade{display:none}
+.mapwrap.cal-on .legend{position:static;margin:0 12px 12px;display:flex;flex-wrap:wrap;gap:4px 14px;max-width:none}
+.mapwrap.cal-on .legend .t{width:100%}
+.cal{flex:1;min-height:0;overflow:auto;padding:60px 12px 12px}
+.cal-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 2px 8px}
+.cal-head h3{margin:0;font:900 26px/1 var(--font-display);text-transform:uppercase;letter-spacing:.01em}
+.cal-head span{font-size:12px;color:var(--muted)}
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.cal-dow{font:800 12px/1 var(--font-display);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:2px 6px 4px}
+.cell{border:1px solid var(--line);border-radius:8px;min-height:118px;padding:6px;display:flex;flex-direction:column;gap:4px;min-width:0;background:var(--bg)}
+.cell.out{background:transparent;border-style:dashed;opacity:.45}
+.cell.hoje{border:2px solid var(--fg)}
+.cell .hd{display:flex;justify-content:space-between;align-items:baseline;gap:4px}
+.cell .num{font:800 21px/1 var(--font-display);font-variant-numeric:tabular-nums}
+.cell .num small{font-size:12px;color:var(--muted);margin-left:3px;text-transform:uppercase;letter-spacing:.06em}
+.cell .cnt{font-size:11px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.marco{align-self:flex-start;font:700 10px/1.2 var(--font-body);text-transform:uppercase;letter-spacing:.06em;color:#fff;background:var(--red);border-radius:4px;padding:2px 5px}
+.marco.hj{background:var(--fg);color:var(--bg)}
+.chips{display:flex;flex-direction:column;gap:1px;min-width:0}
+.chip{display:flex;align-items:center;gap:5px;font:500 11.5px/1.25 var(--font-body);color:var(--fg);background:none;border:0;padding:2px 3px;border-radius:4px;text-align:left;cursor:pointer;min-width:0;width:100%}
+.chip .tx{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip .sw{width:9px;height:9px;border-width:1.5px}
+.chip[hidden]{display:none}
+.chip:hover{background:var(--chip)}
+.chip.sel{background:var(--chip);box-shadow:inset 0 0 0 1.5px var(--fg)}
+.more{font:600 11px/1 var(--font-body);color:var(--red);background:none;border:0;padding:3px;cursor:pointer;text-align:left}
+.tools button,.zoom button{font:600 12px/1 var(--font-body);background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:7px 11px;cursor:pointer}
+.tools button:hover,.zoom button:hover{border-color:var(--red);color:var(--red)}
+.tools button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+button:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.zoom{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:6px}
+.zoom button{width:34px;height:34px;padding:0;font-size:18px;border-radius:8px}
+.legend{position:absolute;left:12px;bottom:12px;background:color-mix(in srgb,var(--bg) 92%,transparent);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:5px;font-size:12px;max-width:calc(100% - 24px)}
+.legend .t{font:800 13px/1 var(--font-display);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:2px}
+.legend .t span{font:400 11px/1 var(--font-body);text-transform:none;letter-spacing:0}
+.lg{display:flex;align-items:center;gap:8px;font:inherit;color:var(--fg);background:none;border:1px solid transparent;border-radius:6px;padding:3px 6px;margin:0 -6px;text-align:left;cursor:pointer}
+.lg:hover{background:var(--chip)}
+.lg .n{margin-left:auto;padding-left:10px;color:var(--muted);font-variant-numeric:tabular-nums}
+.lg[aria-pressed="true"]{background:var(--chip);border-color:var(--fg);font-weight:600}
+.legend.filtrando .lg[aria-pressed="false"]{opacity:.45}
+.pt.off{pointer-events:none}
+.filtro{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:6px 20px 2px;padding:8px 10px;border-radius:8px;background:var(--chip);font-size:12.5px}
+.filtro button{font:600 12px/1 var(--font-body);background:none;border:0;color:var(--red);cursor:pointer;padding:4px}
+.sw{width:12px;height:12px;border-radius:50%;flex:none;border:2px solid transparent}
+.sw.hollow{background:var(--bg)!important;border-style:dashed}
+.fade{display:flex;align-items:center;gap:6px;color:var(--muted)}
+.fade i{display:block;width:60px;height:8px;border-radius:4px;background:linear-gradient(90deg,color-mix(in srgb,var(--c-lula) 40%,var(--sea)),var(--c-lula))}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);padding:7px 10px;border-radius:6px;font-size:12px;max-width:240px;transform:translate(-50%,calc(-100% - 12px));white-space:normal;z-index:5}
+.tip b{display:block;font-size:13px}
+aside{background:var(--panel);border-left:1px solid var(--line);display:flex;flex-direction:column;min-height:0;max-height:calc(100vh - 0px)}
+.detail{padding:18px 20px;border-bottom:1px solid var(--line)}
+.detail .eyebrow{font:800 13px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.detail h2{font-family:var(--font-display);font-weight:800;font-size:30px;line-height:.95;margin:6px 0 4px;text-transform:uppercase;text-wrap:balance}
+.detail .place{color:var(--muted);margin-bottom:12px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;padding:4px 8px;border-radius:999px;background:var(--chip);margin-right:4px}
+.pill .sw{width:9px;height:9px}
+dl{display:grid;grid-template-columns:96px minmax(0,1fr);gap:7px 12px;margin:14px 0 0;font-size:13px}
+dt{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
+dd{margin:0}
+.src a{color:var(--fg);text-decoration-color:var(--red);text-underline-offset:2px}
+.src{display:flex;flex-direction:column;gap:3px}
+.empty{color:var(--muted)}
+.list{overflow:auto;padding:6px 0 20px;flex:1}
+.day{position:sticky;top:0;background:var(--panel);padding:12px 20px 6px;font:800 15px/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;z-index:1}
+.row{display:grid;grid-template-columns:14px minmax(0,1fr);gap:10px;padding:7px 20px;cursor:pointer;border:0;background:none;width:100%;text-align:left;color:inherit;font:inherit}
+.row:hover,.row.sel{background:var(--chip)}
+.row .sw{margin-top:3px}
+.row .c{font-weight:600}
+.row .l{color:var(--muted);font-size:12.5px}
+.note{padding:12px 20px 0;color:var(--muted);font-size:12px}
+.upd{padding:14px 20px;border-bottom:1px solid var(--line);display:grid;gap:8px;background:var(--bg)}
+.upd .top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.upd .lbl{font:800 13px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.upd .st{font-size:12.5px;color:var(--muted);min-height:1.2em}
+.upd .st b{color:var(--fg);font-weight:600}
+.btn{font:700 13px/1 var(--font-body);background:var(--red);color:#fff;border:0;border-radius:999px;padding:10px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.btn:hover{background:var(--red-deep)}
+.btn:disabled{opacity:.55;cursor:default}
+.btn.ghost{background:none;color:var(--fg);border:1px solid var(--line)}
+.spin{width:10px;height:10px;border-radius:50%;border:2px solid currentColor;border-right-color:transparent;animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.pt.novo circle.dot{stroke:var(--fg);stroke-width:2}
+.detail{position:relative}
+.close{position:absolute;top:12px;right:14px;width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--fg);font:400 20px/1 var(--font-body);cursor:pointer;display:grid;place-items:center;padding:0}
+.close:hover{border-color:var(--red);color:var(--red)}
+.midia{margin-top:14px;display:grid;gap:8px}
+.midia h4,.up h4{margin:0;font:800 13px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:6px}
+.thumb{position:relative;padding:0;border:0;border-radius:8px;overflow:hidden;background:var(--chip);aspect-ratio:4/3;cursor:zoom-in;display:block;width:100%}
+.thumb img,.thumb video{width:100%;height:100%;object-fit:cover;display:block}
+.thumb .play{position:absolute;inset:auto auto 6px 6px;background:rgba(0,0,0,.65);color:#fff;border-radius:999px;padding:3px 7px;font:700 10px/1 var(--font-body);letter-spacing:.04em;text-transform:uppercase}
+.cred{font-size:11px;color:var(--muted);margin-top:2px}
+.postcard{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg);text-decoration:none;font-size:12.5px}
+.postcard:hover{border-color:var(--red)}
+.postcard svg{flex:none;color:var(--red)}
+.postcard .pc-t{font-weight:600}
+.postcard .pc-s{color:var(--muted);font-size:11.5px}
+.postcard .pc-go{margin-left:auto;color:var(--muted)}
+.up{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);display:grid;gap:8px}
+.up .row2{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.up input[type=text]{flex:1;min-width:140px;font:inherit;font-size:12.5px;padding:7px 9px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg)}
+.up input[type=file]{font-size:12px;max-width:100%}
+.up .msg{font-size:12px;color:var(--muted)}
+.btn.sm{padding:8px 12px;font-size:12px}
+.mi{display:inline-block;vertical-align:-1px;margin-left:6px;color:var(--muted)}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(10,8,6,.88);display:grid;place-items:center;padding:24px}
+.lb img,.lb video{max-width:min(1100px,100%);max-height:80vh;border-radius:6px;display:block}
+.lb figcaption{color:#eee;font-size:12.5px;margin-top:8px;text-align:center}
+.lb .close{position:fixed;top:16px;right:16px;background:#fff;color:#111}
+.detail h2{padding-right:36px}
+.badge{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--red);margin-left:6px}
+@media (max-width:860px){
+  main{grid-template-columns:1fr}
+  .mapwrap{min-height:0;height:auto}
+  #map{position:relative;height:58svh}
+  .legend{position:static;margin:0 16px 14px;max-width:none}
+  aside{border-left:0;border-top:1px solid var(--line);max-height:none}
+  .list{overflow:visible}
+  header.band{padding-inline:16px}
+  .detail,.day,.row,.note,.upd{padding-left:16px;padding-right:16px}
+  .legend{font-size:11px;padding:8px 10px}
+  .mapwrap.cal-on .legend{margin:0 16px 14px}
+  .cal{padding:56px 8px 10px}
+  .mapwrap.cal-on{min-height:0}
+}
+@media (max-width:640px){
+  .cell{min-height:64px;padding:4px;gap:3px}
+  .cell .num{font-size:16px}
+  .cell .num small,.cell .cnt{display:none}
+  .marco{font-size:8px;padding:1px 3px}
+  .chips{flex-direction:row;flex-wrap:wrap;gap:3px}
+  .chip{width:auto;padding:2px}
+  .chip .tx,.more{display:none}
+  .cal-grid{gap:3px}
+  .cal-dow{padding:2px 2px 4px;font-size:10px}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+
+<div class="app">
+  <header class="band">
+    <div>
+      <h1>Atos pró-Lula nas ruas</h1>
+      <div class="sub" id="sub">Acumulado desde 28 de setembro de 2026 · reta final do 1º turno e campanha do 2º turno</div>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+  <main>
+    <div class="mapwrap" id="mapwrap">
+      <svg id="map" role="img" aria-label="Mapa do Brasil com os atos pró-Lula registrados"></svg>
+      <div class="cal" id="cal" hidden></div>
+      <div class="tools" id="tools">
+        <div class="viewsw" role="group" aria-label="Modo de visualização">
+          <button id="vMap" aria-pressed="true" title="Mapa" aria-label="Ver mapa"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 6.5l6-3 6 3 6-3v14l-6 3-6-3-6 3z"/><path d="M9 3.5v14M15 6.5v14"/></svg></button>
+          <button id="vCal" aria-pressed="false" title="Calendário" aria-label="Ver calendário"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M7.5 14h2M11 14h2M14.5 14h2M7.5 17.5h2M11 17.5h2" stroke-linecap="round"/></svg></button>
+        </div>
+        <div class="regs" id="regs"></div>
+      </div>
+      <div class="zoom">
+        <button id="zin" aria-label="Aproximar">+</button>
+        <button id="zout" aria-label="Afastar">−</button>
+      </div>
+      <div class="legend">
+        <div class="t">Legenda <span>· clique para filtrar</span></div>
+        <button class="lg" data-f="L" aria-pressed="false"><span class="sw" style="background:var(--c-lula)"></span>Ato de campanha com Lula<span class="n"></span></button>
+        <button class="lg" data-f="E" aria-pressed="false"><span class="sw" style="background:var(--c-est)"></span>Ato estudantil<span class="n"></span></button>
+        <button class="lg" data-f="M" aria-pressed="false"><span class="sw" style="background:var(--c-mov)"></span>Comitês e movimentos<span class="n"></span></button>
+        <button class="lg" data-f="C" aria-pressed="false"><span class="sw hollow" style="border-color:var(--muted)"></span>Convocado, ainda sem confirmação<span class="n"></span></button>
+        <div class="fade"><span id="fadeA">28/09</span> <i></i> <span id="fadeB">hoje</span> · mais antigo, mais claro</div>
+      </div>
+      <div class="tip" id="tip" hidden></div>
+      <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Imagem ampliada"><button class="close" id="lbClose" aria-label="Fechar">×</button><figure style="margin:0" id="lbFig"></figure></div>
+    </div>
+    <aside>
+      <section class="upd" id="upd" aria-live="polite">
+        <div class="top"><span class="lbl">Atualização</span><button class="btn" id="btnBuscar" hidden>Buscar novos atos</button></div>
+        <div class="st" id="updst">Carregando os registros…</div>
+      </section>
+      <section class="detail" id="detail" aria-live="polite"></section>
+      <div class="list" id="list"></div>
+    </aside>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+let GEO = null;
+const REPO_URL = /\.github\.io$/.test(location.hostname) ? `https://github.com/${location.hostname.split(".")[0]}${location.pathname.split("/").slice(0,2).join("/")}` : "https://github.com/";
+const TRIGGER_ID = "trig_013f54a1vXELnVVYPDiZnZ5S";
+const REMOTE = "Claude Code Remote";
+
+const TIPO = {L:{nome:"Campanha com Lula",v:"--c-lula"},E:{nome:"Estudantil",v:"--c-est"},M:{nome:"Comitês e movimentos",v:"--c-mov"}};
+const STATUS = {R:"Realizado",C:"Convocado, sem confirmação"};
+const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+const DIAS=["dom","seg","ter","qua","qui","sex","sáb"];
+const pd = s=>{const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const fmtLong = s=>{const t=pd(s);return `${DIAS[t.getDay()]}, ${t.getDate()} de ${MESES[t.getMonth()]}`};
+const ddmm = s=>s.slice(8,10)+"/"+s.slice(5,7);
+const fmtTime = ms=>{const t=new Date(ms);return `${String(t.getDate()).padStart(2,"0")}/${String(t.getMonth()+1).padStart(2,"0")}, ${String(t.getHours()).padStart(2,"0")}h${String(t.getMinutes()).padStart(2,"0")}`};
+const esc = s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const safeUrl = u=>/^https?:\/\//i.test(u||"")?u:"#";
+
+let ATOS = [];          // [{id, ...doc}]
+let selId = null;
+let filtro = null;      // null = todos · "L" | "E" | "M" = tipo · "C" = convocados
+const FILTRO_NOME = {L:"atos de campanha com Lula",E:"atos estudantis",M:"comitês e movimentos",C:"convocados sem confirmação"};
+const passa = a => !filtro || (filtro==="C" ? a.s==="C" : a.t===filtro);
+const legend = document.querySelector(".legend");
+let lastStatus = null;
+let idsIniciais = null; // ids vistos no primeiro carregamento — o que chegar depois é marcado como novo
+let t0=0, t1=1;
+const recency = a => t1===t0?1:(pd(a.d).getTime()-t0)/(t1-t0);
+
+// ---------- mapa (estático: estados) ----------
+const svg = d3.select("#map");
+const gRoot = svg.append("g");
+const gLand = gRoot.append("g");
+const gLbl = gRoot.append("g");
+const gPts = gRoot.append("g");
+const projection = d3.geoMercator();
+const path = d3.geoPath(projection);
+let W=0,H=0,k=1;
+const radius = a => a.t==="L"?7.5:5.5;
+
+function layout(){
+  const r = svg.node().getBoundingClientRect(); W=r.width; H=r.height;
+  if(!W||!H||!GEO) return;
+  svg.attr("viewBox",`0 0 ${W} ${H}`);
+  const pad = Math.min(W,H)*0.06;
+  projection.fitExtent([[pad,pad+30],[W-pad,H-pad]],GEO);
+  gLand.selectAll("path").data(GEO.features).join("path").attr("class","state").attr("d",path);
+  gLbl.selectAll("text").data(GEO.features).join("text").attr("class","uf")
+    .attr("x",f=>path.centroid(f)[0]).attr("y",f=>path.centroid(f)[1]).text(f=>f.properties.sigla);
+  draw();
+}
+function draw(){
+  gPts.selectAll("g.pt").attr("transform",a=>{const [x,y]=projection([a.lon,a.lat]);return `translate(${x},${y}) scale(${1/k})`});
+  gLbl.selectAll("text").attr("font-size",13/k).style("display",k>9?"none":null);
+}
+const isNovo = a => idsIniciais && !idsIniciais.has(a.id);
+
+function renderPoints(){
+  const data=[...ATOS].sort((a,b)=>a.d.localeCompare(b.d));
+  const pts = gPts.selectAll("g.pt").data(data,a=>a.id).join(enter=>{
+    const g=enter.append("g").attr("tabindex",0).attr("role","button");
+    g.append("circle").attr("class","ring");
+    g.append("circle").attr("class","dot");
+    g.on("mousemove",(ev,a)=>showTip(a,ev)).on("mouseleave",hideTip)
+     .on("click",(ev,a)=>{ev.stopPropagation();select(a.id,false)})
+     .on("keydown",(ev,a)=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();select(a.id,false)}});
+    return g;
+  });
+  pts.attr("class",a=>"pt"+(a.s==="C"?" conv":"")+(a.id===selId?" sel":"")+(isNovo(a)?" novo":"")+(passa(a)?"":" off"))
+     .attr("aria-label",a=>`${a.cidade}, ${fmtLong(a.d)}: ${a.local}`)
+     .attr("tabindex",a=>passa(a)?0:-1)
+     .style("opacity",a=>passa(a)?(0.42+0.58*recency(a)).toFixed(2):"0.07");
+  pts.filter(passa).raise();
+  pts.select("circle.dot").attr("r",radius).attr("stroke-width",a=>a.s==="C"?2:1.4)
+     .style("fill",a=>`var(${(TIPO[a.t]||TIPO.M).v})`)
+     .style("stroke",a=>a.s==="C"?`var(${(TIPO[a.t]||TIPO.M).v})`:null);
+  pts.select("circle.ring").attr("r",a=>radius(a)+5);
+  pts.filter(a=>a.id===selId).raise();
+  draw();
+  if(modo==="cal") renderCal();
+}
+
+const zoom = d3.zoom().scaleExtent([1,60]).on("zoom",e=>{k=e.transform.k; gRoot.attr("transform",e.transform); draw(); hideTip();});
+svg.call(zoom).on("dblclick.zoom",null);
+document.getElementById("zin").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1.8);
+document.getElementById("zout").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1/1.8);
+function zoomTo([[w,s],[e,n]]){
+  const [x0,y0]=projection([w,n]), [x1,y1]=projection([e,s]);
+  const sc=Math.min(60,0.85/Math.max((x1-x0)/W,(y1-y0)/H));
+  svg.transition().duration(650).call(zoom.transform,d3.zoomIdentity.translate(W/2,H/2).scale(sc).translate(-(x0+x1)/2,-(y0+y1)/2));
+}
+const REGIOES=[["Brasil",null],["Rio e Niterói",[[-43.6,-23.02],[-43.08,-22.79]]],["São Paulo",[[-46.72,-23.58],[-46.62,-23.53]]],["Brasília",[[-48.15,-15.84],[-47.84,-15.74]]],["Recife",[[-34.97,-8.07],[-34.87,-8.03]]],["Salvador",[[-38.54,-13.02],[-38.36,-12.93]]]];
+const tools=document.getElementById("regs");
+REGIOES.forEach(([nome,box],i)=>{
+  const b=document.createElement("button"); b.id="reg-"+i; b.textContent=nome; b.setAttribute("aria-pressed",i===0?"true":"false");
+  b.onclick=()=>{tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");
+    if(!box) svg.transition().duration(650).call(zoom.transform,d3.zoomIdentity); else zoomTo(box);};
+  tools.appendChild(b);
+});
+
+// ---------- modos: mapa × calendário ----------
+let modo="map";
+const calEl=document.getElementById("cal"), vMap=document.getElementById("vMap"), vCal=document.getElementById("vCal");
+const abertos=new Set(); // dias com a lista expandida
+const MARCOS={"2026-10-04":"1º turno","2026-10-25":"2º turno"};
+const MAXCHIPS=5;
+const iso=t=>`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`;
+function setModo(m){
+  modo=m;
+  wrap.classList.toggle("cal-on",m==="cal"); calEl.hidden=m!=="cal";
+  vMap.setAttribute("aria-pressed",String(m==="map")); vCal.setAttribute("aria-pressed",String(m==="cal"));
+  hideTip();
+  if(m==="cal") renderCal(); else layout();
+  if(!selId) renderEmpty();
+  try{localStorage.setItem("atos-modo",m)}catch(e){}
+}
+vMap.onclick=()=>setModo("map"); vCal.onclick=()=>setModo("cal");
+function renderCal(){
+  if(modo!=="cal") return;
+  const ds=ATOS.map(a=>a.d).sort();
+  const ini=pd(ds.length&&ds[0]<"2026-09-28"?ds[0]:"2026-09-28");
+  const fimD=pd(ds.length&&ds[ds.length-1]>"2026-10-25"?ds[ds.length-1]:"2026-10-25");
+  const a0=new Date(ini); a0.setDate(a0.getDate()-((a0.getDay()+6)%7));       // segunda-feira
+  const a1=new Date(fimD); a1.setDate(a1.getDate()+(6-((a1.getDay()+6)%7)));  // domingo
+  const hoje=iso(new Date());
+  const porDia=d3.group(ATOS.filter(passa),a=>a.d);
+  const maxN=Math.max(1,...[...porDia.values()].map(v=>v.length));
+  let html=["seg","ter","qua","qui","sex","sáb","dom"].map(d=>`<div class="cal-dow">${d}</div>`).join("");
+  for(let t=new Date(a0);t<=a1;t.setDate(t.getDate()+1)){
+    const d=iso(t), arr=(porDia.get(d)||[]).sort((x,y)=>(x.t==="L"?0:1)-(y.t==="L"?0:1)||x.cidade.localeCompare(y.cidade));
+    const fora=d<"2026-09-28";
+    const tint=arr.length?Math.round(4+14*arr.length/maxN):0;
+    const mes=(t.getDate()===1||d===iso(a0))?`<small>${MESES[t.getMonth()]}</small>`:"";
+    const marco=MARCOS[d]?`<span class="marco">${MARCOS[d]}</span>`:(d===hoje?`<span class="marco hj">hoje</span>`:"");
+    const aberto=abertos.has(d), mostra=aberto?arr:arr.slice(0,MAXCHIPS);
+    html+=`<div class="cell${fora?" out":""}${d===hoje?" hoje":""}" data-d="${d}" style="${tint?`background:color-mix(in srgb,var(--red) ${tint}%,var(--bg))`:""}">
+      <div class="hd"><span class="num">${t.getDate()}${mes}</span>${arr.length?`<span class="cnt">${arr.length} ato${arr.length>1?"s":""}</span>`:""}</div>${marco}
+      <div class="chips">${arr.map((a,i)=>`<button class="chip${a.id===selId?" sel":""}" data-id="${esc(a.id)}" title="${esc(a.cidade+" · "+a.local)}"${!aberto&&i>=MAXCHIPS?' data-extra="1"':""}>${sw(a)}<span class="tx">${esc(a.cidade)}</span></button>`).join("")}</div>
+      ${arr.length>MAXCHIPS?`<button class="more" data-d="${d}">${aberto?"mostrar menos":`+${arr.length-MAXCHIPS} mais`}</button>`:""}
+    </div>`;
+  }
+  const nR=ATOS.filter(a=>passa(a)&&a.s==="R").length, nC=ATOS.filter(a=>passa(a)&&a.s==="C").length;
+  calEl.innerHTML=`<div class="cal-head"><h3>Set – out 2026</h3><span>${nR} realizados · ${nC} convocados${filtro?" · filtro: "+esc(FILTRO_NOME[filtro]):""}</span></div><div class="cal-grid">${html}</div>`;
+  // no desktop, esconde os excedentes até expandir; no celular aparecem todos como pontos
+  if(!window.matchMedia("(max-width:640px)").matches) calEl.querySelectorAll('.chip[data-extra]').forEach(c=>c.hidden=true);
+  calEl.querySelectorAll(".chip").forEach(c=>c.onclick=()=>select(c.dataset.id,false));
+  calEl.querySelectorAll(".more").forEach(b=>b.onclick=()=>{const d=b.dataset.d; abertos.has(d)?abertos.delete(d):abertos.add(d); renderCal();});
+}
+
+const tip=document.getElementById("tip"), wrap=document.getElementById("mapwrap");
+function showTip(a,ev){const r=wrap.getBoundingClientRect();tip.innerHTML=`<b>${esc(a.cidade)} · ${esc(fmtLong(a.d))}</b>${esc(a.local)}`;tip.style.left=(ev.clientX-r.left)+"px";tip.style.top=(ev.clientY-r.top)+"px";tip.hidden=false;}
+function hideTip(){tip.hidden=true}
+
+// ---------- painel ----------
+const detail=document.getElementById("detail"), list=document.getElementById("list");
+const sw=a=>`<span class="sw${a.s==="C"?" hollow":""}" style="background:var(${(TIPO[a.t]||TIPO.M).v});border-color:var(${(TIPO[a.t]||TIPO.M).v})"></span>`;
+function renderEmpty(){
+  detail.innerHTML=`<div class="eyebrow">Como ler · ${modo==="cal"?"calendário":"mapa"}</div>
+  ${modo==="cal"
+    ? `<p class="empty" style="margin:8px 0 0">Cada quadrado é um dia, de segunda a domingo, da reta final do 1º turno até o 2º turno (25/10). O número no canto conta os atos do dia, e o vermelho do fundo fica mais forte nos dias com mais atos. Os atos de campanha com Lula aparecem primeiro.</p>
+       <p class="empty" style="margin:8px 0 0">Clique num ato para ver data, horário, público estimado, convocadores e fontes. Contorno tracejado indica ato convocado, ainda sem confirmação. Os filtros da legenda também valem aqui.</p>`
+    : `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato de rua registrado em fontes públicas. Clique num ponto ou numa linha da lista para ver data, horário, público estimado, convocadores e fontes. Use os atalhos no topo do mapa para aproximar as capitais com mais atos. Pontos mais claros são atos mais antigos.</p>`}
+  <p class="empty" style="margin:8px 0 0">O público raramente tem contagem independente: quase todo número vem do PT ou dos organizadores, e isso aparece indicado em cada ato.</p>`;
+}
+function renderDetail(){
+  const a=ATOS.find(x=>x.id===selId); if(!a){renderEmpty();return;}
+  detail.innerHTML=`<button class="close" id="closeDet" aria-label="Fechar detalhes" title="Fechar detalhes">×</button><div class="eyebrow">${esc(fmtLong(a.d))} · ${ddmm(a.d)}</div>
+   <h2>${esc(a.cidade)} <span style="color:var(--muted)">${esc(a.uf)}</span></h2>
+   <div class="place">${esc(a.local)}</div>
+   <span class="pill">${sw(a)}${(TIPO[a.t]||TIPO.M).nome}</span><span class="pill">${STATUS[a.s]||""}</span>
+   ${midiaHTML(a)}
+   <dl>
+    <dt>Horário</dt><dd>${esc(a.hora)}</dd>
+    <dt>Público</dt><dd>${esc(a.pub)}${a.pubFonte?`<div class="empty" style="font-size:12px">${esc(a.pubFonte)}</div>`:""}</dd>
+    <dt>Convocadores</dt><dd>${esc(a.conv)}</dd>
+    <dt>Fontes</dt><dd class="src">${(a.fontes||[]).map(f=>f.u?`<a href="${esc(safeUrl(f.u))}" target="_blank" rel="noopener">${esc(f.t)}</a>`:`<span class="empty">${esc(f.t)}</span>`).join("")}</dd>
+   </dl>
+   ${ASSETS?uploaderHTML():""}`;
+  document.getElementById("closeDet").onclick=()=>deselect(true);
+  ligarMidia(a);
+}
+
+// ---------- imagens e vídeos ----------
+let ASSETS=null, DB=null, credDraft="";
+const ICON_IMG='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.8"/><path d="M21 16l-5-5-8 8"/></svg>';
+const ICON_MI='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-label="tem imagem ou vídeo"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M21 16l-5-5-8 8"/></svg>';
+const srcDe = m => m.asset ? "/_blob/"+encodeURIComponent(m.asset) : "";
+function midiaHTML(a){
+  const M=(a.midia||[]);
+  const hosp=M.filter(m=>m.asset), posts=M.filter(m=>!m.asset&&m.u);
+  if(!hosp.length&&!posts.length) return "";
+  return `<div class="midia"><h4>Imagens e vídeos</h4>
+    ${hosp.length?`<div class="galeria">${hosp.map((m,i)=>`<div><button class="thumb" data-i="${i}" aria-label="Ampliar ${m.tipo==="video"?"vídeo":"imagem"}">${m.tipo==="video"?`<video src="${esc(srcDe(m))}" muted preload="metadata"></video><span class="play">vídeo</span>`:`<img src="${esc(srcDe(m))}" alt="${esc(m.legenda||("Ato em "+a.cidade))}" loading="lazy">`}</button>${m.credito?`<div class="cred">${esc(m.credito)}</div>`:""}</div>`).join("")}</div>`:""}
+    ${posts.map(m=>`<blockquote class="twitter-tweet" data-dnt="true" data-lang="pt"><a class="postcard" href="${esc(safeUrl(m.u))}" target="_blank" rel="noopener">${ICON_IMG}<span><span class="pc-t">${esc(m.t||"Foto ou vídeo no X")}</span><br><span class="pc-s">${esc(m.credito||"post público")} · abre no X</span></span><span class="pc-go">↗</span></a></blockquote>`).join("")}
+  </div>`;
+}
+function uploaderHTML(){
+  return `<div class="up"><h4>Adicionar imagem ou vídeo</h4>
+    <input type="file" id="upFile" accept="image/*,video/*">
+    <div class="row2"><input type="text" id="upCred" placeholder="Crédito (ex.: Foto: Fulana / Agência Brasil)" value="${esc(credDraft)}"><button class="btn sm" id="upBtn">Enviar</button></div>
+    <div class="msg" id="upMsg">Use só imagens que você fez ou tem permissão para publicar, e informe o crédito.</div></div>`;
+}
+function abrirLB(m,a){
+  const fig=document.getElementById("lbFig");
+  fig.innerHTML=(m.tipo==="video"?`<video src="${esc(srcDe(m))}" controls autoplay></video>`:`<img src="${esc(srcDe(m))}" alt="${esc(m.legenda||("Ato em "+a.cidade))}">`)+`<figcaption>${esc(a.cidade)} · ${esc(fmtLong(a.d))}${m.credito?" · "+esc(m.credito):""}</figcaption>`;
+  document.getElementById("lb").hidden=false; document.getElementById("lbClose").focus();
+}
+function fecharLB(){const lb=document.getElementById("lb"); if(lb.hidden) return false; lb.hidden=true; document.getElementById("lbFig").innerHTML=""; return true;}
+document.getElementById("lbClose").onclick=fecharLB;
+document.getElementById("lb").addEventListener("click",e=>{if(e.target.id==="lb")fecharLB();});
+function ligarMidia(a){
+  if(detail.querySelector(".twitter-tweet")) carregarX().then(tw=>tw&&tw.widgets&&tw.widgets.load(detail)).catch(()=>{});
+  const hosp=(a.midia||[]).filter(m=>m.asset);
+  detail.querySelectorAll(".thumb").forEach(b=>b.onclick=()=>abrirLB(hosp[+b.dataset.i],a));
+  const btnUp=document.getElementById("upBtn"); if(!btnUp) return;
+  const cred=document.getElementById("upCred"), msg=document.getElementById("upMsg"), file=document.getElementById("upFile");
+  cred.oninput=()=>{credDraft=cred.value};
+  btnUp.onclick=async()=>{
+    const f=file.files&&file.files[0];
+    if(!f){msg.textContent="Escolha um arquivo de imagem ou vídeo.";return;}
+    if(!cred.value.trim()){msg.textContent="Informe o crédito da imagem antes de enviar.";cred.focus();return;}
+    btnUp.disabled=true; msg.textContent="Enviando…";
+    try{
+      const r=await ASSETS.upload(f);
+      const atual=ATOS.find(x=>x.id===a.id)||a;
+      const item={tipo:(r.contentType||f.type).startsWith("video")?"video":"foto",asset:r.id,credito:cred.value.trim(),enviadoEm:new Date().toISOString()};
+      await DB.doc("atos/"+a.id).update({midia:[...(atual.midia||[]).map(m=>({...m})),item]});
+      credDraft=""; msg.textContent="Enviado.";
+    }catch(e){
+      const c=e&&e.code;
+      msg.textContent = c==="unsupported_type"?"Esse tipo de arquivo não é aceito. Use JPG, PNG, WebP, GIF, MP4 ou WebM."
+        : c==="too_large"||c==="payload_too_large"?"Arquivo grande demais (limite de 20 MB)."
+        : c==="quota_exceeded"?"O espaço de arquivos deste mapa acabou. Remova arquivos antigos antes de enviar novos."
+        : c==="not_granted"?"Só quem pode editar o mapa envia arquivos."
+        : "Não foi possível enviar agora. Tente de novo em instantes.";
+      btnUp.disabled=false;
+    }
+  };
+}
+function select(id,fly){
+  selId=id; renderPoints(); renderDetail();
+  list.querySelectorAll(".row").forEach(r=>r.classList.toggle("sel",r.dataset.id===id));
+  const a=ATOS.find(x=>x.id===id);
+  if(fly&&a&&modo==="map"){const d=0.06;zoomTo([[a.lon-d,a.lat-d],[a.lon+d,a.lat+d]]);tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));}
+  if(fly&&a&&modo==="cal"){ if(!calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]:not([hidden])`)) {abertos.add(a.d); renderCal();}
+    const c=calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]`); if(c) c.scrollIntoView({block:"nearest",behavior:"smooth"}); }
+  if(!fly&&window.matchMedia("(max-width:860px)").matches) detail.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function deselect(focusList){
+  const prev=selId; selId=null; renderPoints(); renderEmpty();
+  list.querySelectorAll(".row").forEach(r=>r.classList.remove("sel"));
+  if(focusList&&prev){const r=[...list.querySelectorAll(".row")].find(x=>x.dataset.id===prev); if(r) r.focus({preventScroll:true});}
+}
+svg.on("click",()=>deselect(false));
+document.addEventListener("keydown",e=>{if(e.key!=="Escape")return; if(fecharLB())return; if(selId) deselect(true);});
+
+function renderList(){
+  const vis=ATOS.filter(passa);
+  const banner=filtro?`<div class="filtro"><span>Mostrando <b>${vis.length}</b> de ${ATOS.length}: ${esc(FILTRO_NOME[filtro])}</span><button id="limparFiltro">Mostrar todos</button></div>`:"";
+  const byDay=d3.groups(vis.sort((a,b)=>b.d.localeCompare(a.d)||a.cidade.localeCompare(b.cidade)),a=>a.d);
+  list.innerHTML=banner+byDay.map(([d,arr])=>`<div class="day"><span>${esc(fmtLong(d))}</span><span>${arr.length}</span></div>`+
+    arr.map(a=>`<button class="row${a.id===selId?" sel":""}" data-id="${esc(a.id)}">${sw(a)}<span><span class="c">${esc(a.cidade)} · ${esc(a.uf)}</span>${(a.midia||[]).length?`<span class="mi">${ICON_MI}</span>`:""}${isNovo(a)?'<span class="badge">novo</span>':""}<br><span class="l">${esc(a.local)}</span></span></button>`).join("")).join("")
+    +`<p class="note">Mapa independente, sem vínculo com partidos ou campanhas, mantido por Vinícius. Metodologia, fontes e correções: <a href="${esc(REPO_URL)}" target="_blank" rel="noopener">repositório no GitHub</a>.</p><p class="note">Atos citados só por estado, sem cidade ou local, ficam fora do mapa. Em 11/10 o Comitê Popular de Luta contou 156 ações em 76 cidades; aqui entram só as localizadas pela imprensa.</p>`;
+  list.querySelectorAll(".row").forEach(r=>r.onclick=()=>select(r.dataset.id,true));
+  const lf=document.getElementById("limparFiltro"); if(lf) lf.onclick=()=>setFiltro(filtro);
+  legend.querySelectorAll(".lg").forEach(b=>{const f=b.dataset.f;b.querySelector(".n").textContent=ATOS.filter(a=>f==="C"?a.s==="C":a.t===f).length;});
+}
+function renderStats(){
+  const cid=new Set(ATOS.map(a=>a.cidade+"/"+a.uf)), ufs=new Set(ATOS.map(a=>a.uf));
+  document.getElementById("stats").innerHTML=[[ATOS.length,"atos registrados"],[cid.size,"cidades"],[ufs.size,"UFs"],[ATOS.filter(a=>a.t==="L").length,"com Lula"]]
+    .map(([n,l])=>`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+  if(ATOS.length){
+    const ds=ATOS.map(a=>a.d).sort(); t0=pd(ds[0]).getTime(); t1=pd(ds[ds.length-1]).getTime();
+    document.getElementById("fadeA").textContent=ddmm(ds[0]); document.getElementById("fadeB").textContent=ddmm(ds[ds.length-1]);
+    const dr=ATOS.filter(a=>a.s==="R").map(a=>a.d).sort(); const fim=pd(dr.length?dr[dr.length-1]:ds[ds.length-1]);
+    document.getElementById("sub").textContent=`Acumulado de 28 de setembro a ${fim.getDate()} de ${["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"][fim.getMonth()]} de 2026 · reta final do 1º turno e campanha do 2º turno`;
+  }
+}
+function renderAll(){renderStats();renderPoints();renderList();if(selId)renderDetail();}
+
+// ---------- filtro pela legenda ----------
+function setFiltro(f){
+  filtro = (filtro===f) ? null : f;
+  legend.classList.toggle("filtrando",!!filtro);
+  legend.querySelectorAll(".lg").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.f===filtro)));
+  if(selId){const a=ATOS.find(x=>x.id===selId); if(a&&!passa(a)) deselect(false);}
+  renderPoints(); renderList();
+}
+legend.querySelectorAll(".lg").forEach(b=>b.onclick=()=>setFiltro(b.dataset.f));
+
+// ---------- atualização ----------
+const btn=document.getElementById("btnBuscar"), updst=document.getElementById("updst");
+const STALE=45*60*1000; // busca "presa" depois de 45 min
+let podeBuscar=false, enviando=false, errLocal="";
+function renderStatus(){
+  const s=lastStatus||{};
+  const buscando = s.state==="buscando" && s.requestedAt && (Date.now()-(s.startedAt||s.requestedAt))<STALE;
+  let html="";
+  if(errLocal) html=errLocal;
+  else if(buscando) html=`<b>Claude está pesquisando</b> (pedido às ${fmtTime(s.requestedAt).split(", ")[1]}). Os novos atos aparecem no mapa assim que forem gravados; leva alguns minutos.`;
+  else if(s.state==="ok") html=`Última busca: <b>${fmtTime(s.finishedAt)}</b> · ${s.added||0} novo${(s.added||0)===1?"":"s"}, ${s.updated||0} atualizado${(s.updated||0)===1?"":"s"}.${s.msg?" "+esc(s.msg):""}`;
+  else if(s.state==="erro") html=`A última busca falhou (${fmtTime(s.finishedAt||s.requestedAt)}): ${esc(s.msg||"sem detalhe")}.`;
+  else if(s.state==="buscando") html=`A busca pedida às ${fmtTime(s.requestedAt)} não respondeu. Você pode pedir de novo.`;
+  else html=ATOS.length?`${ATOS.length} atos no banco.`:"Carregando os registros…";
+  updst.innerHTML=html;
+  btn.hidden=!podeBuscar;
+  btn.disabled=buscando||enviando;
+  btn.innerHTML=(buscando||enviando)?'<span class="spin" aria-hidden="true"></span>Buscando…':"Buscar novos atos";
+}
+
+const MSG={
+  needs_reauth:"O conector Claude Code Remote precisa ser reconectado em Configurações → Conectores do claude.ai.",
+  server_not_connected:"Adicione o conector Claude Code Remote em Configurações → Conectores do claude.ai para usar este botão.",
+  selection_required:"Escolha qual conector Claude Code Remote usar no aviso do claude.ai e tente de novo.",
+  not_in_manifest:"O acesso ao Claude Code Remote foi recusado para esta página. Libere em Permissões do artefato.",
+  approval_required:"A busca precisa da sua aprovação. Clique de novo e aprove o pedido.",
+  blocked_by_policy:"A política da sua organização bloqueia esta ação.",
+  tool_error:"A tarefa agendada recusou o pedido",
+  server_unavailable:"O serviço não respondeu. A busca pode ter começado mesmo assim; aguarde alguns minutos antes de tentar de novo.",
+  upstream_error:"O serviço não respondeu. A busca pode ter começado mesmo assim; aguarde alguns minutos antes de tentar de novo.",
+};
+async function buscar(db,mcp){
+  if(enviando) return;
+  enviando=true; errLocal=""; renderStatus();
+  const statusRef=db.doc("meta/status");
+  const pedido={state:"buscando",requestedAt:Date.now(),startedAt:Date.now(),msg:"Pedido enviado pela página"};
+  try{ await statusRef.set({...(lastStatus||{}),...pedido}); }catch(e){ /* sem permissão de escrita: segue mesmo assim */ }
+  try{
+    await mcp.callTool(REMOTE,"fire_trigger",{trigger_id:TRIGGER_ID,text:"Pedido pelo botão da página em "+new Date().toISOString()});
+  }catch(e){
+    const code=e&&e.code;
+    errLocal=(MSG[code]||"Não foi possível iniciar a busca.")+(code==="tool_error"&&e.message?": "+esc(e.message):"");
+    const ambiguo = code==="server_unavailable"||code==="upstream_error";
+    if(!ambiguo){ try{ await statusRef.set({...(lastStatus||{}),state:"erro",finishedAt:Date.now(),msg:"o pedido não chegou à tarefa ("+(code||"erro")+")"}); }catch(_){} }
+  }
+  enviando=false; renderStatus();
+}
+
+// ---------- boot ----------
+renderEmpty(); renderStatus(); layout();
+try{ if(localStorage.getItem("atos-modo")==="cal") setModo("cal"); }catch(e){}
+new ResizeObserver(()=>layout()).observe(svg.node());
+
+let ATUALIZADO=null;
+
+function carregarX(){
+  if(window.__xp) return window.__xp;
+  window.__xp=new Promise((res,rej)=>{const sc=document.createElement("script");sc.src="https://platform.twitter.com/widgets.js";sc.async=true;sc.charset="utf-8";sc.onload=()=>res(window.twttr);sc.onerror=rej;document.head.appendChild(sc);});
+  return window.__xp;
+}
+renderStatus=function(){
+  if(!ATUALIZADO){return;}
+  const t=new Date(ATUALIZADO);
+  updst.innerHTML=`Dados atualizados em <b>${fmtTime(t.getTime())}</b> · ${ATOS.length} atos registrados. Atualização diária, feita manualmente.`;
+  btn.hidden=true;
+};
+(async()=>{
+  try{
+    const [g,dados]=await Promise.all([fetch("data/br-uf.json").then(r=>r.json()),fetch("data/atos.json",{cache:"no-cache"}).then(r=>r.json())]);
+    GEO=g; layout();
+    ATOS=(dados.atos||[]).filter(a=>a.d&&isFinite(a.lat)&&isFinite(a.lon));
+    ATUALIZADO=dados.atualizadoEm;
+    renderAll(); renderStatus();
+  }catch(e){ updst.textContent="Não foi possível carregar os dados agora. Recarregue a página."; }
+})();
+
+</script>
+
+</body>
+</html>
