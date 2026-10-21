@@ -61,10 +61,30 @@ main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 380px;min-height:0}
 .tools .viewsw button[aria-pressed="true"]{background:var(--red);color:#fff}
 .tools .viewsw button:hover{color:var(--red)}
 .tools .viewsw button[aria-pressed="true"]:hover{color:#fff}
-.mapwrap.cal-on{display:flex;flex-direction:column}
-.mapwrap.cal-on #map,.mapwrap.cal-on .regs,.mapwrap.cal-on .zoom,.mapwrap.cal-on .fade{display:none}
-.mapwrap.cal-on .legend{position:static;margin:0 12px 12px;display:flex;flex-wrap:wrap;gap:4px 14px;max-width:none}
-.mapwrap.cal-on .legend .t{width:100%}
+.mapwrap.cal-on,.mapwrap.tab-on{display:flex;flex-direction:column}
+.mapwrap.cal-on #map,.mapwrap.cal-on .regs,.mapwrap.cal-on .zoom,.mapwrap.cal-on .fade,
+.mapwrap.tab-on #map,.mapwrap.tab-on .regs,.mapwrap.tab-on .zoom,.mapwrap.tab-on .fade{display:none}
+.mapwrap.cal-on .legend,.mapwrap.tab-on .legend{position:static;margin:0 12px 12px;display:flex;flex-wrap:wrap;gap:4px 14px;max-width:none}
+.mapwrap.cal-on .legend .t,.mapwrap.tab-on .legend .t{width:100%}
+.tabv{flex:1;min-height:0;overflow:auto;padding:60px 12px 12px}
+.tabv .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.tabv table{border-collapse:collapse;width:100%;min-width:1080px;font-size:12.5px;line-height:1.4}
+.tabv th{position:sticky;top:0;background:var(--panel);text-align:left;font:800 12px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:10px 10px;border-bottom:1px solid var(--line);white-space:nowrap;z-index:1}
+.tabv th button{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;display:inline-flex;gap:4px;align-items:center}
+.tabv th button:hover,.tabv th[aria-sort]:not([aria-sort="none"]) button{color:var(--fg)}
+.tabv td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.tabv tbody tr{cursor:pointer}
+.tabv tbody tr:hover,.tabv tbody tr.sel{background:var(--chip)}
+.tabv tbody tr.sel td:first-child{box-shadow:inset 3px 0 0 var(--red)}
+.tabv tbody tr:last-child td{border-bottom:0}
+.tabv .dt{white-space:nowrap;font-variant-numeric:tabular-nums}
+.tabv .dt b{display:block;font-size:13px}
+.tabv .cid{font-weight:600;white-space:nowrap}
+.tabv .tp{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.tabv .sub2{color:var(--muted);font-size:11.5px;margin-top:2px}
+.tabv .fts{display:flex;flex-direction:column;gap:3px;min-width:170px}
+.tabv .fts a{color:var(--fg);text-decoration-color:var(--red);text-underline-offset:2px}
+.tabv .w-local{min-width:180px}.tabv .w-conv{min-width:170px}.tabv .w-hora{min-width:120px}.tabv .w-pub{min-width:130px}
 .cal{flex:1;min-height:0;overflow:auto;padding:60px 12px 12px}
 .cal-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 2px 8px}
 .cal-head h3{margin:0;font:900 26px/1 var(--font-display);text-transform:uppercase;letter-spacing:.01em}
@@ -125,6 +145,11 @@ dd{margin:0}
 .src{display:flex;flex-direction:column;gap:3px}
 .empty{color:var(--muted)}
 .list{overflow:auto;padding:6px 0 20px;flex:1}
+.abas{display:flex;gap:0;padding:0 20px;border-bottom:1px solid var(--line)}
+.abas button{font:800 14px/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:14px 2px 10px;margin-right:18px;cursor:pointer;display:inline-flex;align-items:baseline;gap:6px}
+.abas button span{font:600 12px/1 var(--font-body);letter-spacing:0;font-variant-numeric:tabular-nums}
+.abas button:hover{color:var(--fg)}
+.abas button[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--red)}
 .day{position:sticky;top:0;background:var(--panel);padding:12px 20px 6px;font:800 15px/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;z-index:1}
 .row{display:grid;grid-template-columns:14px minmax(0,1fr);gap:10px;padding:7px 20px;cursor:pointer;border:0;background:none;width:100%;text-align:left;color:inherit;font:inherit}
 .row:hover,.row.sel{background:var(--chip)}
@@ -132,6 +157,17 @@ dd{margin:0}
 .row .c{font-weight:600}
 .row .l{color:var(--muted);font-size:12.5px}
 .note{padding:12px 20px 0;color:var(--muted);font-size:12px}
+:root{--rodape:calc(36px + env(safe-area-inset-bottom, 0px))}
+.app{padding-bottom:var(--rodape)}
+.rodape{position:fixed;left:0;right:0;bottom:0;z-index:20;background:color-mix(in srgb,var(--panel) 94%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-top:1px solid var(--line);color:var(--muted);font-size:11.5px;line-height:1.4;padding:8px 20px calc(8px + env(safe-area-inset-bottom, 0px))}
+.rodape .ln{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px}
+.rodape .ln>span{min-width:0}
+.rodape a{color:var(--fg);text-decoration-color:var(--red);text-underline-offset:2px}
+.rodape button{font:inherit;color:var(--fg);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline dotted;text-underline-offset:2px;margin-left:auto}
+.rodape button:hover{color:var(--red)}
+.rodape .mais{margin:6px 0 0;max-width:80ch}
+.rodape .sm-only{display:none}
+@media (max-width:640px){.rodape .lg-only{display:none}.rodape .sm-only{display:inline}.rodape{font-size:11px;padding-top:6px}}
 .upd{padding:14px 20px;border-bottom:1px solid var(--line);display:grid;gap:8px;background:var(--bg)}
 .upd .top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .upd .lbl{font:800 13px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
@@ -181,22 +217,36 @@ dd{margin:0}
   aside{border-left:0;border-top:1px solid var(--line);max-height:none}
   .list{overflow:visible}
   header.band{padding-inline:16px}
-  .detail,.day,.row,.note,.upd{padding-left:16px;padding-right:16px}
+  .rodape{padding-left:16px;padding-right:16px}
+  .detail,.day,.row,.note,.upd,.abas{padding-left:16px;padding-right:16px}
   .legend{font-size:11px;padding:8px 10px}
-  .mapwrap.cal-on .legend{margin:0 16px 14px}
+  .mapwrap.cal-on .legend,.mapwrap.tab-on .legend{margin:0 16px 14px}
+  .tabv{padding:56px 8px 10px}
   .cal{padding:56px 8px 10px}
-  .mapwrap.cal-on{min-height:0}
+  .mapwrap.cal-on,.mapwrap.tab-on{min-height:0}
 }
 @media (max-width:640px){
   .cell{min-height:64px;padding:4px;gap:3px}
   .cell .num{font-size:16px}
-  .cell .num small,.cell .cnt{display:none}
+  .cell .num small,.cell .cnt .w{display:none}
+  .cell .cnt{font:700 10px/1 var(--font-body);color:var(--bg);background:var(--fg);border-radius:999px;padding:2px 4px;min-width:14px;text-align:center}
   .marco{font-size:8px;padding:1px 3px}
   .chips{flex-direction:row;flex-wrap:wrap;gap:3px}
   .chip{width:auto;padding:2px}
   .chip .tx,.more{display:none}
   .cal-grid{gap:3px}
   .cal-dow{padding:2px 2px 4px;font-size:10px}
+  .tabv .scroll{border:0;background:none;overflow:visible}
+  .tabv table,.tabv tbody{display:grid;gap:8px;min-width:0;width:100%}
+  .tabv thead{display:none}
+  .tabv td>div{overflow-wrap:anywhere}
+  .tabv tbody tr{display:grid;grid-template-columns:92px minmax(0,1fr);gap:4px 10px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg)}
+  .tabv td{display:contents}
+  .tabv td::before{content:attr(data-l);font:800 11px/1.5 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .tabv td>*{min-width:0}
+  .tabv tbody tr.sel td:first-child{box-shadow:none}
+  .tabv tbody tr.sel{border-color:var(--fg)}
+  .tabv .cid,.tabv .tp{white-space:normal}
 }
 @media (prefers-reduced-motion: reduce){*{transition:none!important}}
 </style>
@@ -216,10 +266,12 @@ dd{margin:0}
     <div class="mapwrap" id="mapwrap">
       <svg id="map" role="img" aria-label="Mapa do Brasil com os atos pró-Lula registrados"></svg>
       <div class="cal" id="cal" hidden></div>
+      <div class="tabv" id="tabv" hidden></div>
       <div class="tools" id="tools">
         <div class="viewsw" role="group" aria-label="Modo de visualização">
           <button id="vMap" aria-pressed="true" title="Mapa" aria-label="Ver mapa"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 6.5l6-3 6 3 6-3v14l-6 3-6-3-6 3z"/><path d="M9 3.5v14M15 6.5v14"/></svg></button>
           <button id="vCal" aria-pressed="false" title="Calendário" aria-label="Ver calendário"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M7.5 14h2M11 14h2M14.5 14h2M7.5 17.5h2M11 17.5h2" stroke-linecap="round"/></svg></button>
+          <button id="vTab" aria-pressed="false" title="Tabela" aria-label="Ver tabela"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9.5h18M3 14.75h18M9 9.5V20"/></svg></button>
         </div>
         <div class="regs" id="regs"></div>
       </div>
@@ -244,15 +296,36 @@ dd{margin:0}
         <div class="st" id="updst">Carregando os registros…</div>
       </section>
       <section class="detail" id="detail" aria-live="polite"></section>
-      <div class="list" id="list"></div>
+      <div class="abas" id="abas" role="tablist" aria-label="Atos na lista">
+        <button role="tab" id="abaPas" aria-selected="true" aria-controls="list" data-aba="pas">Já ocorreram <span></span></button>
+        <button role="tab" id="abaFut" aria-selected="false" aria-controls="list" data-aba="fut">Próximos <span></span></button>
+      </div>
+      <div class="list" id="list" role="tabpanel"></div>
     </aside>
   </main>
 </div>
+
+<footer class="rodape" id="rodape">
+  <div class="ln">
+    <span>Mapa independente, sem vínculo <span class="lg-only">com partidos ou campanhas</span><span class="sm-only">partidário</span>, mantido por Vinícius Franco.</span>
+    <span><span class="lg-only">Metodologia, fontes e correções: </span><a id="repoLink" href="https://github.com/vinacius/atos-pro-lula-2026" target="_blank" rel="noopener"><span class="lg-only">repositório no GitHub</span><span class="sm-only">Metodologia e fontes</span></a></span>
+    <button id="rodMais" aria-expanded="false" aria-controls="rodTxt">Sobre a contagem</button>
+  </div>
+  <p class="mais" id="rodTxt" hidden>Atos citados só por estado, sem cidade ou local, ficam fora do mapa. Em 11/10 o Comitê Popular de Luta contou 156 ações em 76 cidades; aqui entram só as localizadas pela imprensa.</p>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 let GEO = null;
 const REPO_URL = /\.github\.io$/.test(location.hostname) ? `https://github.com/${location.hostname.split(".")[0]}${location.pathname.split("/").slice(0,2).join("/")}` : "https://github.com/";
+// rodapé fixo: a altura real vira a folga no fim da página
+document.getElementById("repoLink").href = REPO_URL;
+{
+  const rod=document.getElementById("rodape"), mais=document.getElementById("rodMais"), txt=document.getElementById("rodTxt");
+  const ajusta=()=>document.documentElement.style.setProperty("--rodape",rod.offsetHeight+"px");
+  mais.onclick=()=>{ txt.hidden=!txt.hidden; mais.setAttribute("aria-expanded",String(!txt.hidden)); ajusta(); };
+  new ResizeObserver(ajusta).observe(rod);
+}
 const TRIGGER_ID = "trig_013f54a1vXELnVVYPDiZnZ5S";
 const REMOTE = "Claude Code Remote";
 
@@ -271,6 +344,9 @@ let ATOS = [];          // [{id, ...doc}]
 let selId = null;
 let filtro = null;      // null = todos · "L" | "E" | "M" = tipo · "C" = convocados
 const FILTRO_NOME = {L:"atos de campanha com Lula",E:"atos estudantis",M:"comitês e movimentos",C:"convocados sem confirmação"};
+let aba = "pas";        // "pas" = já ocorreram · "fut" = próximos
+const hojeISO = () => { const t=new Date(); return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`; };
+const ocorreu = a => a.s==="R" || a.d<hojeISO();   // realizado, ou data já passou
 const passa = a => !filtro || (filtro==="C" ? a.s==="C" : a.t===filtro);
 const legend = document.querySelector(".legend");
 let lastStatus = null;
@@ -329,6 +405,7 @@ function renderPoints(){
   pts.filter(a=>a.id===selId).raise();
   draw();
   if(modo==="cal") renderCal();
+  if(modo==="tab") renderTab();
 }
 
 const zoom = d3.zoom().scaleExtent([1,60]).on("zoom",e=>{k=e.transform.k; gRoot.attr("transform",e.transform); draw(); hideTip();});
@@ -349,9 +426,10 @@ REGIOES.forEach(([nome,box],i)=>{
   tools.appendChild(b);
 });
 
-// ---------- modos: mapa × calendário ----------
+// ---------- modos: mapa × calendário × tabela ----------
 let modo="map";
 const calEl=document.getElementById("cal"), vMap=document.getElementById("vMap"), vCal=document.getElementById("vCal");
+const tabEl=document.getElementById("tabv"), vTab=document.getElementById("vTab");
 const abertos=new Set(); // dias com a lista expandida
 const MARCOS={"2026-10-04":"1º turno","2026-10-25":"2º turno"};
 const MAXCHIPS=5;
@@ -359,13 +437,14 @@ const iso=t=>`${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${Str
 function setModo(m){
   modo=m;
   wrap.classList.toggle("cal-on",m==="cal"); calEl.hidden=m!=="cal";
-  vMap.setAttribute("aria-pressed",String(m==="map")); vCal.setAttribute("aria-pressed",String(m==="cal"));
+  wrap.classList.toggle("tab-on",m==="tab"); tabEl.hidden=m!=="tab";
+  vMap.setAttribute("aria-pressed",String(m==="map")); vCal.setAttribute("aria-pressed",String(m==="cal")); vTab.setAttribute("aria-pressed",String(m==="tab"));
   hideTip();
-  if(m==="cal") renderCal(); else layout();
+  if(m==="cal") renderCal(); else if(m==="tab") renderTab(); else layout();
   if(!selId) renderEmpty();
   try{localStorage.setItem("atos-modo",m)}catch(e){}
 }
-vMap.onclick=()=>setModo("map"); vCal.onclick=()=>setModo("cal");
+vMap.onclick=()=>setModo("map"); vCal.onclick=()=>setModo("cal"); vTab.onclick=()=>setModo("tab");
 function renderCal(){
   if(modo!=="cal") return;
   const ds=ATOS.map(a=>a.d).sort();
@@ -385,7 +464,7 @@ function renderCal(){
     const marco=MARCOS[d]?`<span class="marco">${MARCOS[d]}</span>`:(d===hoje?`<span class="marco hj">hoje</span>`:"");
     const aberto=abertos.has(d), mostra=aberto?arr:arr.slice(0,MAXCHIPS);
     html+=`<div class="cell${fora?" out":""}${d===hoje?" hoje":""}" data-d="${d}" style="${tint?`background:color-mix(in srgb,var(--red) ${tint}%,var(--bg))`:""}">
-      <div class="hd"><span class="num">${t.getDate()}${mes}</span>${arr.length?`<span class="cnt">${arr.length} ato${arr.length>1?"s":""}</span>`:""}</div>${marco}
+      <div class="hd"><span class="num">${t.getDate()}${mes}</span>${arr.length?`<span class="cnt" title="${arr.length} ato${arr.length>1?"s":""}">${arr.length}<span class="w"> ato${arr.length>1?"s":""}</span></span>`:""}</div>${marco}
       <div class="chips">${arr.map((a,i)=>`<button class="chip${a.id===selId?" sel":""}" data-id="${esc(a.id)}" title="${esc(a.cidade+" · "+a.local)}"${!aberto&&i>=MAXCHIPS?' data-extra="1"':""}>${sw(a)}<span class="tx">${esc(a.cidade)}</span></button>`).join("")}</div>
       ${arr.length>MAXCHIPS?`<button class="more" data-d="${d}">${aberto?"mostrar menos":`+${arr.length-MAXCHIPS} mais`}</button>`:""}
     </div>`;
@@ -398,6 +477,36 @@ function renderCal(){
   calEl.querySelectorAll(".more").forEach(b=>b.onclick=()=>{const d=b.dataset.d; abertos.has(d)?abertos.delete(d):abertos.add(d); renderCal();});
 }
 
+// tabela: as mesmas informações do painel de detalhes, uma linha por ato
+let ordem={k:"d",dir:-1};
+const COLS=[["d","Data"],["hora","Horário"],["cidade","Cidade"],["local","Local"],["t","Tipo"],["s","Situação"],["pub","Público"],["conv","Convocadores"],[null,"Fontes"]];
+const chave={d:a=>a.d+(a.hora||""),cidade:a=>a.cidade+a.uf,t:a=>(TIPO[a.t]||TIPO.M).nome,s:a=>STATUS[a.s]||"",hora:a=>a.hora||"",local:a=>a.local||"",pub:a=>a.pub||"",conv:a=>a.conv||""};
+function renderTab(){
+  if(modo!=="tab") return;
+  const vis=ATOS.filter(passa).sort((x,y)=>ordem.dir*chave[ordem.k](x).localeCompare(chave[ordem.k](y),"pt")||y.d.localeCompare(x.d)||x.cidade.localeCompare(y.cidade));
+  const th=COLS.map(([k,n])=>k?`<th aria-sort="${ordem.k===k?(ordem.dir>0?"ascending":"descending"):"none"}"><button data-k="${k}">${n}${ordem.k===k?(ordem.dir>0?" ↑":" ↓"):""}</button></th>`:`<th>${n}</th>`).join("");
+  const td=(l,html,cls="")=>`<td data-l="${l}"${cls?` class="${cls}"`:""}><div>${html}</div></td>`;
+  const rows=vis.map(a=>`<tr class="${a.id===selId?"sel":""}" data-id="${esc(a.id)}" tabindex="0">`
+    +td("Data",`<b>${ddmm(a.d)}</b><span class="sub2">${esc(fmtLong(a.d).split(",")[0])}</span>`,"dt")
+    +td("Horário",esc(a.hora)||'<span class="empty">—</span>',"w-hora")
+    +td("Cidade",`${esc(a.cidade)} · ${esc(a.uf)}${(a.midia||[]).length?`<span class="mi">${ICON_MI}</span>`:""}${isNovo(a)?'<span class="badge">novo</span>':""}`,"cid")
+    +td("Local",esc(a.local),"w-local")
+    +td("Tipo",`<span class="tp" role="img" title="${esc((TIPO[a.t]||TIPO.M).nome)}" aria-label="${esc((TIPO[a.t]||TIPO.M).nome)}">${sw(a)}</span>`)
+    +td("Situação",esc(STATUS[a.s]||""))
+    +td("Público",`${esc(a.pub)||'<span class="empty">—</span>'}${a.pubFonte?`<div class="sub2">${esc(a.pubFonte)}</div>`:""}`,"w-pub")
+    +td("Convocadores",esc(a.conv),"w-conv")
+    +td("Fontes",`<div class="fts">${(a.fontes||[]).map(f=>f.u?`<a href="${esc(safeUrl(f.u))}" target="_blank" rel="noopener">${esc(f.t)}</a>`:`<span class="empty">${esc(f.t)}</span>`).join("")}</div>`)
+    +`</tr>`).join("");
+  const nR=vis.filter(a=>a.s==="R").length, nC=vis.length-nR;
+  tabEl.innerHTML=`<div class="cal-head"><h3>Todos os atos</h3><span>${vis.length} atos · ${nR} realizados · ${nC} convocados${filtro?" · filtro: "+esc(FILTRO_NOME[filtro]):""}</span></div>
+    <div class="scroll"><table><thead><tr>${th}</tr></thead><tbody>${rows}</tbody></table></div>`;
+  tabEl.querySelectorAll("th button").forEach(b=>b.onclick=()=>{const k=b.dataset.k; ordem= ordem.k===k?{k,dir:-ordem.dir}:{k,dir:k==="d"?-1:1}; renderTab();});
+  tabEl.querySelectorAll("tbody tr").forEach(r=>{
+    r.onclick=e=>{ if(e.target.closest("a")) return; select(r.dataset.id,false); };
+    r.onkeydown=e=>{ if(e.target!==r) return; if(e.key==="Enter"||e.key===" "){e.preventDefault();select(r.dataset.id,false);} };
+  });
+}
+
 const tip=document.getElementById("tip"), wrap=document.getElementById("mapwrap");
 function showTip(a,ev){const r=wrap.getBoundingClientRect();tip.innerHTML=`<b>${esc(a.cidade)} · ${esc(fmtLong(a.d))}</b>${esc(a.local)}`;tip.style.left=(ev.clientX-r.left)+"px";tip.style.top=(ev.clientY-r.top)+"px";tip.hidden=false;}
 function hideTip(){tip.hidden=true}
@@ -406,8 +515,10 @@ function hideTip(){tip.hidden=true}
 const detail=document.getElementById("detail"), list=document.getElementById("list");
 const sw=a=>`<span class="sw${a.s==="C"?" hollow":""}" style="background:var(${(TIPO[a.t]||TIPO.M).v});border-color:var(${(TIPO[a.t]||TIPO.M).v})"></span>`;
 function renderEmpty(){
-  detail.innerHTML=`<div class="eyebrow">Como ler · ${modo==="cal"?"calendário":"mapa"}</div>
-  ${modo==="cal"
+  detail.innerHTML=`<div class="eyebrow">Como ler · ${modo==="cal"?"calendário":modo==="tab"?"tabela":"mapa"}</div>
+  ${modo==="tab"
+    ? `<p class="empty" style="margin:8px 0 0">Cada linha é um ato, com data, horário, local, tipo, situação, público estimado, convocadores e fontes. Clique no título de uma coluna para ordenar, e numa linha para ver imagens e vídeos do ato. Os filtros da legenda também valem aqui.</p>`
+    : modo==="cal"
     ? `<p class="empty" style="margin:8px 0 0">Cada quadrado é um dia, de segunda a domingo, da reta final do 1º turno até o 2º turno (25/10). O número no canto conta os atos do dia, e o vermelho do fundo fica mais forte nos dias com mais atos. Os atos de campanha com Lula aparecem primeiro.</p>
        <p class="empty" style="margin:8px 0 0">Clique num ato para ver data, horário, público estimado, convocadores e fontes. Contorno tracejado indica ato convocado, ainda sem confirmação. Os filtros da legenda também valem aqui.</p>`
     : `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato de rua registrado em fontes públicas. Clique num ponto ou numa linha da lista para ver data, horário, público estimado, convocadores e fontes. Use os atalhos no topo do mapa para aproximar as capitais com mais atos. Pontos mais claros são atos mais antigos.</p>`}
@@ -488,13 +599,18 @@ function ligarMidia(a){
     }
   };
 }
+const abaPas=document.getElementById("abaPas"), abaFut=document.getElementById("abaFut");
+function setAba(x){ if(aba===x) return; aba=x; renderList(); }
+abaPas.onclick=()=>setAba("pas"); abaFut.onclick=()=>setAba("fut");
 function select(id,fly){
   selId=id; renderPoints(); renderDetail();
+  { const a=ATOS.find(x=>x.id===id); if(a) setAba(ocorreu(a)?"pas":"fut"); }
   list.querySelectorAll(".row").forEach(r=>r.classList.toggle("sel",r.dataset.id===id));
   const a=ATOS.find(x=>x.id===id);
   if(fly&&a&&modo==="map"){const d=0.06;zoomTo([[a.lon-d,a.lat-d],[a.lon+d,a.lat+d]]);tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));}
   if(fly&&a&&modo==="cal"){ if(!calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]:not([hidden])`)) {abertos.add(a.d); renderCal();}
     const c=calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]`); if(c) c.scrollIntoView({block:"nearest",behavior:"smooth"}); }
+  if(fly&&a&&modo==="tab"){ const r=tabEl.querySelector(`tr[data-id="${CSS.escape(id)}"]`); if(r) r.scrollIntoView({block:"nearest",behavior:"smooth"}); }
   if(!fly&&window.matchMedia("(max-width:860px)").matches) detail.scrollIntoView({behavior:"smooth",block:"start"});
 }
 function deselect(focusList){
@@ -506,12 +622,16 @@ svg.on("click",()=>deselect(false));
 document.addEventListener("keydown",e=>{if(e.key!=="Escape")return; if(fecharLB())return; if(selId) deselect(true);});
 
 function renderList(){
-  const vis=ATOS.filter(passa);
-  const banner=filtro?`<div class="filtro"><span>Mostrando <b>${vis.length}</b> de ${ATOS.length}: ${esc(FILTRO_NOME[filtro])}</span><button id="limparFiltro">Mostrar todos</button></div>`:"";
-  const byDay=d3.groups(vis.sort((a,b)=>b.d.localeCompare(a.d)||a.cidade.localeCompare(b.cidade)),a=>a.d);
-  list.innerHTML=banner+byDay.map(([d,arr])=>`<div class="day"><span>${esc(fmtLong(d))}</span><span>${arr.length}</span></div>`+
+  const fut=aba==="fut", naAba=ATOS.filter(a=>ocorreu(a)!==fut), vis=naAba.filter(passa);
+  abaPas.querySelector("span").textContent=ATOS.filter(a=>passa(a)&&ocorreu(a)).length;
+  abaFut.querySelector("span").textContent=ATOS.filter(a=>passa(a)&&!ocorreu(a)).length;
+  abaPas.setAttribute("aria-selected",String(!fut)); abaFut.setAttribute("aria-selected",String(fut));
+  const banner=filtro?`<div class="filtro"><span>Mostrando <b>${vis.length}</b> de ${naAba.length}: ${esc(FILTRO_NOME[filtro])}</span><button id="limparFiltro">Mostrar todos</button></div>`:"";
+  const byDay=d3.groups(vis.sort((a,b)=>(fut?a.d.localeCompare(b.d):b.d.localeCompare(a.d))||a.cidade.localeCompare(b.cidade)),a=>a.d);
+  const vazio=vis.length?"":`<p class="note">${fut?"Nenhum ato convocado para os próximos dias":"Nenhum ato realizado"}${filtro?" com este filtro":""}.</p>`;
+  list.innerHTML=banner+vazio+byDay.map(([d,arr])=>`<div class="day"><span>${esc(fmtLong(d))}</span><span>${arr.length}</span></div>`+
     arr.map(a=>`<button class="row${a.id===selId?" sel":""}" data-id="${esc(a.id)}">${sw(a)}<span><span class="c">${esc(a.cidade)} · ${esc(a.uf)}</span>${(a.midia||[]).length?`<span class="mi">${ICON_MI}</span>`:""}${isNovo(a)?'<span class="badge">novo</span>':""}<br><span class="l">${esc(a.local)}</span></span></button>`).join("")).join("")
-    +`<p class="note">Mapa independente, sem vínculo com partidos ou campanhas, mantido por Vinícius. Metodologia, fontes e correções: <a href="${esc(REPO_URL)}" target="_blank" rel="noopener">repositório no GitHub</a>.</p><p class="note">Atos citados só por estado, sem cidade ou local, ficam fora do mapa. Em 11/10 o Comitê Popular de Luta contou 156 ações em 76 cidades; aqui entram só as localizadas pela imprensa.</p>`;
+    ;
   list.querySelectorAll(".row").forEach(r=>r.onclick=()=>select(r.dataset.id,true));
   const lf=document.getElementById("limparFiltro"); if(lf) lf.onclick=()=>setFiltro(filtro);
   legend.querySelectorAll(".lg").forEach(b=>{const f=b.dataset.f;b.querySelector(".n").textContent=ATOS.filter(a=>f==="C"?a.s==="C":a.t===f).length;});
@@ -589,7 +709,7 @@ async function buscar(db,mcp){
 
 // ---------- boot ----------
 renderEmpty(); renderStatus(); layout();
-try{ if(localStorage.getItem("atos-modo")==="cal") setModo("cal"); }catch(e){}
+try{ const m0=localStorage.getItem("atos-modo"); if(m0==="cal"||m0==="tab") setModo(m0); }catch(e){}
 new ResizeObserver(()=>layout()).observe(svg.node());
 
 let ATUALIZADO=null;
