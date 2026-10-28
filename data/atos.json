@@ -1,6 +1,6 @@
 {
- "atualizadoEm": "2026-10-20T22:08-03:00",
- "total": 210,
+ "atualizadoEm": "2026-10-26T19:46-03:00",
+ "total": 277,
  "atos": [
   {
    "atualizadoEm": "2026-10-13T21:30:00-03:00",
@@ -5289,7 +5289,7 @@
    "id": "20261020-sao-luis-lula-largo-do-carmo"
   },
   {
-   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
    "cidade": "Belo Horizonte",
    "conv": "Anunciada por Rogério Correia (PT-MG)",
    "d": "2026-10-21",
@@ -5305,15 +5305,19 @@
     {
      "t": "Brasil de Fato — Lula volta a BH para ato",
      "u": "https://www.brasildefato.com.br/2026/10/19/na-reta-final-do-2o-turno-presidente-lula-volta-a-bh-para-ato-nesta-quarta-feira-21/"
+    },
+    {
+     "t": "O Tempo — caminhada de Lula em BH e último ato",
+     "u": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/22/petistas-marcam-ultimo-ato-de-campanha-com-caminhada-em-bh"
     }
    ],
    "hora": "15h (concentração); Lula por volta das 17h",
    "lat": -19.917,
    "local": "Caminhada com Lula: Praça da Estação → Praça Raul Soares (Lula em caminhonete)",
    "lon": -43.9345,
-   "pub": "Não informado",
-   "pubFonte": "",
-   "s": "C",
+   "pub": "“Milhares” · cerca de 200 mil segundo a organização",
+   "pubFonte": "Organização (sem dado oficial nem contagem independente), via O Tempo",
+   "s": "R",
    "t": "L",
    "uf": "MG",
    "id": "20261021-belo-horizonte-lula-praca-da-estacao-raul-soares"
@@ -5411,6 +5415,384 @@
    "id": "20261022-oeiras-av-rui-barbosa-corre-com-lula"
   },
   {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Araguaína",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -7.192,
+   "local": "Local não informado",
+   "lon": -48.207,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "TO",
+   "id": "20261024-araguaina-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Araraquara",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -21.7945,
+   "local": "Local não informado",
+   "lon": -48.1758,
+   "pub": "“Maior manifestação da história” (alegação em post)",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-araraquara-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Atibaia",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.117,
+   "local": "Local não informado",
+   "lon": -46.55,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-atibaia-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Bacabal",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -4.225,
+   "local": "Local não informado",
+   "lon": -44.78,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MA",
+   "id": "20261024-bacabal-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Barra Velha",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -26.637,
+   "local": "Local não informado",
+   "lon": -48.685,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261024-barra-velha-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Bauru",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.3216,
+   "local": "Viaduto Nuno de Assis",
+   "lon": -49.0712,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-bauru-viaduto-nuno-de-assis"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Belém",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -1.4558,
+   "local": "Local não informado",
+   "lon": -48.4902,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PA",
+   "id": "20261024-belem-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Brasília",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -15.7939,
+   "local": "Local não informado",
+   "lon": -47.8828,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "DF",
+   "id": "20261024-brasilia-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Campinas",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.9056,
+   "local": "Local não informado",
+   "lon": -47.0608,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-campinas-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Campo Grande",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -20.4697,
+   "local": "Passeata",
+   "lon": -54.6201,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MS",
+   "id": "20261024-campo-grande-passeata"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Caruaru",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "5h30",
+   "lat": -8.2828,
+   "local": "“Corredores com Lula”",
+   "lon": -35.9761,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261024-caruaru-corredores-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Chapecó",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -27.1004,
+   "local": "Local não informado",
+   "lon": -52.6152,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261024-chapeco-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Cuiabá",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -15.6014,
+   "local": "Local não informado",
+   "lon": -56.0979,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MT",
+   "id": "20261024-cuiaba-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Curitiba",
+   "conv": "Juventude do PT",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — atos no Paraná na véspera do 2º turno",
+     "u": "https://www.brasildefato.com.br/2026/10/25/cidades-no-parana-tem-atos-pela-reeleicao-de-lula-as-vesperas-do-segundo-turno/"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Fim da tarde",
+   "lat": -25.427,
+   "local": "Carreata do Parque Barigui à Praça Nossa Senhora de Salete (a caminhada foi adiada pela chuva)",
+   "lon": -49.309,
+   "pub": "Mais de 500 carros",
+   "pubFonte": "Imprensa (Brasil de Fato)",
+   "s": "R",
+   "t": "M",
+   "uf": "PR",
+   "id": "20261024-curitiba-carreata-do-parque-barigui-a-praca-nossa-senhora-de-salete-a-c"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Dourados",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.2231,
+   "local": "Local não informado",
+   "lon": -54.812,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MS",
+   "id": "20261024-dourados-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Florianópolis",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -27.5954,
+   "local": "Local não informado",
+   "lon": -48.548,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261024-florianopolis-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Fortaleza",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -3.7319,
+   "local": "Corrida pelas ruas",
+   "lon": -38.5267,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261024-fortaleza-corrida-pelas-ruas"
+  },
+  {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
    "cidade": "Fortaleza",
    "conv": "Governador Elmano de Freitas e prefeito Evandro Leitão",
@@ -5437,9 +5819,559 @@
    "id": "20261024-fortaleza-praia-de-iracema-ceara-pela-democracia"
   },
   {
-   "atualizadoEm": "2026-10-20T22:01:00-03:00",
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Goiânia",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -16.68,
+   "local": "Praça Universitária",
+   "lon": -49.243,
+   "pub": "Praça “lotada” (relato)",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "GO",
+   "id": "20261024-goiania-praca-universitaria"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Guarulhos",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.4543,
+   "local": "Local não informado",
+   "lon": -46.5337,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-guarulhos-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Icapuí",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -4.713,
+   "local": "Local não informado",
+   "lon": -37.355,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261024-icapui-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Itajaí",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -26.9078,
+   "local": "Local não informado",
+   "lon": -48.6619,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SC",
+   "id": "20261024-itajai-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "João Pessoa",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -7.1195,
+   "local": "Local não informado",
+   "lon": -34.845,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PB",
+   "id": "20261024-joao-pessoa-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Juazeiro do Norte",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -7.213,
+   "local": "Local não informado",
+   "lon": -39.315,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261024-juazeiro-do-norte-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Lago da Pedra",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -4.569,
+   "local": "Local não informado",
+   "lon": -45.132,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MA",
+   "id": "20261024-lago-da-pedra-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Lagoa de Itaenga",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -7.936,
+   "local": "Local não informado",
+   "lon": -35.29,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261024-lagoa-de-itaenga-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Londrina",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.27,
+   "local": "Av. Saul Elkind",
+   "lon": -51.16,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PR",
+   "id": "20261024-londrina-av-saul-elkind"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Macapá",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -0.0349,
+   "local": "Local não informado",
+   "lon": -51.0694,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "AP",
+   "id": "20261024-macapa-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Maringá",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Brasil de Fato — atos no Paraná na véspera do 2º turno",
+     "u": "https://www.brasildefato.com.br/2026/10/25/cidades-no-parana-tem-atos-pela-reeleicao-de-lula-as-vesperas-do-segundo-turno/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.4205,
+   "local": "Carreata",
+   "lon": -51.9333,
+   "pub": "“A maior da história da cidade”",
+   "pubFonte": "Imprensa (Brasil de Fato), sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PR",
+   "id": "20261024-maringa-carreata"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Marituba",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -1.3553,
+   "local": "Carreata",
+   "lon": -48.3422,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PA",
+   "id": "20261024-marituba-carreata"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Marília",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.2139,
+   "local": "Local não informado",
+   "lon": -49.9458,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-marilia-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Mogi Mirim",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.432,
+   "local": "Local não informado",
+   "lon": -46.957,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-mogi-mirim-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Mogi das Cruzes",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.5225,
+   "local": "Manifestação",
+   "lon": -46.188,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-mogi-das-cruzes-manifestacao"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Montes Claros",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -16.735,
+   "local": "Corrida pelas ruas",
+   "lon": -43.8617,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261024-montes-claros-corrida-pelas-ruas"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Mucambo",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -3.905,
+   "local": "Local não informado",
+   "lon": -40.746,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "CE",
+   "id": "20261024-mucambo-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Natal",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -5.7945,
+   "local": "“Piseiro” pela candidatura de Lula e Cadu de Lula",
+   "lon": -35.211,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RN",
+   "id": "20261024-natal-piseiro-pela-candidatura-de-lula-e-cadu-de-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Palmas",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -10.184,
+   "local": "Local não informado",
+   "lon": -48.3336,
+   "pub": "“Multidão” (relato)",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "TO",
+   "id": "20261024-palmas-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Parnamirim",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -5.9156,
+   "local": "Ato com o candidato Cadu de Lula",
+   "lon": -35.2628,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RN",
+   "id": "20261024-parnamirim-ato-com-o-candidato-cadu-de-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Petrópolis",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.505,
+   "local": "Local não informado",
+   "lon": -43.1786,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261024-petropolis-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Porto Alegre",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -30.0346,
+   "local": "Local não informado",
+   "lon": -51.2177,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RS",
+   "id": "20261024-porto-alegre-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Porto Velho",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -8.7612,
+   "local": "Local não informado",
+   "lon": -63.9004,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RO",
+   "id": "20261024-porto-velho-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Recife",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -8.0476,
+   "local": "Local não informado",
+   "lon": -34.877,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261024-recife-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Resende",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.4687,
+   "local": "Local não informado",
+   "lon": -44.4466,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261024-resende-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
    "cidade": "Rio de Janeiro",
-   "conv": "Artistas, parlamentares, movimentos sociais, estudantes e sindicatos (divulgação do Sindicato dos Bancários do Rio)",
+   "conv": "Campanha de Lula; com Eduardo Paes, Eduardo Cavaliere, Rodrigo Neves, Benedita da Silva e Janja; movimentos sociais e sindicatos",
    "d": "2026-10-24",
    "fontes": [
     {
@@ -5449,21 +6381,287 @@
     {
      "t": "Metrópoles — Lula pode participar de atos no Rio e em SP",
      "u": "https://www.metropoles.com/colunas/ramiro-brites/lula-rio-sao-paulo"
+    },
+    {
+     "t": "Diário do Rio — Lula encerra campanha no Rio em ato lotado",
+     "u": "https://diariodorio.com/rio-de-janeiro/2026/10/24/lula-encerra-campanha-no-rio-ao-lado-de-eduardo-paes-em-ato-lotado-em-copacabana.html"
+    },
+    {
+     "t": "Metrópoles — imagens do ato em Copacabana",
+     "u": "https://www.metropoles.com/brasil/veja-imagens-do-ato-de-lula-em-copacabana-neste-sabado-24-10"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
     }
    ],
-   "hora": "10h (concentração)",
+   "hora": "Concentração às 9h; caminhada pela Av. Atlântica às 10h",
    "lat": -22.98,
    "local": "Grande ato no Posto 5 de Copacabana (presença de Lula anunciada, não confirmada)",
    "lon": -43.189,
-   "pub": "Não informado",
-   "pubFonte": "",
-   "s": "C",
-   "t": "M",
+   "pub": "Ato “lotado”; sem número",
+   "pubFonte": "Imprensa (Diário do Rio)",
+   "s": "R",
+   "t": "L",
    "uf": "RJ",
    "id": "20261024-rio-de-janeiro-copacabana-posto-5"
   },
   {
-   "atualizadoEm": "2026-10-19T21:21:00-03:00",
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Santos",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.9608,
+   "local": "Local não informado",
+   "lon": -46.3336,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-santos-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "São José dos Campos",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.1896,
+   "local": "Local não informado",
+   "lon": -45.8841,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-sao-jose-dos-campos-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "São João da Boa Vista",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -21.969,
+   "local": "Região da Unesp",
+   "lon": -46.798,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-sao-joao-da-boa-vista-regiao-da-unesp"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "São Luís",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -2.5297,
+   "local": "Local não informado",
+   "lon": -44.3028,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MA",
+   "id": "20261024-sao-luis-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "São Miguel dos Campos",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -9.781,
+   "local": "Local não informado",
+   "lon": -36.093,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "AL",
+   "id": "20261024-sao-miguel-dos-campos-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Campanha de Lula",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — ato de Lula ocupa 14 quarteirões da Paulista",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-lula-ocupa-14-quarteiroes-da-avenida-paulista/"
+    },
+    {
+     "t": "Poder360 — apoiadores passam mal durante o ato",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/apoiadores-de-lula-passam-mal-durante-ato-em-sao-paulo/"
+    },
+    {
+     "t": "Metrópoles — Lula e Flávio fecham campanha com multidões",
+     "u": "https://www.metropoles.com/brasil/flavio-e-lula-fecham-campanha-levando-multidoes-para-atos-no-rj-e-em-sp"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Concentração às 14h; caminhada às 16h",
+   "lat": -23.5614,
+   "local": "Caminhada de encerramento da campanha com Lula, saída do MASP pela Av. Paulista",
+   "lon": -46.6559,
+   "pub": "Ocupou 14 quarteirões da Av. Paulista",
+   "pubFonte": "Poder360 (extensão ocupada); sem contagem",
+   "s": "R",
+   "t": "L",
+   "uf": "SP",
+   "id": "20261024-sao-paulo-caminhada-de-encerramento-da-campanha-com-lula-saida-do-masp"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Tabatinga",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -4.2525,
+   "local": "Local não informado",
+   "lon": -69.938,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "AM",
+   "id": "20261024-tabatinga-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Taubaté",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -23.0264,
+   "local": "Local não informado",
+   "lon": -45.5553,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261024-taubate-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Teresina",
+   "conv": "Governador Rafael Fonteles (PT) e aliados",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -5.0892,
+   "local": "Ruas do Centro",
+   "lon": -42.8019,
+   "pub": "“Milhares”",
+   "pubFonte": "Governador Rafael Fonteles, em post compilado pelo Poder360",
+   "s": "R",
+   "t": "M",
+   "uf": "PI",
+   "id": "20261024-teresina-ruas-do-centro"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Teresópolis",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.4128,
+   "local": "Local não informado",
+   "lon": -42.9664,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261024-teresopolis-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Valença",
+   "conv": "Não informado",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
+    }
+   ],
+   "hora": "Não informado",
+   "lat": -22.245,
+   "local": "Local não informado",
+   "lon": -43.7,
+   "pub": "Não informado",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261024-valenca-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
    "cidade": "Vitória",
    "conv": "Anunciado pela vereadora Karla Coser (PT)",
    "d": "2026-10-24",
@@ -5471,6 +6669,10 @@
     {
      "t": "A Gazeta — como foi o ato pró-Lula em Vitória (anúncio do dia 24)",
      "u": "https://www.agazeta.com.br/es/politica/verde-amarelo-e-vermelho-veja-como-foi-ato-pro-lula-em-vitoria-1026"
+    },
+    {
+     "t": "Poder360 — atos pró-Lula em ao menos 58 cidades no sábado (24)",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/ao-menos-58-cidades-do-brasil-tiveram-atos-pro-lula-no-sabado/"
     }
    ],
    "hora": "15h",
@@ -5478,11 +6680,355 @@
    "local": "Praça do Papa → Terceira Ponte",
    "lon": -40.2895,
    "pub": "Não informado",
-   "pubFonte": "",
-   "s": "C",
+   "pubFonte": "Relato em rede social compilado pelo Poder360; sem número",
+   "s": "R",
    "t": "M",
    "uf": "ES",
    "id": "20261024-vitoria-praca-do-papa-terceira-ponte"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Belo Horizonte",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -19.9165,
+   "local": "Comemoração da reeleição: Rua Sapucaí, Viaduto Santa Tereza e Praça Sete",
+   "lon": -43.937,
+   "pub": "“Milhares”",
+   "pubFonte": "Imprensa (ICL), sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "MG",
+   "id": "20261025-belo-horizonte-comemoracao-da-reeleicao-rua-sapucai-viaduto-santa-terez"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Brasília",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -15.765,
+   "local": "Comemoração da reeleição: Asa Norte",
+   "lon": -47.882,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "DF",
+   "id": "20261025-brasilia-comemoracao-da-reeleicao-asa-norte"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Campina Grande",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -7.224,
+   "local": "Comemoração da reeleição: Parque do Povo",
+   "lon": -35.88,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PB",
+   "id": "20261025-campina-grande-comemoracao-da-reeleicao-parque-do-povo"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "João Pessoa",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -7.115,
+   "local": "Comemoração da reeleição: Busto de Tamandaré e Parque Solon de Lucena",
+   "lon": -34.823,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "PB",
+   "id": "20261025-joao-pessoa-comemoracao-da-reeleicao-busto-de-tamandare-e-parque-solon"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Niterói",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    },
+    {
+     "t": "Manchete Rio — eleitores tomam as ruas após a vitória",
+     "u": "https://mancheterio.com.br/apoiadores-e-eleitores-de-lula-tomam-as-ruas-apos-vitoria-no-segundo-turno/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.905,
+   "local": "Comemoração da reeleição: Praia de Icaraí",
+   "lon": -43.11,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261025-niteroi-comemoracao-da-reeleicao-praia-de-icarai"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Recife",
+   "conv": "Espontânea; presença da dep. Dani Portela (PT)",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "Diario de Pernambuco — comemoração no Centro do Recife",
+     "u": "https://www.diariodepernambuco.com.br/amp/politica/2026/10/11727630-apoiadores-de-lula-comemoram-reeleicao-no-centro-do-recife.html"
+    },
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -8.0631,
+   "local": "Comemoração da reeleição: Marco Zero e Av. Marquês de Olinda",
+   "lon": -34.8711,
+   "pub": "“Milhares”",
+   "pubFonte": "Imprensa (Diario de Pernambuco), sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "PE",
+   "id": "20261025-recife-comemoracao-da-reeleicao-marco-zero-e-av-marques-de-olinda"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "O Tempo — apoiadores lotam a Cinelândia",
+     "u": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/25/no-rio-de-janeiro-apoiadores-de-lula-lotam-cinelandia-e-celebram-reeleicao"
+    },
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    },
+    {
+     "t": "Manchete Rio — eleitores tomam as ruas após a vitória",
+     "u": "https://mancheterio.com.br/apoiadores-e-eleitores-de-lula-tomam-as-ruas-apos-vitoria-no-segundo-turno/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.911,
+   "local": "Comemoração da reeleição: Cinelândia",
+   "lon": -43.176,
+   "pub": "Maior concentração do Rio; sem número",
+   "pubFonte": "Imprensa (O Tempo, ICL)",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261025-rio-de-janeiro-comemoracao-da-reeleicao-cinelandia"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    },
+    {
+     "t": "Manchete Rio — eleitores tomam as ruas após a vitória",
+     "u": "https://mancheterio.com.br/apoiadores-e-eleitores-de-lula-tomam-as-ruas-apos-vitoria-no-segundo-turno/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.8975,
+   "local": "Comemoração da reeleição: Largo de São Francisco da Prainha (Bafo da Prainha)",
+   "lon": -43.1855,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261025-rio-de-janeiro-comemoracao-da-reeleicao-largo-de-sao-francisco-da-prain"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    },
+    {
+     "t": "Manchete Rio — eleitores tomam as ruas após a vitória",
+     "u": "https://mancheterio.com.br/apoiadores-e-eleitores-de-lula-tomam-as-ruas-apos-vitoria-no-segundo-turno/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.932,
+   "local": "Comemoração da reeleição: Praça São Salvador (Laranjeiras)",
+   "lon": -43.183,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261025-rio-de-janeiro-comemoracao-da-reeleicao-praca-sao-salvador-laranjeiras"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    },
+    {
+     "t": "Manchete Rio — eleitores tomam as ruas após a vitória",
+     "u": "https://mancheterio.com.br/apoiadores-e-eleitores-de-lula-tomam-as-ruas-apos-vitoria-no-segundo-turno/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.9245,
+   "local": "Comemoração da reeleição: Tijuca",
+   "lon": -43.233,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261025-rio-de-janeiro-comemoracao-da-reeleicao-tijuca"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Salvador",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "Liga da Notícia — Rio Vermelho reúne milhares",
+     "u": "https://ligadanoticia.com.br/bahia/rio-vermelho-reune-milhares-de-pessoas-apos-vitoria-de-lula-veja/"
+    }
+   ],
+   "hora": "Noite, até a madrugada",
+   "lat": -13.011,
+   "local": "Comemoração da reeleição: Rio Vermelho",
+   "lon": -38.491,
+   "pub": "“Milhares”",
+   "pubFonte": "Imprensa (Liga da Notícia), sem número",
+   "s": "R",
+   "t": "M",
+   "uf": "BA",
+   "id": "20261025-salvador-comemoracao-da-reeleicao-rio-vermelho"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "São José dos Campos",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -23.1896,
+   "local": "Comemoração da reeleição: local não informado",
+   "lon": -45.8841,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261025-sao-jose-dos-campos-comemoracao-da-reeleicao-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "São Paulo",
+   "conv": "Espontânea, com a campanha de Lula",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "Estado de Minas — Lula comemora com ato na Paulista",
+     "u": "https://www.em.com.br/politica/2026/10/7527768-lula-comemora-a-vitoria-com-ato-na-avenida-paulista-em-sp.html"
+    },
+    {
+     "t": "Metrópoles — fotos da festa na Paulista",
+     "u": "https://www.metropoles.com/sao-paulo/veja-fotos-da-festa-na-avenida-paulista-apos-reeleicao-de-lula"
+    },
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite; discurso de Lula pouco antes da meia-noite",
+   "lat": -23.5614,
+   "local": "Comemoração da reeleição: Av. Paulista, perto do MASP (Lula discursou de um trio elétrico)",
+   "lon": -46.656,
+   "pub": "“Milhares”; vários quarteirões ocupados",
+   "pubFonte": "Imprensa (Folhapress/Estado de Minas, ICL), sem número",
+   "s": "R",
+   "t": "L",
+   "uf": "SP",
+   "id": "20261025-sao-paulo-comemoracao-da-reeleicao-av-paulista-perto-do-masp-lula-discu"
+  },
+  {
+   "atualizadoEm": "2026-10-26T12:00:00-03:00",
+   "cidade": "Taubaté",
+   "conv": "Espontânea",
+   "d": "2026-10-25",
+   "fontes": [
+    {
+     "t": "ICL Notícias — vitória de Lula leva multidões às ruas",
+     "u": "https://iclnoticias.com.br/vitoria-de-lula-leva-multidoes-as-ruas/"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -23.0264,
+   "local": "Comemoração da reeleição: local não informado",
+   "lon": -45.5553,
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "SP",
+   "id": "20261025-taubate-comemoracao-da-reeleicao-local-nao-informado"
   }
  ]
 }
