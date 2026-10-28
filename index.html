@@ -8,7 +8,6 @@
 <meta property="og:description" content="Mapa e calendário dos atos de rua pró-Lula na eleição de 2026, com fontes.">
 <style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 <title>Atos pró-Lula nas ruas · 2026</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon fill='%23e4142c' points='32,4 39.1,24.3 60.5,24.7 43.4,37.7 49.6,58.3 32,46 14.4,58.3 20.6,37.7 3.5,24.7 24.9,24.3'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap">
@@ -49,6 +48,9 @@ main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 380px;min-height:0}
 #map:active{cursor:grabbing}
 .state{fill:var(--land);stroke:var(--land-edge);stroke-width:1;vector-effect:non-scaling-stroke}
 .uf{font-family:var(--font-display);font-weight:700;fill:var(--muted);opacity:.55;pointer-events:none;text-anchor:middle;letter-spacing:.06em}
+.country{fill:var(--land);stroke:var(--land-edge);stroke-width:.8;vector-effect:non-scaling-stroke}
+.painel-bg{fill:var(--sea);stroke:var(--line);stroke-width:1;vector-effect:non-scaling-stroke}
+.painel-t{font-family:var(--font-display);font-weight:800;fill:var(--muted);text-transform:uppercase;letter-spacing:.08em;pointer-events:none}
 .pt{cursor:pointer;transition:opacity .2s}
 .pt circle.dot{stroke:var(--halo);vector-effect:non-scaling-stroke}
 .pt.conv circle.dot{fill:var(--bg)!important;stroke-dasharray:3 2}
@@ -62,11 +64,31 @@ main{flex:1;display:grid;grid-template-columns:minmax(0,1fr) 380px;min-height:0}
 .tools .viewsw button[aria-pressed="true"]{background:var(--red);color:#fff}
 .tools .viewsw button:hover{color:var(--red)}
 .tools .viewsw button[aria-pressed="true"]:hover{color:#fff}
-.mapwrap.cal-on,.mapwrap.tab-on{display:flex;flex-direction:column}
+.mapwrap.cal-on,.mapwrap.tab-on,.mapwrap.lin-on{display:flex;flex-direction:column}
 .mapwrap.cal-on #map,.mapwrap.cal-on .regs,.mapwrap.cal-on .zoom,.mapwrap.cal-on .fade,
-.mapwrap.tab-on #map,.mapwrap.tab-on .regs,.mapwrap.tab-on .zoom,.mapwrap.tab-on .fade{display:none}
-.mapwrap.cal-on .legend,.mapwrap.tab-on .legend{position:static;margin:0 12px 12px;display:flex;flex-wrap:wrap;gap:4px 14px;max-width:none}
-.mapwrap.cal-on .legend .t,.mapwrap.tab-on .legend .t{width:100%}
+.mapwrap.tab-on #map,.mapwrap.tab-on .regs,.mapwrap.tab-on .zoom,.mapwrap.tab-on .fade,
+.mapwrap.lin-on #map,.mapwrap.lin-on .regs,.mapwrap.lin-on .zoom,.mapwrap.lin-on .fade{display:none}
+.mapwrap.cal-on .legend,.mapwrap.tab-on .legend,.mapwrap.lin-on .legend{position:static;margin:0 12px 12px;display:flex;flex-wrap:wrap;gap:4px 14px;max-width:none}
+.mapwrap.cal-on .legend .t,.mapwrap.tab-on .legend .t,.mapwrap.lin-on .legend .t{width:100%}
+.lin{flex:1;min-height:0;display:flex;flex-direction:column;padding:60px 12px 12px}
+.lin-box{position:relative;flex:1;min-height:380px;border:1px solid var(--line);border-radius:10px;background:var(--bg);overflow:hidden}
+.lin-scroll{position:absolute;inset:0;overflow-x:auto;overflow-y:hidden}
+.lin-scroll svg,.lin-ax{display:block}
+.lin-ax{position:absolute;left:0;top:0;pointer-events:none}
+.lin-ax .fundo{fill:var(--bg)}
+.lin .grade{stroke:var(--line);stroke-width:1}
+.lin .tick{font:600 11px/1 var(--font-body);fill:var(--muted);font-variant-numeric:tabular-nums}
+.lin .eixo-t{font:800 11px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;fill:var(--muted)}
+.lin .faixa-ext{fill:var(--panel)}
+.lin .dia rect{fill:var(--chip)}
+.lin .dia.fds rect{fill:var(--panel)}
+.lin .dia text{font:700 13px/1 var(--font-display);fill:var(--fg);text-anchor:middle;font-variant-numeric:tabular-nums}
+.lin .dia text.sem{font:600 9px/1 var(--font-body);fill:var(--muted);text-transform:uppercase}
+.lin .dia.marco-d rect{fill:var(--red)}
+.lin .dia.marco-d text{fill:#fff}
+.lin .mes{font:800 11px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;fill:var(--muted)}
+.lin .marco-l{stroke:var(--red);stroke-width:1.5;stroke-dasharray:4 3}
+.lin .marco-t{font:800 12px/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;fill:var(--red)}
 .tabv{flex:1;min-height:0;overflow:auto;padding:60px 12px 12px}
 .tabv .scroll{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
 .tabv table{border-collapse:collapse;width:100%;min-width:1080px;font-size:12.5px;line-height:1.4}
@@ -159,11 +181,6 @@ dd{margin:0}
 .src{display:flex;flex-direction:column;gap:3px}
 .empty{color:var(--muted)}
 .list{overflow:auto;padding:6px 0 20px;flex:1}
-.abas{display:flex;gap:0;padding:0 20px;border-bottom:1px solid var(--line)}
-.abas button{font:800 14px/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-1px;padding:14px 2px 10px;margin-right:18px;cursor:pointer;display:inline-flex;align-items:baseline;gap:6px}
-.abas button span{font:600 12px/1 var(--font-body);letter-spacing:0;font-variant-numeric:tabular-nums}
-.abas button:hover{color:var(--fg)}
-.abas button[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--red)}
 .day{position:sticky;top:0;background:var(--panel);padding:12px 20px 6px;font:800 15px/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;z-index:1}
 .row{display:grid;grid-template-columns:14px minmax(0,1fr);gap:10px;padding:7px 20px;cursor:pointer;border:0;background:none;width:100%;text-align:left;color:inherit;font:inherit}
 .row:hover,.row.sel{background:var(--chip)}
@@ -171,17 +188,6 @@ dd{margin:0}
 .row .c{font-weight:600}
 .row .l{color:var(--muted);font-size:12.5px}
 .note{padding:12px 20px 0;color:var(--muted);font-size:12px}
-:root{--rodape:calc(36px + env(safe-area-inset-bottom, 0px))}
-.app{padding-bottom:var(--rodape)}
-.rodape{position:fixed;left:0;right:0;bottom:0;z-index:20;background:color-mix(in srgb,var(--panel) 94%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-top:1px solid var(--line);color:var(--muted);font-size:11.5px;line-height:1.4;padding:8px 20px calc(8px + env(safe-area-inset-bottom, 0px))}
-.rodape .ln{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px}
-.rodape .ln>span{min-width:0}
-.rodape a{color:var(--fg);text-decoration-color:var(--red);text-underline-offset:2px}
-.rodape button{font:inherit;color:var(--fg);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline dotted;text-underline-offset:2px;margin-left:auto}
-.rodape button:hover{color:var(--red)}
-.rodape .mais{margin:6px 0 0;max-width:80ch}
-.rodape .sm-only{display:none}
-@media (max-width:640px){.rodape .lg-only{display:none}.rodape .sm-only{display:inline}.rodape{font-size:11px;padding-top:6px}}
 .upd{padding:14px 20px;border-bottom:1px solid var(--line);display:grid;gap:8px;background:var(--bg)}
 .upd .top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .upd .lbl{font:800 13px/1 var(--font-display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
@@ -217,6 +223,7 @@ dd{margin:0}
 .up .msg{font-size:12px;color:var(--muted)}
 .btn.sm{padding:8px 12px;font-size:12px}
 .mi{display:inline-block;vertical-align:-1px;margin-left:6px;color:var(--muted)}
+.lb[hidden],.tip[hidden]{display:none}
 .lb{position:fixed;inset:0;z-index:50;background:rgba(10,8,6,.88);display:grid;place-items:center;padding:24px}
 .lb img,.lb video{max-width:min(1100px,100%);max-height:80vh;border-radius:6px;display:block}
 .lb figcaption{color:#eee;font-size:12.5px;margin-top:8px;text-align:center}
@@ -231,19 +238,19 @@ dd{margin:0}
   aside{border-left:0;border-top:1px solid var(--line);max-height:none}
   .list{overflow:visible}
   header.band{padding-inline:16px}
-  .rodape{padding-left:16px;padding-right:16px}
-  .detail,.day,.row,.note,.upd,.abas{padding-left:16px;padding-right:16px}
+  .detail,.day,.row,.note,.upd{padding-left:16px;padding-right:16px}
   .legend{font-size:11px;padding:8px 10px}
-  .mapwrap.cal-on .legend,.mapwrap.tab-on .legend{margin:0 16px 14px}
+  .mapwrap.cal-on .legend,.mapwrap.tab-on .legend,.mapwrap.lin-on .legend{margin:0 16px 14px}
+  .lin{padding:56px 8px 10px}
+  .lin-box{flex:none;height:62svh;min-height:340px}
   .tabv{padding:56px 8px 10px}
   .cal{padding:56px 8px 10px}
-  .mapwrap.cal-on,.mapwrap.tab-on{min-height:0}
+  .mapwrap.cal-on,.mapwrap.tab-on,.mapwrap.lin-on{min-height:0}
 }
 @media (max-width:640px){
   .cell{min-height:64px;padding:4px;gap:3px}
   .cell .num{font-size:16px}
-  .cell .num small,.cell .cnt .w{display:none}
-  .cell .cnt{font:700 10px/1 var(--font-body);color:var(--bg);background:var(--fg);border-radius:999px;padding:2px 4px;min-width:14px;text-align:center}
+  .cell .num small,.cell .cnt{display:none}
   .marco{font-size:8px;padding:1px 3px}
   .chips{flex-direction:row;flex-wrap:wrap;gap:3px}
   .chip{width:auto;padding:2px}
@@ -282,14 +289,16 @@ dd{margin:0}
   </header>
   <main>
     <div class="mapwrap" id="mapwrap">
-      <svg id="map" role="img" aria-label="Mapa do Brasil com os atos pró-Lula registrados"></svg>
+      <svg id="map" role="img" aria-label="Mapa do Brasil com os atos pró-Lula registrados e, ao lado, recortes do exterior: EUA e Canadá, Europa e Austrália"></svg>
       <div class="cal" id="cal" hidden></div>
       <div class="tabv" id="tabv" hidden></div>
+      <div class="lin" id="lin" hidden></div>
       <div class="tools" id="tools">
         <div class="viewsw" role="group" aria-label="Modo de visualização">
           <button id="vMap" aria-pressed="true" title="Mapa" aria-label="Ver mapa"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 6.5l6-3 6 3 6-3v14l-6 3-6-3-6 3z"/><path d="M9 3.5v14M15 6.5v14"/></svg></button>
           <button id="vCal" aria-pressed="false" title="Calendário" aria-label="Ver calendário"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M7.5 14h2M11 14h2M14.5 14h2M7.5 17.5h2M11 17.5h2" stroke-linecap="round"/></svg></button>
           <button id="vTab" aria-pressed="false" title="Tabela" aria-label="Ver tabela"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9.5h18M3 14.75h18M9 9.5V20"/></svg></button>
+          <button id="vLin" aria-pressed="false" title="Linha do tempo" aria-label="Ver linha do tempo"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 20h18"/><circle cx="6" cy="15" r="1.6"/><circle cx="10" cy="8" r="1.6"/><circle cx="14" cy="13" r="1.6"/><circle cx="18" cy="5" r="1.6"/></svg></button>
         </div>
         <div class="regs" id="regs"></div>
       </div>
@@ -314,34 +323,16 @@ dd{margin:0}
         <div class="st" id="updst">Carregando os registros…</div>
       </section>
       <section class="detail" id="detail" aria-live="polite"></section>
-      <div class="abas" id="abas" role="tablist" aria-label="Atos na lista">
-        <button role="tab" id="abaPas" aria-selected="true" aria-controls="list" data-aba="pas">Já ocorreram <span></span></button>
-        <button role="tab" id="abaFut" aria-selected="false" aria-controls="list" data-aba="fut">Próximos <span></span></button>
-      </div>
-      <div class="list" id="list" role="tabpanel"></div>
+      <div class="list" id="list"></div>
     </aside>
   </main>
 </div>
 
-<footer class="rodape" id="rodape">
-  <div class="ln">
-    <span>Mapa independente, sem vínculo <span class="lg-only">com partidos ou campanhas</span><span class="sm-only">partidário</span>, mantido por Vinícius Franco.</span>
-    <span><span class="lg-only">Metodologia, fontes e correções: </span><a id="repoLink" href="https://github.com/vinacius/atos-pro-lula-2026" target="_blank" rel="noopener"><span class="lg-only">repositório no GitHub</span><span class="sm-only">Metodologia e fontes</span></a></span>
-    <button id="rodMais" aria-expanded="false" aria-controls="rodTxt">Sobre a contagem</button>
-  </div>
-  <p class="mais" id="rodTxt" hidden>Atos citados só por estado, sem cidade ou local, ficam fora do mapa. Em 11/10 o Comitê Popular de Luta contou 156 ações em 76 cidades; aqui entram só as localizadas pela imprensa.</p>
-</footer>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 let GEO = null;
-// rodapé fixo: a altura real vira a folga no fim da página
-{
-  const rod=document.getElementById("rodape"), mais=document.getElementById("rodMais"), txt=document.getElementById("rodTxt");
-  const ajusta=()=>document.documentElement.style.setProperty("--rodape",rod.offsetHeight+"px");
-  mais.onclick=()=>{ txt.hidden=!txt.hidden; mais.setAttribute("aria-expanded",String(!txt.hidden)); ajusta(); };
-  new ResizeObserver(ajusta).observe(rod);
-}
+let WORLD = null;
+const REPO_URL = /\.github\.io$/.test(location.hostname) ? `https://github.com/${location.hostname.split(".")[0]}${location.pathname.split("/").slice(0,2).join("/")}` : "https://github.com/";
 const TRIGGER_ID = "trig_013f54a1vXELnVVYPDiZnZ5S";
 const REMOTE = "Claude Code Remote";
 
@@ -360,9 +351,6 @@ let ATOS = [];          // [{id, ...doc}]
 let selId = null;
 let filtro = null;      // null = todos · "L" | "E" | "M" = tipo · "C" = convocados
 const FILTRO_NOME = {L:"atos de campanha com Lula",E:"atos estudantis",M:"comitês e movimentos",C:"convocados sem confirmação"};
-let aba = "pas";        // "pas" = já ocorreram · "fut" = próximos
-const hojeISO = () => { const t=new Date(); return `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,"0")}-${String(t.getDate()).padStart(2,"0")}`; };
-const ocorreu = a => a.s==="R" || a.d<hojeISO();   // realizado, ou data já passou
 const passa = a => !filtro || (filtro==="C" ? a.s==="C" : a.t===filtro);
 const legend = document.querySelector(".legend");
 let lastStatus = null;
@@ -372,29 +360,82 @@ const recency = a => t1===t0?1:(pd(a.d).getTime()-t0)/(t1-t0);
 
 // ---------- mapa (estático: estados) ----------
 const svg = d3.select("#map");
+const defs = svg.append("defs");
 const gRoot = svg.append("g");
 const gLand = gRoot.append("g");
 const gLbl = gRoot.append("g");
+const gExt = gRoot.append("g");
 const gPts = gRoot.append("g");
 const projection = d3.geoMercator();
 const path = d3.geoPath(projection);
 let W=0,H=0,k=1;
 const radius = a => a.t==="L"?7.5:5.5;
 
+// ---------- exterior: três recortes do mapa-múndi, no mesmo canvas do Brasil ----------
+const isExt = a => !!a.pais;
+const PAINEIS = [
+  {id:"am", nome:"EUA e Canadá", box:[[-124,25],[-67,49]]},
+  {id:"eu", nome:"Europa",       box:[[-11,36],[21,57]]},
+  {id:"oc", nome:"Austrália",    box:[[113,-39],[154,-11]]},
+];
+PAINEIS.forEach(p=>{p.proj=d3.geoMercator(); p.path=d3.geoPath(p.proj); p.rect=[0,0,0,0];});
+const dentro = (p,a) => a.lon>=p.box[0][0]-12 && a.lon<=p.box[1][0]+12 && a.lat>=p.box[0][1]-10 && a.lat<=p.box[1][1]+10;
+const painelDe = a => PAINEIS.find(p=>dentro(p,a)) || PAINEIS[1];
+const projA = a => isExt(a) ? painelDe(a).proj([a.lon,a.lat]) : projection([a.lon,a.lat]);
+// altura que o recorte pede para uma largura w (Mercator + faixa do título)
+const altPainel=(p,w)=>{const u=d3.geoMercator().scale(1).translate([0,0]),[[a,b],[c,d]]=p.box,[px0,py0]=u([a,d]),[px1,py1]=u([c,b]);return (w-20)*(py1-py0)/(px1-px0)+40;};
+
+// Divide o canvas: Brasil ocupa a área principal; os recortes do exterior ficam numa coluna à direita
+// (tela larga) ou numa faixa embaixo (tela alta). Devolve a área livre para o Brasil.
+function layoutExt(){
+  const top=Math.max(58,document.getElementById("tools").getBoundingClientRect().height+22), gap=10;
+  const lg=wrap.querySelector(".legend"), lgVis=lg && getComputedStyle(lg).position==="absolute";
+  const lgH = lgVis ? lg.getBoundingClientRect().height+20 : 12;
+  let br;
+  if(W/H>=1.1){            // coluna à direita: EUA · Europa · Austrália
+    const x1=W-56, cw=Math.max(170,Math.min(330,W*0.27)), x0=x1-cw, y0=top, y1=H-12;
+    const nat=PAINEIS.map(p=>altPainel(p,cw)), f=Math.min(1,(y1-y0-2*gap)/d3.sum(nat));
+    let y=y0; PAINEIS.forEach((p,i)=>{p.rect=[x0,y,cw,nat[i]*f]; y+=nat[i]*f+gap;});
+    br=[[0,top-30],[x0-gap,H]];
+  }else{                    // faixa embaixo, lado a lado
+    const ws=[0.3,0.4,0.3], x0=12, x1=W-12, tw=x1-x0-2*gap, y1=H-(lgVis?lgH:12);
+    const hRow=Math.min((H-top)*0.32, Math.max(...PAINEIS.map((p,i)=>altPainel(p,tw*ws[i]))));
+    let x=x0; PAINEIS.forEach((p,i)=>{const w=tw*ws[i]; p.rect=[x,y1-hRow,w,hRow]; x+=w+gap;});
+    br=[[0,top-30],[W,y1-hRow-gap]];
+  }
+  PAINEIS.forEach(p=>{const [x,y,w,h]=p.rect;
+    p.proj.fitExtent([[x+10,y+30],[x+w-10,y+h-10]],{type:"MultiPoint",coordinates:p.box});});
+  defs.selectAll("clipPath").data(PAINEIS).join(e=>e.append("clipPath").attr("id",p=>"clip-"+p.id).call(c=>c.append("rect")))
+    .select("rect").attr("x",p=>p.rect[0]).attr("y",p=>p.rect[1]).attr("width",p=>Math.max(0,p.rect[2])).attr("height",p=>Math.max(0,p.rect[3])).attr("rx",10);
+  const g=gExt.selectAll("g.painel").data(PAINEIS).join(e=>{const g=e.append("g").attr("class","painel");
+    g.append("rect").attr("class","painel-bg");
+    g.append("g").attr("class","terras");
+    g.append("text").attr("class","painel-t");
+    return g;});
+  g.select("rect.painel-bg").attr("x",p=>p.rect[0]).attr("y",p=>p.rect[1]).attr("width",p=>Math.max(0,p.rect[2])).attr("height",p=>Math.max(0,p.rect[3])).attr("rx",10);
+  g.select("g.terras").attr("clip-path",p=>`url(#clip-${p.id})`).each(function(p){
+    d3.select(this).selectAll("path").data(WORLD.features.filter(f=>f.properties.p===p.id)).join("path").attr("class","country").attr("d",p.path);
+  });
+  g.select("text.painel-t").attr("x",p=>p.rect[0]+12).attr("y",p=>p.rect[1]+22).text(p=>p.nome);
+  return br;
+}
+
 function layout(){
   const r = svg.node().getBoundingClientRect(); W=r.width; H=r.height;
-  if(!W||!H||!GEO) return;
+  if(!W||!H||!GEO||!WORLD) return;
   svg.attr("viewBox",`0 0 ${W} ${H}`);
-  const pad = Math.min(W,H)*0.06;
-  projection.fitExtent([[pad,pad+30],[W-pad,H-pad]],GEO);
+  const [[bx0,by0],[bx1,by1]] = layoutExt();
+  const pad = Math.min(bx1-bx0,by1-by0)*0.06;
+  projection.fitExtent([[bx0+pad,by0+pad+30],[bx1-pad,by1-pad]],GEO);
   gLand.selectAll("path").data(GEO.features).join("path").attr("class","state").attr("d",path);
   gLbl.selectAll("text").data(GEO.features).join("text").attr("class","uf")
     .attr("x",f=>path.centroid(f)[0]).attr("y",f=>path.centroid(f)[1]).text(f=>f.properties.sigla);
   draw();
 }
 function draw(){
-  gPts.selectAll("g.pt").attr("transform",a=>{const [x,y]=projection([a.lon,a.lat]);return `translate(${x},${y}) scale(${1/k})`});
+  gPts.selectAll("g.pt").attr("transform",a=>{const [x,y]=projA(a);return `translate(${x},${y}) scale(${1/k})`});
   gLbl.selectAll("text").attr("font-size",13/k).style("display",k>9?"none":null);
+  gExt.selectAll("text.painel-t").attr("font-size",(W<500?12:15)/k);
 }
 const isNovo = a => idsIniciais && !idsIniciais.has(a.id);
 
@@ -422,30 +463,43 @@ function renderPoints(){
   draw();
   if(modo==="cal") renderCal();
   if(modo==="tab") renderTab();
+  if(modo==="lin") renderLin();
 }
 
 const zoom = d3.zoom().scaleExtent([1,60]).on("zoom",e=>{k=e.transform.k; gRoot.attr("transform",e.transform); draw(); hideTip();});
 svg.call(zoom).on("dblclick.zoom",null);
 document.getElementById("zin").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1.8);
 document.getElementById("zout").onclick=()=>svg.transition().duration(300).call(zoom.scaleBy,1/1.8);
-function zoomTo([[w,s],[e,n]]){
-  const [x0,y0]=projection([w,n]), [x1,y1]=projection([e,s]);
-  const sc=Math.min(60,0.85/Math.max((x1-x0)/W,(y1-y0)/H));
+function zoomXY(x0,y0,x1,y1,max=60){
+  const sc=Math.min(max,0.85/Math.max((x1-x0)/W,(y1-y0)/H));
   svg.transition().duration(650).call(zoom.transform,d3.zoomIdentity.translate(W/2,H/2).scale(sc).translate(-(x0+x1)/2,-(y0+y1)/2));
 }
-const REGIOES=[["Brasil",null],["Rio e Niterói",[[-43.6,-23.02],[-43.08,-22.79]]],["São Paulo",[[-46.72,-23.58],[-46.62,-23.53]]],["Brasília",[[-48.15,-15.84],[-47.84,-15.74]]],["Recife",[[-34.97,-8.07],[-34.87,-8.03]]],["Salvador",[[-38.54,-13.02],[-38.36,-12.93]]]];
+function zoomTo([[w,s],[e,n]]){
+  const [x0,y0]=projection([w,n]), [x1,y1]=projection([e,s]);
+  zoomXY(x0,y0,x1,y1);
+}
+const REGIOES=[["Tudo",null],["Rio e Niterói",[[-43.6,-23.02],[-43.08,-22.79]]],["São Paulo",[[-46.72,-23.58],[-46.62,-23.53]]],["Brasília",[[-48.15,-15.84],[-47.84,-15.74]]],["Recife",[[-34.97,-8.07],[-34.87,-8.03]]],["Salvador",[[-38.54,-13.02],[-38.36,-12.93]]]];
+const REGIOES_EXT=[["Europa","eu"],["EUA e Canadá","am"],["Austrália","oc"]];
 const tools=document.getElementById("regs");
-REGIOES.forEach(([nome,box],i)=>{
-  const b=document.createElement("button"); b.id="reg-"+i; b.textContent=nome; b.setAttribute("aria-pressed",i===0?"true":"false");
-  b.onclick=()=>{tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");
-    if(!box) svg.transition().duration(650).call(zoom.transform,d3.zoomIdentity); else zoomTo(box);};
-  tools.appendChild(b);
-});
+function renderRegs(){
+  const lista = [...REGIOES,...REGIOES_EXT];
+  tools.innerHTML="";
+  lista.forEach(([nome,box],i)=>{
+    const b=document.createElement("button"); b.id="reg-"+i; b.textContent=nome; b.setAttribute("aria-pressed",i===0?"true":"false");
+    b.onclick=()=>{tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");
+      if(!box) svg.transition().duration(650).call(zoom.transform,d3.zoomIdentity);
+      else if(typeof box==="string"){const p=PAINEIS.find(q=>q.id===box), [x,y,w,h]=p.rect; zoomXY(x,y,x+w,y+h,8);}
+      else zoomTo(box);};
+    tools.appendChild(b);
+  });
+}
+renderRegs();
 
-// ---------- modos: mapa × calendário × tabela ----------
+// ---------- modos: mapa × calendário × tabela × linha do tempo ----------
 let modo="map";
 const calEl=document.getElementById("cal"), vMap=document.getElementById("vMap"), vCal=document.getElementById("vCal");
 const tabEl=document.getElementById("tabv"), vTab=document.getElementById("vTab");
+const linEl=document.getElementById("lin"), vLin=document.getElementById("vLin");
 const abertos=new Set(); // dias com a lista expandida
 const MARCOS={"2026-10-04":"1º turno","2026-10-25":"2º turno"};
 const MAXCHIPS=5;
@@ -454,13 +508,14 @@ function setModo(m){
   modo=m;
   wrap.classList.toggle("cal-on",m==="cal"); calEl.hidden=m!=="cal";
   wrap.classList.toggle("tab-on",m==="tab"); tabEl.hidden=m!=="tab";
-  vMap.setAttribute("aria-pressed",String(m==="map")); vCal.setAttribute("aria-pressed",String(m==="cal")); vTab.setAttribute("aria-pressed",String(m==="tab"));
+  wrap.classList.toggle("lin-on",m==="lin"); linEl.hidden=m!=="lin";
+  vMap.setAttribute("aria-pressed",String(m==="map")); vCal.setAttribute("aria-pressed",String(m==="cal")); vTab.setAttribute("aria-pressed",String(m==="tab")); vLin.setAttribute("aria-pressed",String(m==="lin"));
   hideTip();
-  if(m==="cal") renderCal(); else if(m==="tab") renderTab(); else layout();
+  if(m==="cal") renderCal(); else if(m==="tab") renderTab(); else if(m==="lin") renderLin(); else layout();
   if(!selId) renderEmpty();
   try{localStorage.setItem("atos-modo",m)}catch(e){}
 }
-vMap.onclick=()=>setModo("map"); vCal.onclick=()=>setModo("cal"); vTab.onclick=()=>setModo("tab");
+vMap.onclick=()=>setModo("map"); vCal.onclick=()=>setModo("cal"); vTab.onclick=()=>setModo("tab"); vLin.onclick=()=>setModo("lin");
 function renderCal(){
   if(modo!=="cal") return;
   const ds=ATOS.map(a=>a.d).sort();
@@ -480,7 +535,7 @@ function renderCal(){
     const marco=MARCOS[d]?`<span class="marco">${MARCOS[d]}</span>`:(d===hoje?`<span class="marco hj">hoje</span>`:"");
     const aberto=abertos.has(d), mostra=aberto?arr:arr.slice(0,MAXCHIPS);
     html+=`<div class="cell${fora?" out":""}${d===hoje?" hoje":""}" data-d="${d}" style="${tint?`background:color-mix(in srgb,var(--red) ${tint}%,var(--bg))`:""}">
-      <div class="hd"><span class="num">${t.getDate()}${mes}</span>${arr.length?`<span class="cnt" title="${arr.length} ato${arr.length>1?"s":""}">${arr.length}<span class="w"> ato${arr.length>1?"s":""}</span></span>`:""}</div>${marco}
+      <div class="hd"><span class="num">${t.getDate()}${mes}</span>${arr.length?`<span class="cnt">${arr.length} ato${arr.length>1?"s":""}</span>`:""}</div>${marco}
       <div class="chips">${arr.map((a,i)=>`<button class="chip${a.id===selId?" sel":""}" data-id="${esc(a.id)}" title="${esc(a.cidade+" · "+a.local)}"${!aberto&&i>=MAXCHIPS?' data-extra="1"':""}>${sw(a)}<span class="tx">${esc(a.cidade)}</span></button>`).join("")}</div>
       ${arr.length>MAXCHIPS?`<button class="more" data-d="${d}">${aberto?"mostrar menos":`+${arr.length-MAXCHIPS} mais`}</button>`:""}
     </div>`;
@@ -499,7 +554,7 @@ const COLS=[["d","Data"],["hora","Horário"],["cidade","Cidade"],["local","Local
 const chave={d:a=>a.d+(a.hora||""),cidade:a=>a.cidade+a.uf,t:a=>(TIPO[a.t]||TIPO.M).nome,s:a=>STATUS[a.s]||"",hora:a=>a.hora||"",local:a=>a.local||"",pub:a=>a.pub||"",conv:a=>a.conv||""};
 const REGIAO_UF={Norte:"AC AM AP PA RO RR TO",Nordeste:"AL BA CE MA PB PE PI RN SE","Centro-Oeste":"DF GO MS MT",Sudeste:"ES MG RJ SP",Sul:"PR RS SC"};
 const REGIOES_BR=Object.keys(REGIAO_UF);
-const regiaoDe=a=>REGIOES_BR.find(r=>REGIAO_UF[r].split(" ").includes(a.uf))||"Sem região";
+const regiaoDe=a=>isExt(a)?"Exterior":REGIOES_BR.find(r=>REGIAO_UF[r].split(" ").includes(a.uf))||"Sem região";
 const regAbertas=new Set(); // regiões expandidas na tabela (começam recolhidas)
 function renderTab(){
   if(modo!=="tab") return;
@@ -518,11 +573,11 @@ function renderTab(){
     +td("Fontes",`<div class="fts">${(a.fontes||[]).map(f=>f.u?`<a href="${esc(safeUrl(f.u))}" target="_blank" rel="noopener">${esc(f.t)}</a>`:`<span class="empty">${esc(f.t)}</span>`).join("")}</div>`)
     +`</tr>`;
   const grupos=d3.group(vis,regiaoDe);
-  const ordemReg=[...REGIOES_BR,"Sem região"].filter(r=>grupos.has(r));
+  const ordemReg=[...REGIOES_BR,"Exterior","Sem região"].filter(r=>grupos.has(r));
   const todasAbertas=ordemReg.length>0&&ordemReg.every(r=>regAbertas.has(r));
   const corpos=ordemReg.map(r=>{
     const arr=grupos.get(r), aberta=regAbertas.has(r), nRr=arr.filter(a=>a.s==="R").length, ufs=new Set(arr.map(a=>a.uf)).size;
-    return `<tbody><tr class="grp"><td colspan="${COLS.length}"><button data-reg="${esc(r)}" aria-expanded="${aberta}"><span class="car" aria-hidden="true">▸</span><span class="rg">${esc(r)}</span><span class="n">${arr.length} ato${arr.length>1?"s":""}</span><span class="det">${nRr} realizados · ${arr.length-nRr} convocados · ${ufs} UF${ufs>1?"s":""}</span></button></td></tr>${aberta?arr.map(linha).join(""):""}</tbody>`;
+    return `<tbody><tr class="grp"><td colspan="${COLS.length}"><button data-reg="${esc(r)}" aria-expanded="${aberta}"><span class="car" aria-hidden="true">▸</span><span class="rg">${esc(r)}</span><span class="n">${arr.length} ato${arr.length>1?"s":""}</span><span class="det">${nRr} realizados · ${arr.length-nRr} convocados · ${ufs} ${r==="Exterior"?(ufs>1?"países":"país"):"UF"+(ufs>1?"s":"")}</span></button></td></tr>${aberta?arr.map(linha).join(""):""}</tbody>`;
   }).join("");
   const nR=vis.filter(a=>a.s==="R").length, nC=vis.length-nR;
   tabEl.innerHTML=`<div class="cal-head"><h3>Atos por região</h3><span>${vis.length} atos · ${nR} realizados · ${nC} convocados${filtro?" · filtro: "+esc(FILTRO_NOME[filtro]):""}<button class="tg" id="tgReg">${todasAbertas?"Recolher todas":"Expandir todas"}</button></span></div>
@@ -536,6 +591,96 @@ function renderTab(){
   });
 }
 
+// linha do tempo: x = dia do ato; y = distância até o litoral brasileiro (perto do mar embaixo, interior em cima; exterior no topo)
+// litoral simplificado, do Oiapoque ao Chuí (lon, lat)
+const LITORAL=[[-51.6,4.3],[-50.4,2.1],[-49.9,1.0],[-48.5,-0.7],[-47.35,-0.6],[-46.0,-1.1],[-44.3,-2.5],[-43.0,-2.4],[-41.8,-2.9],[-40.5,-2.8],[-38.5,-3.7],[-37.3,-4.8],[-35.5,-5.1],[-35.2,-5.8],[-34.85,-7.1],[-34.87,-8.05],[-35.7,-9.65],[-36.4,-10.5],[-37.05,-10.95],[-38.0,-12.6],[-38.5,-13.0],[-39.0,-14.8],[-39.1,-17.6],[-39.7,-19.6],[-40.3,-20.3],[-41.0,-21.6],[-42.0,-22.9],[-43.2,-22.97],[-44.3,-23.0],[-45.4,-23.8],[-46.3,-24.0],[-47.9,-25.0],[-48.5,-26.2],[-48.5,-27.6],[-48.8,-28.6],[-49.7,-29.3],[-50.3,-30.5],[-51.2,-31.6],[-52.1,-32.2],[-53.4,-33.7]];
+function distLitoral(a){ // km até o segmento de litoral mais próximo (aproximação plana local)
+  const kx=Math.cos(a.lat*Math.PI/180)*111.32, ky=110.57; let best=Infinity;
+  for(let i=1;i<LITORAL.length;i++){
+    const ax=(LITORAL[i-1][0]-a.lon)*kx, ay=(LITORAL[i-1][1]-a.lat)*ky, dx=(LITORAL[i][0]-a.lon)*kx-ax, dy=(LITORAL[i][1]-a.lat)*ky-ay;
+    const t=Math.max(0,Math.min(1,-(ax*dx+ay*dy)/(dx*dx+dy*dy))); best=Math.min(best,Math.hypot(ax+t*dx,ay+t*dy));
+  }
+  return best;
+}
+let linPos=null, linKey=""; // posições calculadas (id → [x,y]) e a geometria que as gerou
+function renderLin(){
+  if(modo!=="lin") return;
+  const vis=ATOS.filter(passa), nExt=vis.filter(isExt).length;
+  if(!linEl.querySelector(".lin-box")){
+    linEl.innerHTML=`<div class="cal-head"><h3>Linha do tempo</h3><span id="linInfo"></span></div><div class="lin-box"><div class="lin-scroll"><svg id="linSvg"></svg></div><svg class="lin-ax" id="linAx"></svg></div>`;
+    new ResizeObserver(()=>renderLin()).observe(linEl.querySelector(".lin-box"));
+  }
+  document.getElementById("linInfo").textContent=`${vis.length} atos${nExt?` · ${nExt} no exterior`:""} · ← mais antigos · mais recentes →${filtro?" · filtro: "+FILTRO_NOME[filtro]:""}`;
+  const box=linEl.querySelector(".lin-scroll"), BW=box.clientWidth, BH=box.clientHeight;
+  if(!BW||!BH||!ATOS.length) return;
+  const ds=ATOS.map(a=>a.d).sort();
+  const ini=pd(ds[0]<"2026-09-28"?ds[0]:"2026-09-28"), fim=pd(ds[ds.length-1]>"2026-10-25"?ds[ds.length-1]:"2026-10-25");
+  const dias=[]; for(let t=new Date(ini);t<=fim;t.setDate(t.getDate()+1)) dias.push(iso(t));
+  const ML=58, MR=14, MT=34, BAR=40, EXT=ATOS.some(isExt)?74:0, GAP=EXT?12:0;
+  const dayW=Math.max(30,(BW-ML-MR)/dias.length), SW=ML+dias.length*dayW+MR;
+  const yExt0=MT, yExt1=MT+EXT, yTop=yExt1+GAP+10, yBot=BH-BAR-14, yBar=BH-BAR-4;
+  const dMax=Math.max(100,...ATOS.filter(a=>!isExt(a)).map(distLitoral));
+  const y=d3.scaleSymlog().constant(10).domain([0,dMax]).range([yBot,yTop]);
+  const xDia=d=>ML+dias.indexOf(d)*dayW;
+  const rLin=a=>a.t==="L"?5.5:4;
+  // posições: cada ato fica dentro da coluna do seu dia; colisões empurram os pontos na vertical
+  const key=[BW,BH,ATOS.length,ATOS.map(a=>a.id).join()].join("|");
+  if(key!==linKey){
+    const nodes=ATOS.map((a,i)=>{const x0=xDia(a.d), ext=isExt(a), r=rLin(a);
+      const ty=ext?(yExt0+yExt1)/2+8:y(distLitoral(a));
+      return {a,r,lo:x0+r+2,hi:x0+dayW-r-2,ylo:ext?yExt0+20+r:yTop+r,yhi:ext?yExt1-r-2:yBot,tx:x0+dayW/2,ty,x:x0+dayW/2+((i*37)%11-5),y:ty};});
+    const prende=()=>nodes.forEach(n=>{n.x=Math.max(n.lo,Math.min(n.hi,n.x)); n.y=Math.max(n.ylo,Math.min(n.yhi,n.y));});
+    const sim=d3.forceSimulation(nodes).force("x",d3.forceX(n=>n.tx).strength(0.08)).force("y",d3.forceY(n=>n.ty).strength(0.5))
+      .force("c",d3.forceCollide(n=>n.r+0.9).iterations(3)).force("prende",prende).stop();
+    for(let i=0;i<260;i++) sim.tick();
+    linPos=new Map(nodes.map(n=>[n.a.id,[n.x,n.y]])); linKey=key;
+  }
+  const svgL=d3.select("#linSvg").attr("width",SW).attr("height",BH);
+  // fundo: faixa do exterior, grade de distâncias, marcos e barra dos dias
+  const fundo=svgL.selectAll("g.fundo").data([0]).join("g").attr("class","fundo").html("");
+  if(EXT){
+    fundo.append("rect").attr("class","faixa-ext").attr("x",ML).attr("y",yExt0).attr("width",SW-ML-MR).attr("height",EXT).attr("rx",8);
+  }
+  const ticks=[0,10,50,100,250,500,1000,2000].filter(v=>v<=dMax);
+  fundo.selectAll("line.grade").data(ticks).join("line").attr("class","grade").attr("x1",ML).attr("x2",SW-MR).attr("y1",v=>y(v)).attr("y2",v=>y(v));
+  dias.forEach(d=>{ if(pd(d).getDay()===1&&d!==dias[0]) fundo.append("line").attr("class","grade").attr("x1",xDia(d)).attr("x2",xDia(d)).attr("y1",yExt0).attr("y2",yBot+6).style("opacity",.6); });
+  Object.entries(MARCOS).forEach(([d,nome])=>{ if(!dias.includes(d)) return; const cx=xDia(d)+dayW/2, fimD=d===dias[dias.length-1];
+    fundo.append("line").attr("class","marco-l").attr("x1",cx).attr("x2",cx).attr("y1",MT-6).attr("y2",yBar);
+    fundo.append("text").attr("class","marco-t").attr("x",fimD?cx+dayW/2-2:cx+6).attr("y",MT-12).attr("text-anchor",fimD?"end":"start").text(`${nome} · ${ddmm(d)}`); });
+  const gd=fundo.selectAll("g.dia").data(dias).join("g").attr("class",d=>"dia"+(MARCOS[d]?" marco-d":"")+([0,6].includes(pd(d).getDay())?" fds":"")).attr("transform",d=>`translate(${xDia(d)},${yBar})`);
+  gd.append("rect").attr("x",1).attr("width",dayW-2).attr("height",BAR).attr("rx",5);
+  gd.append("text").attr("x",dayW/2).attr("y",18).text(d=>+d.slice(8));
+  gd.append("text").attr("class","sem").attr("x",dayW/2).attr("y",32).text(d=>DIAS[pd(d).getDay()]);
+  dias.forEach((d,i)=>{ if(i===0||d.endsWith("-01")) fundo.append("text").attr("class","mes").attr("x",xDia(d)+3).attr("y",yBar-6).text(MESES[pd(d).getMonth()]); });
+  // pontos (todos ficam no lugar; os fora do filtro esmaecem, como no mapa)
+  const data=[...ATOS].sort((a,b)=>(passa(a)?1:0)-(passa(b)?1:0)||(a.id===selId?1:0)-(b.id===selId?1:0));
+  const pts=svgL.selectAll("g.pt").data(data,a=>a.id).join(enter=>{
+    const g=enter.append("g").attr("tabindex",0).attr("role","button");
+    g.append("circle").attr("class","ring"); g.append("circle").attr("class","dot");
+    g.on("mousemove",(ev,a)=>showTip(a,ev)).on("mouseleave",hideTip)
+     .on("click",(ev,a)=>{ev.stopPropagation();select(a.id,false)})
+     .on("keydown",(ev,a)=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();select(a.id,false)}});
+    return g;
+  }).order();
+  pts.attr("class",a=>"pt"+(a.s==="C"?" conv":"")+(a.id===selId?" sel":"")+(isNovo(a)?" novo":"")+(passa(a)?"":" off"))
+     .attr("transform",a=>`translate(${linPos.get(a.id)})`)
+     .attr("data-id",a=>a.id)
+     .attr("aria-label",a=>`${a.cidade}, ${fmtLong(a.d)}: ${isExt(a)?"exterior":Math.round(distLitoral(a))+" km do litoral"}`)
+     .attr("tabindex",a=>passa(a)?0:-1)
+     .style("opacity",a=>passa(a)?"0.95":"0.07");
+  pts.select("circle.dot").attr("r",rLin).attr("stroke-width",a=>a.s==="C"?2:1.2)
+     .style("fill",a=>`var(${(TIPO[a.t]||TIPO.M).v})`)
+     .style("stroke",a=>a.s==="C"?`var(${(TIPO[a.t]||TIPO.M).v})`:null);
+  pts.select("circle.ring").attr("r",a=>rLin(a)+4);
+  // eixo vertical fixo à esquerda (não rola junto com os dias)
+  const ax=d3.select("#linAx").attr("width",ML).attr("height",BH).html("");
+  ax.append("rect").attr("class","fundo").attr("width",ML).attr("height",BH);
+  ax.selectAll("text.tick").data(ticks).join("text").attr("class","tick").attr("x",ML-8).attr("y",v=>y(v)+4).attr("text-anchor","end").text(v=>v===0?"0 km":v>=1000?(v/1000)+" mil":v);
+  if(EXT) ax.append("text").attr("class","eixo-t").attr("x",ML-8).attr("y",(yExt0+yExt1)/2+4).attr("text-anchor","end").text("Exterior");
+  ax.append("text").attr("class","eixo-t").attr("transform",`translate(14,${(yTop+yBot)/2}) rotate(-90)`).attr("text-anchor","middle").text("↑ interior · distância do litoral · mar ↓");
+  ax.append("text").attr("class","eixo-t").attr("x",ML-8).attr("y",yBar+24).attr("text-anchor","end").text("Dia");
+}
+
 const tip=document.getElementById("tip"), wrap=document.getElementById("mapwrap");
 function showTip(a,ev){const r=wrap.getBoundingClientRect();tip.innerHTML=`<b>${esc(a.cidade)} · ${esc(fmtLong(a.d))}</b>${esc(a.local)}`;tip.style.left=(ev.clientX-r.left)+"px";tip.style.top=(ev.clientY-r.top)+"px";tip.hidden=false;}
 function hideTip(){tip.hidden=true}
@@ -544,13 +689,17 @@ function hideTip(){tip.hidden=true}
 const detail=document.getElementById("detail"), list=document.getElementById("list");
 const sw=a=>`<span class="sw${a.s==="C"?" hollow":""}" style="background:var(${(TIPO[a.t]||TIPO.M).v});border-color:var(${(TIPO[a.t]||TIPO.M).v})"></span>`;
 function renderEmpty(){
-  detail.innerHTML=`<div class="eyebrow">Como ler · ${modo==="cal"?"calendário":modo==="tab"?"tabela":"mapa"}</div>
-  ${modo==="tab"
-    ? `<p class="empty" style="margin:8px 0 0">Cada linha é um ato, com data, horário, local, tipo, situação, público estimado, convocadores e fontes. Clique no título de uma coluna para ordenar, e numa linha para ver imagens e vídeos do ato. Os filtros da legenda também valem aqui.</p>`
+  detail.innerHTML=`<div class="eyebrow">Como ler · ${modo==="cal"?"calendário":modo==="tab"?"tabela":modo==="lin"?"linha do tempo":"mapa"}</div>
+  ${modo==="lin"
+    ? `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato. Da esquerda para a direita, os dias, do mais antigo ao mais recente; a barra embaixo mostra cada dia, com o 1º e o 2º turno em vermelho. Na vertical, a distância da cidade até o litoral brasileiro: embaixo, cidades à beira-mar; em cima, o interior. A escala é comprimida para separar as muitas cidades perto da costa. Os atos fora do país ficam na faixa “Exterior”, no topo.</p>
+       <p class="empty" style="margin:8px 0 0">A distância é medida em linha reta até um traçado simplificado da costa, do Oiapoque ao Chuí. Nos dias com muitos atos, os pontos se afastam um pouco para não se sobrepor. Clique num ponto para ver os detalhes; os filtros da legenda também valem aqui.</p>`
+    : modo==="tab"
+    ? `<p class="empty" style="margin:8px 0 0">Cada linha é um ato, com data, horário, local, tipo, situação, público estimado, convocadores e fontes, agrupados por região; os atos fora do país ficam no grupo Exterior. Clique no título de uma coluna para ordenar, e numa linha para ver imagens e vídeos do ato. Os filtros da legenda também valem aqui.</p>`
     : modo==="cal"
     ? `<p class="empty" style="margin:8px 0 0">Cada quadrado é um dia, de segunda a domingo, da reta final do 1º turno até o 2º turno (25/10). O número no canto conta os atos do dia, e o vermelho do fundo fica mais forte nos dias com mais atos. Os atos de campanha com Lula aparecem primeiro.</p>
        <p class="empty" style="margin:8px 0 0">Clique num ato para ver data, horário, público estimado, convocadores e fontes. Contorno tracejado indica ato convocado, ainda sem confirmação. Os filtros da legenda também valem aqui.</p>`
-    : `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato de rua registrado em fontes públicas. Clique num ponto ou numa linha da lista para ver data, horário, público estimado, convocadores e fontes. Use os atalhos no topo do mapa para aproximar as capitais com mais atos. Pontos mais claros são atos mais antigos.</p>`}
+    : `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato de rua registrado em fontes públicas. Clique num ponto ou numa linha da lista para ver data, horário, público estimado, convocadores e fontes. Use os atalhos no topo do mapa para aproximar as capitais com mais atos. Pontos mais claros são atos mais antigos.</p>
+       <p class="empty" style="margin:8px 0 0">Os atos de brasileiros fora do país ficam nos recortes ao lado do Brasil: EUA e Canadá, Europa e Austrália. Arraste e use o zoom para navegar entre eles, ou os atalhos do topo. Na lista, no calendário e na tabela, o nome do país aparece no lugar da UF.</p>`}
   <p class="empty" style="margin:8px 0 0">O público raramente tem contagem independente: quase todo número vem do PT ou dos organizadores, e isso aparece indicado em cada ato.</p>`;
 }
 function renderDetail(){
@@ -628,18 +777,19 @@ function ligarMidia(a){
     }
   };
 }
-const abaPas=document.getElementById("abaPas"), abaFut=document.getElementById("abaFut");
-function setAba(x){ if(aba===x) return; aba=x; renderList(); }
-abaPas.onclick=()=>setAba("pas"); abaFut.onclick=()=>setAba("fut");
 function select(id,fly){
+  if(id===selId){ deselect(false); return; } // clicar no ato já selecionado desfaz a seleção
   selId=id; renderPoints(); renderDetail();
-  { const a=ATOS.find(x=>x.id===id); if(a) setAba(ocorreu(a)?"pas":"fut"); }
   list.querySelectorAll(".row").forEach(r=>r.classList.toggle("sel",r.dataset.id===id));
   const a=ATOS.find(x=>x.id===id);
-  if(fly&&a&&modo==="map"){const d=0.06;zoomTo([[a.lon-d,a.lat-d],[a.lon+d,a.lat+d]]);tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));}
+  if(fly&&a&&modo==="map"){
+    if(isExt(a)){const [x,y]=projA(a); zoomXY(x-60,y-60,x+60,y+60,5);}
+    else{const d=0.06;zoomTo([[a.lon-d,a.lat-d],[a.lon+d,a.lat+d]]);}
+    tools.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));}
   if(fly&&a&&modo==="cal"){ if(!calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]:not([hidden])`)) {abertos.add(a.d); renderCal();}
     const c=calEl.querySelector(`.chip[data-id="${CSS.escape(id)}"]`); if(c) c.scrollIntoView({block:"nearest",behavior:"smooth"}); }
   if(a&&modo==="tab"&&!regAbertas.has(regiaoDe(a))){ regAbertas.add(regiaoDe(a)); renderTab(); }
+  if(fly&&a&&modo==="lin"&&linPos){ const p=linPos.get(id), sc=linEl.querySelector(".lin-scroll"); if(p&&sc) sc.scrollTo({left:p[0]-sc.clientWidth/2,behavior:"smooth"}); }
   if(fly&&a&&modo==="tab"){ const r=tabEl.querySelector(`tr[data-id="${CSS.escape(id)}"]`); if(r) r.scrollIntoView({block:"nearest",behavior:"smooth"}); }
   if(!fly&&window.matchMedia("(max-width:860px)").matches) detail.scrollIntoView({behavior:"smooth",block:"start"});
 }
@@ -652,23 +802,19 @@ svg.on("click",()=>deselect(false));
 document.addEventListener("keydown",e=>{if(e.key!=="Escape")return; if(fecharLB())return; if(selId) deselect(true);});
 
 function renderList(){
-  const fut=aba==="fut", naAba=ATOS.filter(a=>ocorreu(a)!==fut), vis=naAba.filter(passa);
-  abaPas.querySelector("span").textContent=ATOS.filter(a=>passa(a)&&ocorreu(a)).length;
-  abaFut.querySelector("span").textContent=ATOS.filter(a=>passa(a)&&!ocorreu(a)).length;
-  abaPas.setAttribute("aria-selected",String(!fut)); abaFut.setAttribute("aria-selected",String(fut));
-  const banner=filtro?`<div class="filtro"><span>Mostrando <b>${vis.length}</b> de ${naAba.length}: ${esc(FILTRO_NOME[filtro])}</span><button id="limparFiltro">Mostrar todos</button></div>`:"";
-  const byDay=d3.groups(vis.sort((a,b)=>(fut?a.d.localeCompare(b.d):b.d.localeCompare(a.d))||a.cidade.localeCompare(b.cidade)),a=>a.d);
-  const vazio=vis.length?"":`<p class="note">${fut?"Nenhum ato convocado para os próximos dias":"Nenhum ato realizado"}${filtro?" com este filtro":""}.</p>`;
-  list.innerHTML=banner+vazio+byDay.map(([d,arr])=>`<div class="day"><span>${esc(fmtLong(d))}</span><span>${arr.length}</span></div>`+
+  const vis=ATOS.filter(passa);
+  const banner=filtro?`<div class="filtro"><span>Mostrando <b>${vis.length}</b> de ${ATOS.length}: ${esc(FILTRO_NOME[filtro])}</span><button id="limparFiltro">Mostrar todos</button></div>`:"";
+  const byDay=d3.groups(vis.sort((a,b)=>b.d.localeCompare(a.d)||a.cidade.localeCompare(b.cidade)),a=>a.d);
+  list.innerHTML=banner+byDay.map(([d,arr])=>`<div class="day"><span>${esc(fmtLong(d))}</span><span>${arr.length}</span></div>`+
     arr.map(a=>`<button class="row${a.id===selId?" sel":""}" data-id="${esc(a.id)}">${sw(a)}<span><span class="c">${esc(a.cidade)} · ${esc(a.uf)}</span>${(a.midia||[]).length?`<span class="mi">${ICON_MI}</span>`:""}${isNovo(a)?'<span class="badge">novo</span>':""}<br><span class="l">${esc(a.local)}</span></span></button>`).join("")).join("")
-    ;
+    +`<p class="note">Mapa independente, sem vínculo com partidos ou campanhas, mantido por Vinícius. Metodologia, fontes e correções: <a href="${esc(REPO_URL)}" target="_blank" rel="noopener">repositório no GitHub</a>.</p><p class="note">Atos citados só por estado, sem cidade ou local, ficam fora do mapa. Em 11/10 o Comitê Popular de Luta contou 156 ações em 76 cidades; aqui entram só as localizadas pela imprensa.</p>`;
   list.querySelectorAll(".row").forEach(r=>r.onclick=()=>select(r.dataset.id,true));
   const lf=document.getElementById("limparFiltro"); if(lf) lf.onclick=()=>setFiltro(filtro);
   legend.querySelectorAll(".lg").forEach(b=>{const f=b.dataset.f;b.querySelector(".n").textContent=ATOS.filter(a=>f==="C"?a.s==="C":a.t===f).length;});
 }
 function renderStats(){
-  const cid=new Set(ATOS.map(a=>a.cidade+"/"+a.uf)), ufs=new Set(ATOS.map(a=>a.uf));
-  document.getElementById("stats").innerHTML=[[ATOS.length,"atos registrados"],[cid.size,"cidades"],[ufs.size,"UFs"],[ATOS.filter(a=>a.t==="L").length,"com Lula"]]
+  const cid=new Set(ATOS.map(a=>a.cidade+"/"+a.uf)), ufs=new Set(ATOS.filter(a=>!isExt(a)).map(a=>a.uf)), paises=new Set(ATOS.filter(isExt).map(a=>a.pais));
+  document.getElementById("stats").innerHTML=[[ATOS.length,"atos registrados"],[cid.size,"cidades"],[ufs.size,"UFs"],...(paises.size?[[paises.size,"países"]]:[]),[ATOS.filter(a=>a.t==="L").length,"com Lula"]]
     .map(([n,l])=>`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
   if(ATOS.length){
     const ds=ATOS.map(a=>a.d).sort(); t0=pd(ds[0]).getTime(); t1=pd(ds[ds.length-1]).getTime();
@@ -739,11 +885,10 @@ async function buscar(db,mcp){
 
 // ---------- boot ----------
 renderEmpty(); renderStatus(); layout();
-try{ const m0=localStorage.getItem("atos-modo"); if(m0==="cal"||m0==="tab") setModo(m0); }catch(e){}
+try{ const m0=localStorage.getItem("atos-modo"); if(m0==="cal"||m0==="tab"||m0==="lin") setModo(m0); }catch(e){}
 new ResizeObserver(()=>layout()).observe(svg.node());
 
 let ATUALIZADO=null;
-
 function carregarX(){
   if(window.__xp) return window.__xp;
   window.__xp=new Promise((res,rej)=>{const sc=document.createElement("script");sc.src="https://platform.twitter.com/widgets.js";sc.async=true;sc.charset="utf-8";sc.onload=()=>res(window.twttr);sc.onerror=rej;document.head.appendChild(sc);});
@@ -757,8 +902,8 @@ renderStatus=function(){
 };
 (async()=>{
   try{
-    const [g,dados]=await Promise.all([fetch("data/br-uf.json").then(r=>r.json()),fetch("data/atos.json",{cache:"no-cache"}).then(r=>r.json())]);
-    GEO=g; layout();
+    const [g,m,dados]=await Promise.all([fetch("data/br-uf.json").then(r=>r.json()),fetch("data/mundo.json").then(r=>r.json()),fetch("data/atos.json",{cache:"no-cache"}).then(r=>r.json())]);
+    GEO=g; WORLD=m; layout();
     ATOS=(dados.atos||[]).filter(a=>a.d&&isFinite(a.lat)&&isFinite(a.lon));
     ATUALIZADO=dados.atualizadoEm;
     renderAll(); renderStatus();

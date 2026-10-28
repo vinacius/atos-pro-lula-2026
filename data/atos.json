@@ -1,6 +1,6 @@
 {
- "atualizadoEm": "2026-10-27T22:52-03:00",
- "total": 285,
+ "atualizadoEm": "2026-10-27T23:09-03:00",
+ "total": 311,
  "atos": [
   {
    "atualizadoEm": "2026-10-13T21:30:00-03:00",
@@ -2445,6 +2445,33 @@
    "id": "20261015-sao-paulo-galeria-metropole"
   },
   {
+   "d": "2026-10-16",
+   "cidade": "Dublin",
+   "uf": "Irlanda",
+   "pais": "Irlanda",
+   "lat": 53.3399,
+   "lon": -6.2371,
+   "local": "Em frente à sede europeia da Meta",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Brasileiros na Irlanda; protesto contra suposta interferência da Meta na eleição",
+   "fontes": [
+    {
+     "t": "Revista Fórum — atos no exterior: Lisboa, Londres e Berlim (18/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-no-exterior/"
+    },
+    {
+     "t": "Plantão Brasil — onda pró-Lula nas capitais europeias",
+     "u": "https://www.plantaobrasil.net/noticias/157741-onda-pro-lula-toma-capitais-europeias-em-reta-final-decisiva"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261016-dublin-em-frente-a-sede-europeia-da-meta"
+  },
+  {
    "atualizadoEm": "2026-10-19T23:30:00-03:00",
    "cidade": "Ipatinga",
    "conv": "Coletivo de movimentos sociais e partidos (com o MAB) e PT",
@@ -2562,6 +2589,33 @@
    "id": "20261016-rio-de-janeiro-bangu-praca-primeiro-de-maio"
   },
   {
+   "d": "2026-10-17",
+   "cidade": "Barcelona",
+   "uf": "Espanha",
+   "pais": "Espanha",
+   "lat": 41.38,
+   "lon": 2.169,
+   "local": "Caminhada pelo Raval (convocação citava a Plaça de Sant Jaume)",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Brasileiros em Barcelona",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    },
+    {
+     "t": "Revista Fórum — atos no exterior: Lisboa, Londres e Berlim (18/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-no-exterior/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261017-barcelona-caminhada-pelo-raval-convocacao-citava-a-placa-de-sant-jaume"
+  },
+  {
    "atualizadoEm": "2026-10-19T21:21:00-03:00",
    "cidade": "Belo Horizonte",
    "conv": "Secretaria de Mulheres do PT-BH",
@@ -2586,6 +2640,37 @@
    "t": "M",
    "uf": "MG",
    "id": "20261017-belo-horizonte-praca-sete-mulheres-com-lula"
+  },
+  {
+   "d": "2026-10-17",
+   "cidade": "Berlim",
+   "uf": "Alemanha",
+   "pais": "Alemanha",
+   "lat": 52.5163,
+   "lon": 13.3777,
+   "local": "Portão de Brandemburgo",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Entre 300 e 500 pessoas",
+   "pubFonte": "Correio Braziliense, sem dizer quem estimou; a Revista Fórum fala em “centenas”",
+   "conv": "Não informado",
+   "fontes": [
+    {
+     "t": "Correio Braziliense — atos na Europa e na Austrália",
+     "u": "https://www.correiobraziliense.com.br/politica/2026/10/7522948-atos-pro-lula-se-espalham-por-cidades-da-europa-e-na-australia.html"
+    },
+    {
+     "t": "Revista Fórum — atos no exterior: Lisboa, Londres e Berlim (18/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-no-exterior/"
+    },
+    {
+     "t": "Plantão Brasil — onda pró-Lula nas capitais europeias",
+     "u": "https://www.plantaobrasil.net/noticias/157741-onda-pro-lula-toma-capitais-europeias-em-reta-final-decisiva"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261017-berlim-portao-de-brandemburgo"
   },
   {
    "atualizadoEm": "2026-10-19T21:21:00-03:00",
@@ -2824,6 +2909,29 @@
    "id": "20261017-rio-do-sul-praca-ermembergo-pellizzetti"
   },
   {
+   "d": "2026-10-17",
+   "cidade": "Sydney",
+   "uf": "Austrália",
+   "pais": "Austrália",
+   "lat": -33.8688,
+   "lon": 151.2093,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "R",
+   "hora": "Data incerta: 17 ou 18/10",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Não informado",
+   "fontes": [
+    {
+     "t": "Correio Braziliense — atos na Europa e na Austrália",
+     "u": "https://www.correiobraziliense.com.br/politica/2026/10/7522948-atos-pro-lula-se-espalham-por-cidades-da-europa-e-na-australia.html"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261017-sydney-local-nao-informado"
+  },
+  {
    "atualizadoEm": "2026-10-14T21:55:00-03:00",
    "cidade": "São Bernardo do Campo",
    "conv": "Não informado",
@@ -2892,6 +3000,29 @@
    "t": "M",
    "uf": "SP",
    "id": "20261017-sao-paulo-jardim-angela-santos-martires"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Amsterdã",
+   "uf": "Países Baixos",
+   "pais": "Países Baixos",
+   "lat": 52.3676,
+   "lon": 4.9041,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Mulheres da Resistência no Exterior (segundo o perfil do grupo, citado por A Crítica)",
+   "fontes": [
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-amsterda-local-nao-informado"
   },
   {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
@@ -3332,6 +3463,33 @@
    "id": "20261018-chapeco-praca-central-praca-coronel-bertaso"
   },
   {
+   "d": "2026-10-18",
+   "cidade": "Colônia",
+   "uf": "Alemanha",
+   "pais": "Alemanha",
+   "lat": 50.9375,
+   "lon": 6.9603,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Citado na lista de atos de domingo",
+   "fontes": [
+    {
+     "t": "Correio Braziliense — atos na Europa e na Austrália",
+     "u": "https://www.correiobraziliense.com.br/politica/2026/10/7522948-atos-pro-lula-se-espalham-por-cidades-da-europa-e-na-australia.html"
+    },
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-colonia-local-nao-informado"
+  },
+  {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
    "cidade": "Cuiabá",
    "conv": "Estudantes, movimentos sociais e partidos de esquerda",
@@ -3460,6 +3618,33 @@
    "t": "M",
    "uf": "SP",
    "id": "20261018-franca-praca-barao"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Genebra",
+   "uf": "Suíça",
+   "pais": "Suíça",
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Citado na lista de atos de domingo",
+   "fontes": [
+    {
+     "t": "Correio Braziliense — atos na Europa e na Austrália",
+     "u": "https://www.correiobraziliense.com.br/politica/2026/10/7522948-atos-pro-lula-se-espalham-por-cidades-da-europa-e-na-australia.html"
+    },
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-genebra-local-nao-informado"
   },
   {
    "atualizadoEm": "2026-10-19T21:21:00-03:00",
@@ -3752,6 +3937,76 @@
    "id": "20261018-leopoldina-praca-do-ginasio"
   },
   {
+   "d": "2026-10-18",
+   "cidade": "Lisboa",
+   "uf": "Portugal",
+   "pais": "Portugal",
+   "lat": 38.7107,
+   "lon": -9.1434,
+   "local": "Largo Camões → Chiado → Baixa → margem do Tejo",
+   "t": "M",
+   "s": "R",
+   "hora": "Concentração às 10h30 (hora de Lisboa)",
+   "pub": "“Centenas”",
+   "pubFonte": "Relatos da Revista Fórum e de posts; sem contagem",
+   "conv": "Brasileiros em Portugal; com apoio de Alceu Valença (o Poder360 diz que ele esteve presente)",
+   "fontes": [
+    {
+     "t": "Revista Fórum — atos no exterior: Lisboa, Londres e Berlim (18/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-no-exterior/"
+    },
+    {
+     "t": "Correio Braziliense — atos na Europa e na Austrália",
+     "u": "https://www.correiobraziliense.com.br/politica/2026/10/7522948-atos-pro-lula-se-espalham-por-cidades-da-europa-e-na-australia.html"
+    },
+    {
+     "t": "Vanity Brasil — agenda: Lisboa, 18/10, 10h30, Praça Luís de Camões",
+     "u": "https://vanitybrasil.com.br/apoiadores-de-lula-programam-atos-em-todo-o-pais-e-em-lisboa-apos-manifestacao-de-261-mil-na-paulista/"
+    },
+    {
+     "t": "Poder360 — Lisboa tem ato a favor de Lula com presença de Alceu Valença",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/lisboa-tem-ato-a-favor-de-lula-com-presenca-de-alceu-valenca/"
+    },
+    {
+     "t": "Plantão Brasil — onda pró-Lula nas capitais europeias",
+     "u": "https://www.plantaobrasil.net/noticias/157741-onda-pro-lula-toma-capitais-europeias-em-reta-final-decisiva"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-lisboa-largo-camoes-chiado-baixa-margem-do-tejo"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Londres",
+   "uf": "Reino Unido",
+   "pais": "Reino Unido",
+   "lat": 51.5007,
+   "lon": -0.1271,
+   "local": "Parliament Square",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "Ex-coordenadora do núcleo esperava “milhares”, mas disse não ter contagem",
+   "conv": "Voluntários e núcleo do PT em Londres; discurso do deputado britânico Jeremy Corbyn",
+   "fontes": [
+    {
+     "t": "Revista Fórum — atos no exterior: Lisboa, Londres e Berlim (18/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-no-exterior/"
+    },
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    },
+    {
+     "t": "Correio Braziliense — atos na Europa e na Austrália",
+     "u": "https://www.correiobraziliense.com.br/politica/2026/10/7522948-atos-pro-lula-se-espalham-por-cidades-da-europa-e-na-australia.html"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-londres-parliament-square"
+  },
+  {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
    "cidade": "Macapá",
    "conv": "Não informado",
@@ -3833,6 +4088,29 @@
    "id": "20261018-maceio-corredor-vera-arruda"
   },
   {
+   "d": "2026-10-18",
+   "cidade": "Madri",
+   "uf": "Espanha",
+   "pais": "Espanha",
+   "lat": 40.4168,
+   "lon": -3.7038,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Mulheres da Resistência no Exterior (segundo o perfil do grupo, citado por A Crítica)",
+   "fontes": [
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-madri-local-nao-informado"
+  },
+  {
    "atualizadoEm": "2026-10-19T21:21:00-03:00",
    "cidade": "Manaus",
    "conv": "Omar Aziz (PSD), Eduardo Braga (MDB) e Marcelo Ramos (PT)",
@@ -3889,6 +4167,29 @@
    "t": "M",
    "uf": "PR",
    "id": "20261018-maringa-estadio-willie-davids"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Marselha",
+   "uf": "França",
+   "pais": "França",
+   "lat": 43.2965,
+   "lon": 5.3698,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Mulheres da Resistência no Exterior (segundo o perfil do grupo, citado por A Crítica)",
+   "fontes": [
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-marselha-local-nao-informado"
   },
   {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
@@ -3969,6 +4270,29 @@
    "id": "20261018-miguel-pereira-praca-do-chafariz-grawata"
   },
   {
+   "d": "2026-10-18",
+   "cidade": "Milão",
+   "uf": "Itália",
+   "pais": "Itália",
+   "lat": 45.4642,
+   "lon": 9.19,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Mulheres da Resistência no Exterior (segundo o perfil do grupo, citado por A Crítica)",
+   "fontes": [
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-milao-local-nao-informado"
+  },
+  {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
    "cidade": "Mossoró",
    "conv": "Não informado",
@@ -4015,6 +4339,37 @@
    "t": "M",
    "uf": "RN",
    "id": "20261018-natal-praca-das-flores-praia-do-meio"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Nova York",
+   "uf": "Estados Unidos",
+   "pais": "Estados Unidos",
+   "lat": 40.7359,
+   "lon": -73.9911,
+   "local": "Union Square → Washington Square",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Núcleo do PT em Nova York e Mulheres da Resistência no Exterior",
+   "fontes": [
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    },
+    {
+     "t": "Palanque #7 — mobilização pró-Lula chega ao exterior",
+     "u": "https://joaosaconi.substack.com/p/palanque-7-mobilizacao-pro-lula-no"
+    },
+    {
+     "t": "Revista Fórum — atos no exterior: Lisboa, Londres e Berlim (18/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-no-exterior/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-nova-york-union-square-washington-square"
   },
   {
    "atualizadoEm": "2026-10-19T21:21:00-03:00",
@@ -4067,6 +4422,29 @@
    "t": "M",
    "uf": "PA",
    "id": "20261018-parauapebas-concha-acustica"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Paris",
+   "uf": "França",
+   "pais": "França",
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Brasileiros na França",
+   "fontes": [
+    {
+     "t": "Correio Braziliense — atos na Europa e na Austrália",
+     "u": "https://www.correiobraziliense.com.br/politica/2026/10/7522948-atos-pro-lula-se-espalham-por-cidades-da-europa-e-na-australia.html"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-paris-local-nao-informado"
   },
   {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
@@ -4145,6 +4523,29 @@
    "t": "M",
    "uf": "PE",
    "id": "20261018-paudalho-entrada-da-cidade"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Porto",
+   "uf": "Portugal",
+   "pais": "Portugal",
+   "lat": 41.1497,
+   "lon": -8.6058,
+   "local": "Concentração no Mercado do Bolhão",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Apoiadores de Lula no Porto",
+   "fontes": [
+    {
+     "t": "Revista Fórum — atos no exterior: Lisboa, Londres e Berlim (18/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-no-exterior/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-porto-concentracao-no-mercado-do-bolhao"
   },
   {
    "atualizadoEm": "2026-10-19T21:21:00-03:00",
@@ -4499,6 +4900,29 @@
    "t": "M",
    "uf": "BA",
    "id": "20261018-salvador-ondina-farol-da-barra"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "San Francisco",
+   "uf": "Estados Unidos",
+   "pais": "Estados Unidos",
+   "lat": 37.7749,
+   "lon": -122.4194,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Coletivos feministas da costa oeste",
+   "fontes": [
+    {
+     "t": "Palanque #7 — mobilização pró-Lula chega ao exterior",
+     "u": "https://joaosaconi.substack.com/p/palanque-7-mobilizacao-pro-lula-no"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-san-francisco-local-nao-informado"
   },
   {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
@@ -4953,6 +5377,29 @@
    "t": "M",
    "uf": "PI",
    "id": "20261018-teresina-portico-da-ufpi-corre-com-lula"
+  },
+  {
+   "d": "2026-10-18",
+   "cidade": "Toronto",
+   "uf": "Canadá",
+   "pais": "Canadá",
+   "lat": 43.6532,
+   "lon": -79.3832,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Mulheres da Resistência no Exterior (segundo o perfil do grupo, citado por A Crítica)",
+   "fontes": [
+    {
+     "t": "A Crítica — atos no exterior a uma semana do 2º turno",
+     "u": "https://acritica.net/eleicoes-2026/apoiadores-de-lula-fazem-atos-em-capitais-e-no-exterior-a-uma-semana-do-2o-turno/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261018-toronto-local-nao-informado"
   },
   {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
@@ -5804,6 +6251,29 @@
    "id": "20261024-bacabal-local-nao-informado"
   },
   {
+   "d": "2026-10-24",
+   "cidade": "Barcelona",
+   "uf": "Espanha",
+   "pais": "Espanha",
+   "lat": 41.3851,
+   "lon": 2.1734,
+   "local": "Nova caminhada (local não informado)",
+   "t": "M",
+   "s": "C",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Brasileiros em Barcelona",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261024-barcelona-nova-caminhada-local-nao-informado"
+  },
+  {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
    "cidade": "Barra Velha",
    "conv": "Não informado",
@@ -5890,6 +6360,52 @@
    "t": "M",
    "uf": "DF",
    "id": "20261024-brasilia-local-nao-informado"
+  },
+  {
+   "d": "2026-10-24",
+   "cidade": "Brno",
+   "uf": "República Tcheca",
+   "pais": "República Tcheca",
+   "lat": 49.1975,
+   "lon": 16.608,
+   "local": "Moravské náměstí, junto à estátua equestre de Jošt",
+   "t": "M",
+   "s": "C",
+   "hora": "14h",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Não informado",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261024-brno-moravske-namesti-junto-a-estatua-equestre-de-jost"
+  },
+  {
+   "d": "2026-10-24",
+   "cidade": "Bruxelas",
+   "uf": "Bélgica",
+   "pais": "Bélgica",
+   "lat": 50.8467,
+   "lon": 4.3525,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Não informado (registros divulgados pela Mídia NINJA)",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261024-bruxelas-local-nao-informado"
   },
   {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
@@ -6050,6 +6566,29 @@
    "id": "20261024-dourados-local-nao-informado"
   },
   {
+   "d": "2026-10-24",
+   "cidade": "Dublin",
+   "uf": "Irlanda",
+   "pais": "Irlanda",
+   "lat": 53.3498,
+   "lon": -6.2603,
+   "local": "Local não informado",
+   "t": "M",
+   "s": "R",
+   "hora": "Não informado",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Não informado (vídeo divulgado pela Mídia NINJA)",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261024-dublin-local-nao-informado"
+  },
+  {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
    "cidade": "Florianópolis",
    "conv": "Não informado",
@@ -6118,6 +6657,29 @@
    "t": "M",
    "uf": "CE",
    "id": "20261024-fortaleza-praia-de-iracema-ceara-pela-democracia"
+  },
+  {
+   "d": "2026-10-24",
+   "cidade": "Frankfurt",
+   "uf": "Alemanha",
+   "pais": "Alemanha",
+   "lat": 50.1104,
+   "lon": 8.6821,
+   "local": "Praça Römerberg",
+   "t": "M",
+   "s": "C",
+   "hora": "13h30",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Comitê Popular de Luta de Frankfurt",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261024-frankfurt-praca-romerberg"
   },
   {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
@@ -6294,6 +6856,29 @@
    "t": "M",
    "uf": "PE",
    "id": "20261024-lagoa-de-itaenga-local-nao-informado"
+  },
+  {
+   "d": "2026-10-24",
+   "cidade": "Londres",
+   "uf": "Reino Unido",
+   "pais": "Reino Unido",
+   "lat": 51.5367,
+   "lon": -0.1262,
+   "local": "Em frente ao escritório da Meta (12 Lewis Cubitt Walk, King’s Cross)",
+   "t": "M",
+   "s": "C",
+   "hora": "13h",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Ativistas brasileiros e britânicos; protesto contra restrições a conteúdo pró-Lula nas plataformas",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261024-londres-em-frente-ao-escritorio-da-meta-12-lewis-cubitt-walk-kings-cros"
   },
   {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
@@ -6536,6 +7121,29 @@
    "t": "M",
    "uf": "TO",
    "id": "20261024-palmas-local-nao-informado"
+  },
+  {
+   "d": "2026-10-24",
+   "cidade": "Paris",
+   "uf": "França",
+   "pais": "França",
+   "lat": 48.884,
+   "lon": 2.37,
+   "local": "Roda de samba “2º Turno – SDQ da Silva”, La Rotonde Stalingrad",
+   "t": "M",
+   "s": "C",
+   "hora": "15h às 19h30",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Coletivo Samba de Quartier",
+   "fontes": [
+    {
+     "t": "Revista Fórum — de Dublin a Bruxelas, véspera do 2º turno (24/10)",
+     "u": "https://revistaforum.com.br/politica/atos-pro-lula-exterior-eleicao-2026/"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261024-paris-roda-de-samba-2o-turno-sdq-da-silva-la-rotonde-stalingrad"
   },
   {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
@@ -7120,6 +7728,52 @@
    "t": "M",
    "uf": "PB",
    "id": "20261025-joao-pessoa-comemoracao-da-reeleicao-busto-de-tamandare-e-parque-solon"
+  },
+  {
+   "d": "2026-10-25",
+   "cidade": "Lisboa",
+   "uf": "Portugal",
+   "pais": "Portugal",
+   "lat": 38.7139,
+   "lon": -9.1394,
+   "local": "Comemoração da reeleição (local não informado)",
+   "t": "M",
+   "s": "R",
+   "hora": "Noite de 25/10",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Não informado",
+   "fontes": [
+    {
+     "t": "BandNews FM — portugueses em Lisboa celebram reeleição de Lula (vídeo)",
+     "u": "https://www.youtube.com/shorts/YrekLvS6f-w"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261025-lisboa-comemoracao-da-reeleicao-local-nao-informado"
+  },
+  {
+   "d": "2026-10-25",
+   "cidade": "Londres",
+   "uf": "Reino Unido",
+   "pais": "Reino Unido",
+   "lat": 51.499,
+   "lon": -0.2,
+   "local": "Zona oeste de Londres, durante a votação (apoiadores de Lula e de Flávio na mesma rua)",
+   "t": "M",
+   "s": "R",
+   "hora": "Durante a votação do 2º turno",
+   "pub": "Não informado",
+   "pubFonte": "",
+   "conv": "Não informado",
+   "fontes": [
+    {
+     "t": "Metrópoles — apoiadores de Lula e Flávio na mesma rua em Londres",
+     "u": "https://www.metropoles.com/mundo/apoiadores-de-lula-e-flavio-bolsonaro-fazem-atos-na-mesma-rua-em-londres"
+    }
+   ],
+   "atualizadoEm": "2026-10-27T20:00:00-03:00",
+   "id": "20261025-londres-zona-oeste-de-londres-durante-a-votacao-apoiadores-de-lula-e-de"
   },
   {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
