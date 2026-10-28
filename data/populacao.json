@@ -1,0 +1,225 @@
+{
+ "_fontes": {
+  "br": "IBGE, Censo Demográfico 2022, população residente por município (tabela SIDRA 4709). Ceilândia (DF), região administrativa sem dado municipal: PDAD 2021 (IPEDF Codeplan).",
+  "ext": "Itamaraty, Comunidades Brasileiras no Exterior, ano-base 2022 (ago. 2023): número estimado de brasileiros na jurisdição do posto consular que atende a cidade."
+ },
+ "br": {
+  "Aracaju/SE": 602757,
+  "Araguapaz/GO": 7153,
+  "Araguari/MG": 117808,
+  "Araguaína/TO": 171301,
+  "Araranguá/SC": 71922,
+  "Araraquara/SP": 242228,
+  "Araçatuba/SP": 200124,
+  "Atalaia/AL": 37512,
+  "Atibaia/SP": 158647,
+  "Bacabal/MA": 103711,
+  "Balneário Camboriú/SC": 139155,
+  "Barra Velha/SC": 45369,
+  "Barueri/SP": 316473,
+  "Bauru/SP": 379146,
+  "Belford Roxo/RJ": 483087,
+  "Belo Horizonte/MG": 2315560,
+  "Belém/PA": 1303403,
+  "Bertioga/SP": 64188,
+  "Blumenau/SC": 361261,
+  "Brasília/DF": 2817381,
+  "Cabo Frio/RJ": 222161,
+  "Cachoeira/BA": 29250,
+  "Cachoeiro de Itapemirim/ES": 185786,
+  "Cacoal/RO": 86887,
+  "Cajazeiras/PB": 63239,
+  "Campina Grande/PB": 419379,
+  "Campinas/SP": 1139047,
+  "Campo Grande/MS": 898100,
+  "Campos dos Goytacazes/RJ": 483540,
+  "Caruaru/PE": 378048,
+  "Catanduva/SP": 115791,
+  "Caçapava/SP": 96202,
+  "Ceilândia/DF": 350347,
+  "Chapecó/SC": 254785,
+  "Colatina/ES": 120033,
+  "Criciúma/SC": 214493,
+  "Cuiabá/MT": 650877,
+  "Curitiba/PR": 1773718,
+  "Curitibanos/SC": 40045,
+  "Dourados/MS": 243367,
+  "Florianópolis/SC": 537211,
+  "Fortaleza/CE": 2428708,
+  "Franca/SP": 352536,
+  "Garanhuns/PE": 142506,
+  "Goiânia/GO": 1437366,
+  "Guajará-Mirim/RO": 39387,
+  "Guarulhos/SP": 1291771,
+  "Icapuí/CE": 21433,
+  "Indaiatuba/SP": 255748,
+  "Ipatinga/MG": 227731,
+  "Itabirito/MG": 53365,
+  "Itajaí/SC": 264054,
+  "Itanhaém/SP": 112476,
+  "Itapecerica da Serra/SP": 158522,
+  "Jacareí/SP": 240275,
+  "Jardim/CE": 27411,
+  "Ji-Paraná/RO": 124333,
+  "Joinville/SC": 616317,
+  "João Pessoa/PB": 833932,
+  "Juazeiro do Norte/CE": 286120,
+  "Juazeiro/BA": 237821,
+  "Juiz de Fora/MG": 540756,
+  "Lago da Pedra/MA": 44403,
+  "Lagoa de Itaenga/PE": 19003,
+  "Leopoldina/MG": 51145,
+  "Londrina/PR": 555965,
+  "Macapá/AP": 442933,
+  "Macaé/RJ": 246391,
+  "Maceió/AL": 957916,
+  "Manaus/AM": 2063689,
+  "Maringá/PR": 409657,
+  "Marituba/PA": 111785,
+  "Marília/SP": 237627,
+  "Matão/SP": 79033,
+  "Miguel Pereira/RJ": 26582,
+  "Mogi Mirim/SP": 92558,
+  "Mogi das Cruzes/SP": 451505,
+  "Montes Claros/MG": 414240,
+  "Mossoró/RN": 264577,
+  "Mucambo/CE": 13666,
+  "Natal/RN": 751300,
+  "Nilópolis/RJ": 146774,
+  "Niterói/RJ": 481749,
+  "Nova Friburgo/RJ": 189939,
+  "Nova Iguaçu/RJ": 785867,
+  "Oeiras/PI": 38161,
+  "Olinda/PE": 349976,
+  "Palmas/TO": 302692,
+  "Parauapebas/PA": 267836,
+  "Parnamirim/RN": 252716,
+  "Parnaíba/PI": 162159,
+  "Patos de Minas/MG": 159235,
+  "Paudalho/PE": 56665,
+  "Pelotas/RS": 325685,
+  "Petrópolis/RJ": 278881,
+  "Porto Alegre/RS": 1332845,
+  "Porto Seguro/BA": 168326,
+  "Porto Velho/RO": 460434,
+  "Presidente Prudente/SP": 225668,
+  "Raposos/MG": 16279,
+  "Recife/PE": 1488920,
+  "Resende/RJ": 129612,
+  "Ribeirão Preto/SP": 698642,
+  "Rio Branco/AC": 364756,
+  "Rio Verde/GO": 225696,
+  "Rio de Janeiro/RJ": 6211223,
+  "Rio do Sul/SC": 72587,
+  "Salvador/BA": 2417678,
+  "Santa Cruz do Sul/RS": 133230,
+  "Santa Maria/RS": 271735,
+  "Santarém/PA": 331942,
+  "Santos/SP": 418608,
+  "Sinop/MT": 196312,
+  "Sobral/CE": 203023,
+  "Sorocaba/SP": 723682,
+  "São Bernardo do Campo/SP": 810729,
+  "São Gonçalo/RJ": 896744,
+  "São José do Rio Preto/SP": 480393,
+  "São José dos Campos/SP": 697054,
+  "São João da Boa Vista/SP": 92547,
+  "São João del-Rei/MG": 90225,
+  "São João do Cariri/PB": 4226,
+  "São Luís/MA": 1037775,
+  "São Mateus/ES": 123752,
+  "São Miguel dos Campos/AL": 51990,
+  "São Paulo/SP": 11451999,
+  "Tabatinga/AM": 66764,
+  "Taubaté/SP": 310739,
+  "Teresina/PI": 866300,
+  "Teresópolis/RJ": 165123,
+  "Uberaba/MG": 337836,
+  "Valença/RJ": 68088,
+  "Vitória/ES": 322869,
+  "Volta Redonda/RJ": 261563,
+  "Águas Belas/PE": 41548
+ },
+ "ext": {
+  "Amsterdã/Países Baixos": {
+   "n": 76500,
+   "posto": "Consulado-Geral em Amsterdã"
+  },
+  "Barcelona/Espanha": {
+   "n": 75000,
+   "posto": "Consulado-Geral em Barcelona"
+  },
+  "Berlim/Alemanha": {
+   "n": 60000,
+   "posto": "Embaixada em Berlim"
+  },
+  "Brno/República Tcheca": {
+   "n": 1330,
+   "posto": "Embaixada em Praga"
+  },
+  "Bruxelas/Bélgica": {
+   "n": 40000,
+   "posto": "Consulado-Geral em Bruxelas"
+  },
+  "Colônia/Alemanha": {
+   "n": 49000,
+   "posto": "Consulado-Geral em Frankfurt"
+  },
+  "Dublin/Irlanda": {
+   "n": 80000,
+   "posto": "Embaixada em Dublin"
+  },
+  "Frankfurt/Alemanha": {
+   "n": 49000,
+   "posto": "Consulado-Geral em Frankfurt"
+  },
+  "Genebra/Suíça": {
+   "n": 25000,
+   "posto": "Consulado-Geral em Genebra"
+  },
+  "Lisboa/Portugal": {
+   "n": 250000,
+   "posto": "Consulado-Geral em Lisboa"
+  },
+  "Londres/Reino Unido": {
+   "n": 190000,
+   "posto": "Consulado-Geral em Londres"
+  },
+  "Madri/Espanha": {
+   "n": 90000,
+   "posto": "Consulado-Geral em Madri"
+  },
+  "Marselha/França": {
+   "n": 30000,
+   "posto": "Consulado-Geral em Marselha"
+  },
+  "Milão/Itália": {
+   "n": 87000,
+   "posto": "Consulado-Geral em Milão"
+  },
+  "Nova York/Estados Unidos": {
+   "n": 500000,
+   "posto": "Consulado-Geral em Nova York"
+  },
+  "Paris/França": {
+   "n": 60000,
+   "posto": "Consulado-Geral em Paris"
+  },
+  "Porto/Portugal": {
+   "n": 80000,
+   "posto": "Consulado-Geral no Porto"
+  },
+  "San Francisco/Estados Unidos": {
+   "n": 65000,
+   "posto": "Consulado-Geral em São Francisco"
+  },
+  "Sydney/Austrália": {
+   "n": 32955,
+   "posto": "Consulado-Geral em Sydney"
+  },
+  "Toronto/Canadá": {
+   "n": 90000,
+   "posto": "Consulado-Geral em Toronto"
+  }
+ }
+}

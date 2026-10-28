@@ -44,10 +44,11 @@ Encontrou um erro ou um ato que falta? Abra uma *issue* com o link da fonte.
 ## Estrutura
 
 ```
-index.html        mapa, calendário, filtros e lista (HTML, CSS e JS num só arquivo; usa d3 via cdnjs)
+index.html        mapa, calendário, tabela, linha do tempo, filtros e lista (HTML, CSS e JS num só arquivo; usa d3 via cdnjs)
 data/atos.json    registros dos atos
 data/br-uf.json   contorno dos estados (geodata simplificado)
 data/mundo.json   contorno dos países nos recortes do exterior (geodata simplificado)
+data/populacao.json  população das cidades e brasileiros por jurisdição consular (eixo vertical da linha do tempo)
 ```
 
 Para rodar localmente: `python3 -m http.server` na pasta do projeto e abrir `http://localhost:8000`.
@@ -57,4 +58,6 @@ Para rodar localmente: `python3 -m http.server` na pasta do projeto e abrir `htt
 - Paleta e tipografia inspiradas na identidade visual de 2026 do site do PT (vermelho #e4142c, Sofia Sans Extra Condensed e Asap, via Google Fonts).
 - Contorno dos estados: [click_that_hood / brazil-states](https://github.com/codeforgermany/click_that_hood), simplificado com mapshaper.
 - Contorno dos países: [world-atlas](https://github.com/topojson/world-atlas) (Natural Earth, 1:50m), recortado e simplificado com mapshaper.
+- População das cidades brasileiras: IBGE, [Censo Demográfico 2022](https://sidra.ibge.gov.br/tabela/4709) (tabela 4709); Ceilândia (DF), região administrativa sem dado municipal, pela PDAD 2021 (IPEDF Codeplan).
+- Brasileiros no exterior: Itamaraty, *Comunidades Brasileiras no Exterior*, ano-base 2022 (ago. 2023), estimativa por jurisdição consular.
 - Mapa com [d3](https://d3js.org/).

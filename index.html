@@ -177,7 +177,7 @@ aside{background:var(--panel);border-left:1px solid var(--line);display:flex;fle
 dl{display:grid;grid-template-columns:96px minmax(0,1fr);gap:7px 12px;margin:14px 0 0;font-size:13px}
 dt{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
 dd{margin:0}
-.src a{color:var(--fg);text-decoration-color:var(--red);text-underline-offset:2px}
+.src a,.detail .empty a{color:var(--fg);text-decoration-color:var(--red);text-underline-offset:2px}
 .src{display:flex;flex-direction:column;gap:3px}
 .empty{color:var(--muted)}
 .list{overflow:auto;padding:6px 0 20px;flex:1}
@@ -591,17 +591,11 @@ function renderTab(){
   });
 }
 
-// linha do tempo: x = dia do ato; y = distância até o litoral brasileiro (perto do mar embaixo, interior em cima; exterior no topo)
-// litoral simplificado, do Oiapoque ao Chuí (lon, lat)
-const LITORAL=[[-51.6,4.3],[-50.4,2.1],[-49.9,1.0],[-48.5,-0.7],[-47.35,-0.6],[-46.0,-1.1],[-44.3,-2.5],[-43.0,-2.4],[-41.8,-2.9],[-40.5,-2.8],[-38.5,-3.7],[-37.3,-4.8],[-35.5,-5.1],[-35.2,-5.8],[-34.85,-7.1],[-34.87,-8.05],[-35.7,-9.65],[-36.4,-10.5],[-37.05,-10.95],[-38.0,-12.6],[-38.5,-13.0],[-39.0,-14.8],[-39.1,-17.6],[-39.7,-19.6],[-40.3,-20.3],[-41.0,-21.6],[-42.0,-22.9],[-43.2,-22.97],[-44.3,-23.0],[-45.4,-23.8],[-46.3,-24.0],[-47.9,-25.0],[-48.5,-26.2],[-48.5,-27.6],[-48.8,-28.6],[-49.7,-29.3],[-50.3,-30.5],[-51.2,-31.6],[-52.1,-32.2],[-53.4,-33.7]];
-function distLitoral(a){ // km até o segmento de litoral mais próximo (aproximação plana local)
-  const kx=Math.cos(a.lat*Math.PI/180)*111.32, ky=110.57; let best=Infinity;
-  for(let i=1;i<LITORAL.length;i++){
-    const ax=(LITORAL[i-1][0]-a.lon)*kx, ay=(LITORAL[i-1][1]-a.lat)*ky, dx=(LITORAL[i][0]-a.lon)*kx-ax, dy=(LITORAL[i][1]-a.lat)*ky-ay;
-    const t=Math.max(0,Math.min(1,-(ax*dx+ay*dy)/(dx*dx+dy*dy))); best=Math.min(best,Math.hypot(ax+t*dx,ay+t*dy));
-  }
-  return best;
-}
+// linha do tempo: x = dia do ato; y = população da cidade (maiores embaixo, menores em cima).
+// Exterior numa faixa própria no topo, com a mesma lógica aplicada ao número de brasileiros na jurisdição consular.
+let POP={br:{},ext:{}}; // data/populacao.json — IBGE Censo 2022 e Itamaraty (ano-base 2022)
+const popDe=a=>isExt(a)?(POP.ext[a.cidade+"/"+a.pais]||{}).n:POP.br[a.cidade+"/"+a.uf];
+const fmtPop=n=>n>=1e6?String(+(n/1e6).toFixed(1)).replace(".",",")+" mi":n>=1e3?Math.round(n/1e3)+" mil":String(n);
 let linPos=null, linKey=""; // posições calculadas (id → [x,y]) e a geometria que as gerou
 function renderLin(){
   if(modo!=="lin") return;
@@ -616,19 +610,22 @@ function renderLin(){
   const ds=ATOS.map(a=>a.d).sort();
   const ini=pd(ds[0]<"2026-09-28"?ds[0]:"2026-09-28"), fim=pd(ds[ds.length-1]>"2026-10-25"?ds[ds.length-1]:"2026-10-25");
   const dias=[]; for(let t=new Date(ini);t<=fim;t.setDate(t.getDate()+1)) dias.push(iso(t));
-  const ML=58, MR=14, MT=34, BAR=40, EXT=ATOS.some(isExt)?74:0, GAP=EXT?12:0;
+  const ML=70, MR=14, MT=34, BAR=40, EXT=ATOS.some(isExt)?112:0, GAP=EXT?12:0;
   const dayW=Math.max(30,(BW-ML-MR)/dias.length), SW=ML+dias.length*dayW+MR;
   const yExt0=MT, yExt1=MT+EXT, yTop=yExt1+GAP+10, yBot=BH-BAR-14, yBar=BH-BAR-4;
-  const dMax=Math.max(100,...ATOS.filter(a=>!isExt(a)).map(distLitoral));
-  const y=d3.scaleSymlog().constant(10).domain([0,dMax]).range([yBot,yTop]);
+  // escalas logarítmicas: a população vai de poucos milhares a 11 milhões; menores em cima
+  const ext0=(f,v)=>{const xs=ATOS.filter(f).map(popDe).filter(n=>n>0); return xs.length?d3.extent(xs):v;};
+  const [pMin,pMax]=ext0(a=>!isExt(a),[3000,12e6]), [eMin,eMax]=ext0(isExt,[1000,6e5]);
+  const y=d3.scaleLog().domain([pMin/1.3,pMax*1.3]).range([yTop,yBot]);
+  const yE=d3.scaleLog().domain([eMin/1.3,eMax*1.3]).range([yExt0+26,yExt1-8]);
   const xDia=d=>ML+dias.indexOf(d)*dayW;
   const rLin=a=>a.t==="L"?5.5:4;
   // posições: cada ato fica dentro da coluna do seu dia; colisões empurram os pontos na vertical
-  const key=[BW,BH,ATOS.length,ATOS.map(a=>a.id).join()].join("|");
+  const key=[BW,BH,ATOS.length,Object.keys(POP.br).length,ATOS.map(a=>a.id).join()].join("|");
   if(key!==linKey){
     const nodes=ATOS.map((a,i)=>{const x0=xDia(a.d), ext=isExt(a), r=rLin(a);
-      const ty=ext?(yExt0+yExt1)/2+8:y(distLitoral(a));
-      return {a,r,lo:x0+r+2,hi:x0+dayW-r-2,ylo:ext?yExt0+20+r:yTop+r,yhi:ext?yExt1-r-2:yBot,tx:x0+dayW/2,ty,x:x0+dayW/2+((i*37)%11-5),y:ty};});
+      const p=popDe(a), ty=ext?(p?yE(p):yExt0+26):(p?y(p):yTop); // sem população conhecida: no topo da faixa
+      return {a,r,lo:x0+r+2,hi:x0+dayW-r-2,ylo:ext?yExt0+20+r:yTop,yhi:ext?yExt1-r-2:yBot,tx:x0+dayW/2,ty,x:x0+dayW/2+((i*37)%11-5),y:ty};});
     const prende=()=>nodes.forEach(n=>{n.x=Math.max(n.lo,Math.min(n.hi,n.x)); n.y=Math.max(n.ylo,Math.min(n.yhi,n.y));});
     const sim=d3.forceSimulation(nodes).force("x",d3.forceX(n=>n.tx).strength(0.08)).force("y",d3.forceY(n=>n.ty).strength(0.5))
       .force("c",d3.forceCollide(n=>n.r+0.9).iterations(3)).force("prende",prende).stop();
@@ -636,13 +633,15 @@ function renderLin(){
     linPos=new Map(nodes.map(n=>[n.a.id,[n.x,n.y]])); linKey=key;
   }
   const svgL=d3.select("#linSvg").attr("width",SW).attr("height",BH);
-  // fundo: faixa do exterior, grade de distâncias, marcos e barra dos dias
+  // fundo: faixa do exterior, grade de população, marcos e barra dos dias
   const fundo=svgL.selectAll("g.fundo").data([0]).join("g").attr("class","fundo").html("");
   if(EXT){
     fundo.append("rect").attr("class","faixa-ext").attr("x",ML).attr("y",yExt0).attr("width",SW-ML-MR).attr("height",EXT).attr("rx",8);
+    fundo.append("text").attr("class","eixo-t").attr("x",ML+8).attr("y",yExt0+15).text("Exterior · brasileiros na jurisdição consular");
   }
-  const ticks=[0,10,50,100,250,500,1000,2000].filter(v=>v<=dMax);
-  fundo.selectAll("line.grade").data(ticks).join("line").attr("class","grade").attr("x1",ML).attr("x2",SW-MR).attr("y1",v=>y(v)).attr("y2",v=>y(v));
+  const dentroDe=s=>v=>v>=s.domain()[0]&&v<=s.domain()[1];
+  const ticks=[5e3,1e4,5e4,1e5,5e5,1e6,5e6,1e7].filter(dentroDe(y)), ticksE=EXT?[1e4,1e5].filter(dentroDe(yE)):[];
+  fundo.selectAll("line.grade").data([...ticks.map(v=>y(v)),...ticksE.map(v=>yE(v))]).join("line").attr("class","grade").attr("x1",ML).attr("x2",SW-MR).attr("y1",v=>v).attr("y2",v=>v);
   dias.forEach(d=>{ if(pd(d).getDay()===1&&d!==dias[0]) fundo.append("line").attr("class","grade").attr("x1",xDia(d)).attr("x2",xDia(d)).attr("y1",yExt0).attr("y2",yBot+6).style("opacity",.6); });
   Object.entries(MARCOS).forEach(([d,nome])=>{ if(!dias.includes(d)) return; const cx=xDia(d)+dayW/2, fimD=d===dias[dias.length-1];
     fundo.append("line").attr("class","marco-l").attr("x1",cx).attr("x2",cx).attr("y1",MT-6).attr("y2",yBar);
@@ -665,7 +664,7 @@ function renderLin(){
   pts.attr("class",a=>"pt"+(a.s==="C"?" conv":"")+(a.id===selId?" sel":"")+(isNovo(a)?" novo":"")+(passa(a)?"":" off"))
      .attr("transform",a=>`translate(${linPos.get(a.id)})`)
      .attr("data-id",a=>a.id)
-     .attr("aria-label",a=>`${a.cidade}, ${fmtLong(a.d)}: ${isExt(a)?"exterior":Math.round(distLitoral(a))+" km do litoral"}`)
+     .attr("aria-label",a=>{const p=popDe(a); return `${a.cidade}, ${fmtLong(a.d)}: ${p?(isExt(a)?`cerca de ${fmtPop(p)} brasileiros na jurisdição`:`${fmtPop(p)} habitantes`):"população não encontrada"}`;})
      .attr("tabindex",a=>passa(a)?0:-1)
      .style("opacity",a=>passa(a)?"0.95":"0.07");
   pts.select("circle.dot").attr("r",rLin).attr("stroke-width",a=>a.s==="C"?2:1.2)
@@ -675,9 +674,8 @@ function renderLin(){
   // eixo vertical fixo à esquerda (não rola junto com os dias)
   const ax=d3.select("#linAx").attr("width",ML).attr("height",BH).html("");
   ax.append("rect").attr("class","fundo").attr("width",ML).attr("height",BH);
-  ax.selectAll("text.tick").data(ticks).join("text").attr("class","tick").attr("x",ML-8).attr("y",v=>y(v)+4).attr("text-anchor","end").text(v=>v===0?"0 km":v>=1000?(v/1000)+" mil":v);
-  if(EXT) ax.append("text").attr("class","eixo-t").attr("x",ML-8).attr("y",(yExt0+yExt1)/2+4).attr("text-anchor","end").text("Exterior");
-  ax.append("text").attr("class","eixo-t").attr("transform",`translate(14,${(yTop+yBot)/2}) rotate(-90)`).attr("text-anchor","middle").text("↑ interior · distância do litoral · mar ↓");
+  ax.selectAll("text.tick").data([...ticks.map(v=>[v,y(v)]),...ticksE.map(v=>[v,yE(v)])]).join("text").attr("class","tick").attr("x",ML-8).attr("y",([,yy])=>yy+4).attr("text-anchor","end").text(([v])=>fmtPop(v));
+  ax.append("text").attr("class","eixo-t").attr("transform",`translate(13,${(yTop+yBot)/2}) rotate(-90)`).attr("text-anchor","middle").text("↑ cidades menores · população · maiores ↓");
   ax.append("text").attr("class","eixo-t").attr("x",ML-8).attr("y",yBar+24).attr("text-anchor","end").text("Dia");
 }
 
@@ -691,16 +689,17 @@ const sw=a=>`<span class="sw${a.s==="C"?" hollow":""}" style="background:var(${(
 function renderEmpty(){
   detail.innerHTML=`<div class="eyebrow">Como ler · ${modo==="cal"?"calendário":modo==="tab"?"tabela":modo==="lin"?"linha do tempo":"mapa"}</div>
   ${modo==="lin"
-    ? `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato. Da esquerda para a direita, os dias, do mais antigo ao mais recente; a barra embaixo mostra cada dia, com o 1º e o 2º turno em vermelho. Na vertical, a distância da cidade até o litoral brasileiro: embaixo, cidades à beira-mar; em cima, o interior. A escala é comprimida para separar as muitas cidades perto da costa. Os atos fora do país ficam na faixa “Exterior”, no topo.</p>
-       <p class="empty" style="margin:8px 0 0">A distância é medida em linha reta até um traçado simplificado da costa, do Oiapoque ao Chuí. Nos dias com muitos atos, os pontos se afastam um pouco para não se sobrepor. Clique num ponto para ver os detalhes; os filtros da legenda também valem aqui.</p>`
+    ? `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato. Da esquerda para a direita, os dias, do mais antigo ao mais recente; a barra embaixo mostra cada dia, com o 1º e o 2º turno em vermelho. Na vertical, a população da cidade (Censo 2022 do IBGE): as maiores ficam embaixo, as menores em cima, numa escala logarítmica que vai de alguns milhares a 11 milhões de habitantes.</p>
+       <p class="empty" style="margin:8px 0 0">Os atos fora do país ficam na faixa “Exterior”, no topo, com a mesma lógica: quanto mais brasileiros vivem na jurisdição do consulado que atende a cidade (estimativa do Itamaraty, ano-base 2022), mais para baixo. Nos dias com muitos atos, os pontos se afastam um pouco para não se sobrepor. Clique num ponto para ver os detalhes; os filtros da legenda também valem aqui.</p>`
     : modo==="tab"
     ? `<p class="empty" style="margin:8px 0 0">Cada linha é um ato, com data, horário, local, tipo, situação, público estimado, convocadores e fontes, agrupados por região; os atos fora do país ficam no grupo Exterior. Clique no título de uma coluna para ordenar, e numa linha para ver imagens e vídeos do ato. Os filtros da legenda também valem aqui.</p>`
     : modo==="cal"
     ? `<p class="empty" style="margin:8px 0 0">Cada quadrado é um dia, de segunda a domingo, da reta final do 1º turno até o 2º turno (25/10). O número no canto conta os atos do dia, e o vermelho do fundo fica mais forte nos dias com mais atos. Os atos de campanha com Lula aparecem primeiro.</p>
        <p class="empty" style="margin:8px 0 0">Clique num ato para ver data, horário, público estimado, convocadores e fontes. Contorno tracejado indica ato convocado, ainda sem confirmação. Os filtros da legenda também valem aqui.</p>`
     : `<p class="empty" style="margin:8px 0 0">Cada ponto é um ato de rua registrado em fontes públicas. Clique num ponto ou numa linha da lista para ver data, horário, público estimado, convocadores e fontes. Use os atalhos no topo do mapa para aproximar as capitais com mais atos. Pontos mais claros são atos mais antigos.</p>
-       <p class="empty" style="margin:8px 0 0">Os atos de brasileiros fora do país ficam nos recortes ao lado do Brasil: EUA e Canadá, Europa e Austrália. Arraste e use o zoom para navegar entre eles, ou os atalhos do topo. Na lista, no calendário e na tabela, o nome do país aparece no lugar da UF.</p>`}
-  <p class="empty" style="margin:8px 0 0">O público raramente tem contagem independente: quase todo número vem do PT ou dos organizadores, e isso aparece indicado em cada ato.</p>`;
+       <p class="empty" style="margin:8px 0 0">Os atos de brasileiros fora do país ficam nos recortes ao lado do Brasil: EUA e Canadá, Europa e Austrália. Arraste e use o zoom para navegar entre eles, ou os atalhos do topo. Na lista, no calendário e na tabela, o nome do país aparece no lugar da UF.</p>
+       <p class="empty" style="margin:8px 0 0">Metodologia, fontes e correções no <a href="${esc(REPO_URL)}" target="_blank" rel="noopener">repositório no GitHub</a>.</p>`}
+  `;
 }
 function renderDetail(){
   const a=ATOS.find(x=>x.id===selId); if(!a){renderEmpty();return;}
@@ -902,8 +901,8 @@ renderStatus=function(){
 };
 (async()=>{
   try{
-    const [g,m,dados]=await Promise.all([fetch("data/br-uf.json").then(r=>r.json()),fetch("data/mundo.json").then(r=>r.json()),fetch("data/atos.json",{cache:"no-cache"}).then(r=>r.json())]);
-    GEO=g; WORLD=m; layout();
+    const [g,m,dados,pop]=await Promise.all([fetch("data/br-uf.json").then(r=>r.json()),fetch("data/mundo.json").then(r=>r.json()),fetch("data/atos.json",{cache:"no-cache"}).then(r=>r.json()),fetch("data/populacao.json").then(r=>r.json()).catch(()=>null)]);
+    GEO=g; WORLD=m; if(pop) POP=pop; layout();
     ATOS=(dados.atos||[]).filter(a=>a.d&&isFinite(a.lat)&&isFinite(a.lon));
     ATUALIZADO=dados.atualizadoEm;
     renderAll(); renderStatus();
