@@ -1,6 +1,6 @@
 {
- "atualizadoEm": "2026-10-26T19:46-03:00",
- "total": 277,
+ "atualizadoEm": "2026-10-27T22:52-03:00",
+ "total": 285,
  "atos": [
   {
    "atualizadoEm": "2026-10-13T21:30:00-03:00",
@@ -1860,22 +1860,41 @@
    "id": "20261013-porto-alegre-caminhada-da-virada-esquina-democratica"
   },
   {
-   "atualizadoEm": "2026-10-13T21:30:00-03:00",
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
    "cidade": "Rio de Janeiro",
-   "conv": "Vereador William Siri (PSOL)",
+   "conv": "Vereador William Siri (PSOL); 1º ato da série de caminhadas pela Zona Oeste",
    "d": "2026-10-13",
    "fontes": [
     {
      "t": "Brasil em Folhas — Campo Grande (RJ)",
      "u": "https://www.brasilemfolhas.com.br/2026/10/ato-pro-lula-lota-ruas-de-campo-grande-na-zona-oeste-do-rio/"
+    },
+    {
+     "t": "Diário do Rio — milhares em Campo Grande",
+     "u": "https://diariodorio.com/politica/2026/10/13/manifestacao-a-favor-de-lula-reune-milhares-de-pessoas-em-campo-grande.html"
+    },
+    {
+     "t": "Agenda do Poder — multidão em Campo Grande",
+     "u": "https://agendadopoder.com.br/video-multidao-toma-ruas-de-campo-grande-em-ato-por-lula-liderado-por-william-siri/"
+    },
+    {
+     "t": "Tempo Real — a “Coluna Siri” pela Zona Oeste",
+     "u": "https://temporealrj.com/william-siri-psol-campanha-lula-zona-oeste-baixada/"
     }
    ],
    "hora": "Concentração às 18h",
    "lat": -22.899,
    "local": "Campo Grande: West Shopping → Av. Cesário de Melo → calçadão",
    "lon": -43.559,
-   "pub": "“Milhares”",
-   "pubFonte": "Brasil em Folhas; sem número",
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/agendadopoder/status/2110188676634251458",
+     "credito": "Agenda do Poder (@agendadopoder)"
+    }
+   ],
+   "pub": "“Milhares”; cerca de 15 mil segundo os organizadores; Siri citou 25 a 30 mil",
+   "pubFonte": "Organizadores (Agenda do Poder) e William Siri (Tempo Real); sem contagem independente",
    "s": "R",
    "t": "M",
    "uf": "RJ",
@@ -2237,6 +2256,48 @@
    "id": "20261014-recife-rua-sete-de-setembro-conde-da-boa-vista"
   },
   {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-14",
+   "fontes": [
+    {
+     "t": "Agenda do Poder — milhares nas ruas de Santa Cruz",
+     "u": "https://agendadopoder.com.br/william-siri-leva-milhares-as-ruas-de-santa-cruz-em-ato-de-apoio-a-lula/"
+    },
+    {
+     "t": "Hora do Povo — Bangu, Campo Grande e Santa Cruz",
+     "u": "https://horadopovo.com.br/bangu-campo-grande-e-santa-cruz-na-zona-oeste-do-rio-se-erguem-pela-reeleicao-de-lula/"
+    },
+    {
+     "t": "Post de William Siri no X — “Dia histórico em Santa Cruz”",
+     "u": "https://x.com/WilliamSiriRJ/status/2110526349001576933"
+    }
+   ],
+   "hora": "Concentração às 17h, caminhada às 18h",
+   "lat": -22.9185,
+   "local": "Santa Cruz (Zona Oeste): Praça Marques de Herval → centro do bairro",
+   "lon": -43.6855,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2110526349001576933",
+     "credito": "perfil @WilliamSiriRJ"
+    },
+    {
+     "tipo": "post",
+     "u": "https://x.com/agendadopoder/status/2110544329563345391",
+     "credito": "Agenda do Poder (@agendadopoder)"
+    }
+   ],
+   "pub": "“Milhares”",
+   "pubFonte": "Organizadores, segundo Agenda do Poder; sem contagem independente",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261014-rio-de-janeiro-santa-cruz-praca-marques-de-herval"
+  },
+  {
    "atualizadoEm": "2026-10-14T21:55:00-03:00",
    "cidade": "São Luís",
    "conv": "UNE/“Estudantes com Lula” e entidades estudantis",
@@ -2301,6 +2362,39 @@
    "t": "E",
    "uf": "RJ",
    "id": "20261015-niteroi-cantareira"
+  },
+  {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-15",
+   "fontes": [
+    {
+     "t": "Hora do Povo — Bangu, Campo Grande e Santa Cruz",
+     "u": "https://horadopovo.com.br/bangu-campo-grande-e-santa-cruz-na-zona-oeste-do-rio-se-erguem-pela-reeleicao-de-lula/"
+    },
+    {
+     "t": "Post de William Siri no X — “A juventude tomou as ruas de Campo Grande novamente”",
+     "u": "https://x.com/WilliamSiriRJ/status/2110819015207899413"
+    }
+   ],
+   "hora": "Fim da tarde (posts por volta das 16h40)",
+   "lat": -22.903,
+   "local": "Campo Grande (Zona Oeste): 2ª caminhada no bairro, puxada pela juventude",
+   "lon": -43.563,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2110819015207899413",
+     "credito": "perfil @WilliamSiriRJ"
+    }
+   ],
+   "pub": "Não informado",
+   "pubFonte": "Hora do Povo fala em “milhares” somando Santa Cruz e Campo Grande",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261015-rio-de-janeiro-campo-grande-caminhada-da-juventude"
   },
   {
    "atualizadoEm": "2026-10-14T21:55:00-03:00",
@@ -2423,6 +2517,49 @@
    "t": "M",
    "uf": "SP",
    "id": "20261016-mogi-das-cruzes-praca-monsenhor-roque-pinto-de-barros"
+  },
+  {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-16",
+   "fontes": [
+    {
+     "t": "Tempo Real — a “Coluna Siri” pela Zona Oeste",
+     "u": "https://temporealrj.com/william-siri-psol-campanha-lula-zona-oeste-baixada/"
+    },
+    {
+     "t": "Hora do Povo — Bangu, Campo Grande e Santa Cruz",
+     "u": "https://horadopovo.com.br/bangu-campo-grande-e-santa-cruz-na-zona-oeste-do-rio-se-erguem-pela-reeleicao-de-lula/"
+    },
+    {
+     "t": "Post de William Siri no X — convocação “Atenção Bangu”",
+     "u": "https://x.com/WilliamSiriRJ/status/2111111072044265862"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Noite (posts do ato entre 18h30 e 22h)",
+   "lat": -22.8788,
+   "local": "Bangu (Zona Oeste): Praça Primeiro de Maio e calçadão do centro",
+   "lon": -43.466,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2111111072044265862",
+     "credito": "perfil @WilliamSiriRJ"
+    }
+   ],
+   "pub": "“Centenas de pessoas”",
+   "pubFonte": "Hora do Povo; sem contagem oficial",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261016-rio-de-janeiro-bangu-praca-primeiro-de-maio"
   },
   {
    "atualizadoEm": "2026-10-19T21:21:00-03:00",
@@ -5251,6 +5388,48 @@
    "id": "20261020-matao-local-nao-informado"
   },
   {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-20",
+   "fontes": [
+    {
+     "t": "Agenda do Poder — Siri leva campanha de Lula a Realengo",
+     "u": "https://agendadopoder.com.br/video-william-siri-leva-campanha-de-lula-a-realengo-em-nova-caminhada-na-zona-oeste/"
+    },
+    {
+     "t": "Hora do Povo — Zona Oeste e Baixada nas ruas",
+     "u": "https://horadopovo.com.br/zona-oeste-e-baixada-mostram-forca-nas-ruas-pela-virada-de-lula/"
+    },
+    {
+     "t": "Post de William Siri no X — “Foi lindo, Realengo”",
+     "u": "https://x.com/WilliamSiriRJ/status/2112696160343454072"
+    }
+   ],
+   "hora": "Fim da tarde/noite",
+   "lat": -22.8795,
+   "local": "Realengo (Zona Oeste): Praça de Realengo → Parque Realengo",
+   "lon": -43.43,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2112696160343454072",
+     "credito": "perfil @WilliamSiriRJ"
+    },
+    {
+     "tipo": "post",
+     "u": "https://x.com/agendadopoder/status/2112713396206567832",
+     "credito": "Agenda do Poder (@agendadopoder)"
+    }
+   ],
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261020-rio-de-janeiro-realengo-praca-de-realengo-parque-realengo"
+  },
+  {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
    "cidade": "São Luís",
    "conv": "Campanha Lula no MA; com Carlos Brandão, Sônia Guajajara, João Campos e Edinho Silva",
@@ -5367,6 +5546,46 @@
    "id": "20261021-fortaleza-pirambu-baile-do-13"
   },
   {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Nova Iguaçu",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-21",
+   "fontes": [
+    {
+     "t": "Tempo Real — a “Coluna Siri” pela Zona Oeste",
+     "u": "https://temporealrj.com/william-siri-psol-campanha-lula-zona-oeste-baixada/"
+    },
+    {
+     "t": "Hora do Povo — Zona Oeste e Baixada nas ruas",
+     "u": "https://horadopovo.com.br/zona-oeste-e-baixada-mostram-forca-nas-ruas-pela-virada-de-lula/"
+    },
+    {
+     "t": "Post de William Siri no X — “A Baixada Fluminense tá na rua”",
+     "u": "https://x.com/WilliamSiriRJ/status/2113344472993951892"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "Noite",
+   "lat": -22.784,
+   "local": "Km 32 (Baixada Fluminense): caminhada pelo bairro",
+   "lon": -43.548,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2113344472993951892",
+     "credito": "perfil @WilliamSiriRJ"
+    }
+   ],
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261021-nova-iguacu-km-32"
+  },
+  {
    "atualizadoEm": "2026-10-20T22:01:00-03:00",
    "cidade": "Fortaleza",
    "conv": "Vereador Gabriel Biologia (PSOL)",
@@ -5413,6 +5632,88 @@
    "t": "M",
    "uf": "PI",
    "id": "20261022-oeiras-av-rui-barbosa-corre-com-lula"
+  },
+  {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-22",
+   "fontes": [
+    {
+     "t": "Agenda do Poder — Siri comanda ato em Guaratiba",
+     "u": "https://agendadopoder.com.br/william-siri-comanda-ato-em-guaratiba-e-reforca-mobilizacao-por-lula-na-zona-oeste-antes-do-segundo-turno-video/"
+    },
+    {
+     "t": "Tempo Real — a “Coluna Siri” pela Zona Oeste",
+     "u": "https://temporealrj.com/william-siri-psol-campanha-lula-zona-oeste-baixada/"
+    },
+    {
+     "t": "Post de William Siri no X — “Pedra de Guaratiba é Lula”",
+     "u": "https://x.com/WilliamSiriRJ/status/2113394020294549612"
+    }
+   ],
+   "hora": "Concentração às 17h30",
+   "lat": -23.0005,
+   "local": "Pedra de Guaratiba (Zona Oeste): Praça do Skate",
+   "lon": -43.6395,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2113394020294549612",
+     "credito": "perfil @WilliamSiriRJ"
+    },
+    {
+     "tipo": "post",
+     "u": "https://x.com/agendadopoder/status/2113639641920479735",
+     "credito": "Agenda do Poder (@agendadopoder)"
+    }
+   ],
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261022-rio-de-janeiro-pedra-de-guaratiba-praca-do-skate"
+  },
+  {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-23",
+   "fontes": [
+    {
+     "t": "Agenda do Poder — agenda: Sepetiba, sexta (23), 17h, Praia do Recôncavo",
+     "u": "https://agendadopoder.com.br/william-siri-comanda-ato-em-guaratiba-e-reforca-mobilizacao-por-lula-na-zona-oeste-antes-do-segundo-turno-video/"
+    },
+    {
+     "t": "Tempo Real — a “Coluna Siri” pela Zona Oeste",
+     "u": "https://temporealrj.com/william-siri-psol-campanha-lula-zona-oeste-baixada/"
+    },
+    {
+     "t": "Post de William Siri no X — “Tá lindo demais, Sepetiba”",
+     "u": "https://x.com/WilliamSiriRJ/status/2113798707678491073"
+    },
+    {
+     "t": "Relato em rede social (perfil pessoal, link omitido)"
+    }
+   ],
+   "hora": "17h (agenda)",
+   "lat": -22.9715,
+   "local": "Sepetiba (Zona Oeste): Praia do Recôncavo",
+   "lon": -43.7065,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2113798707678491073",
+     "credito": "perfil @WilliamSiriRJ"
+    }
+   ],
+   "pub": "Não informado",
+   "pubFonte": "",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261023-rio-de-janeiro-sepetiba-praia-do-reconcavo"
   },
   {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
@@ -6367,6 +6668,52 @@
    "t": "M",
    "uf": "RJ",
    "id": "20261024-resende-local-nao-informado"
+  },
+  {
+   "atualizadoEm": "2026-10-27T10:00:00-03:00",
+   "cidade": "Rio de Janeiro",
+   "conv": "Vereador William Siri (PSOL), em série de caminhadas pela Zona Oeste",
+   "d": "2026-10-24",
+   "fontes": [
+    {
+     "t": "Revista Fórum — agenda dos últimos atos",
+     "u": "https://revistaforum.com.br/politica/agenda-manifestacoes/"
+    },
+    {
+     "t": "Agenda do Poder — Siri convoca para Campo Grande",
+     "u": "https://agendadopoder.com.br/siri-participa-de-ato-de-lula-em-copacabana-e-convoca-para-campo-grande-video/"
+    },
+    {
+     "t": "Tempo Real — a “Coluna Siri” pela Zona Oeste",
+     "u": "https://temporealrj.com/william-siri-psol-campanha-lula-zona-oeste-baixada/"
+    },
+    {
+     "t": "Post de William Siri no X — “+50 mil pessoas encheram as ruas de Campo Grande”",
+     "u": "https://x.com/WilliamSiriRJ/status/2114180235738390606"
+    }
+   ],
+   "hora": "Concentração às 17h30",
+   "lat": -22.8995,
+   "local": "Campo Grande (Zona Oeste): caminhada de encerramento, saída em frente ao West Shopping",
+   "lon": -43.5575,
+   "midia": [
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2114180235738390606",
+     "credito": "perfil @WilliamSiriRJ"
+    },
+    {
+     "tipo": "post",
+     "u": "https://x.com/WilliamSiriRJ/status/2114115854019543523",
+     "credito": "perfil @WilliamSiriRJ"
+    }
+   ],
+   "pub": "“+50 mil pessoas”",
+   "pubFonte": "William Siri, no X; sem contagem independente",
+   "s": "R",
+   "t": "M",
+   "uf": "RJ",
+   "id": "20261024-rio-de-janeiro-campo-grande-encerramento-west-shopping"
   },
   {
    "atualizadoEm": "2026-10-26T12:00:00-03:00",
